@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "Unofficial NCAA API (henrygd/ncaa-api)",
-  "generated_at_utc": "2026-11-22T23:04:58.906326+00:00",
+  "generated_at_utc": "2026-11-22T23:39:48.766838+00:00",
   "season": 2026,
   "requested_weeks": [
     11,
@@ -185,30 +185,6 @@
         "ncaa_slug": "mars-hill",
         "score": 20,
         "winner": false
-      },
-      "status": "final",
-      "period": "FINAL",
-      "clock": "0:00",
-      "final_message": "FINAL",
-      "network": ""
-    },
-    {
-      "id": "6605552",
-      "division": "d2",
-      "date": "11/14/2026",
-      "start_time_et": "1:00 PM ET",
-      "start_time_epoch": "1794679200",
-      "away": {
-        "name": "Anderson (SC)",
-        "ncaa_slug": "anderson-sc",
-        "score": 14,
-        "winner": false
-      },
-      "home": {
-        "name": "Newberry",
-        "ncaa_slug": "newberry",
-        "score": 28,
-        "winner": true
       },
       "status": "final",
       "period": "FINAL",
@@ -865,30 +841,6 @@
       "network": ""
     },
     {
-      "id": "6661110",
-      "division": "d2",
-      "date": "11/21/2026",
-      "start_time_et": "2:00 PM ET",
-      "start_time_epoch": "1795287600",
-      "away": {
-        "name": "Newberry",
-        "ncaa_slug": "newberry",
-        "score": 38,
-        "winner": true
-      },
-      "home": {
-        "name": "Benedict",
-        "ncaa_slug": "benedict",
-        "score": 3,
-        "winner": false
-      },
-      "status": "final",
-      "period": "FINAL",
-      "clock": "0:00",
-      "final_message": "FINAL",
-      "network": ""
-    },
-    {
       "id": "6603622",
       "division": "fbs",
       "date": "11/21/2026",
@@ -1129,6 +1081,6 @@
       "network": ""
     }
   ],
-  "game_count": 46,
+  "game_count": 44,
   "all_games_count": 600
 }

@@ -1,0 +1,63 @@
+{
+  "generated_at_utc": "2026-11-22T23:39:48.766838+00:00",
+  "season": 2026,
+  "requested_weeks": [
+    11,
+    12,
+    13
+  ],
+  "configured_school_count": 32,
+  "schools_seen_in_requested_weeks": [
+    "appalachian-st",
+    "barton",
+    "brevard",
+    "campbell",
+    "catawba",
+    "charlotte",
+    "chowan",
+    "davidson",
+    "duke",
+    "east-carolina",
+    "elon",
+    "fayetteville-st",
+    "gardner-webb",
+    "greensboro",
+    "guilford",
+    "johnson-c-smith",
+    "lenoir-rhyne",
+    "mars-hill",
+    "methodist",
+    "nc-at",
+    "nc-central",
+    "nc-wesleyan",
+    "north-carolina",
+    "north-carolina-st",
+    "unc-pembroke",
+    "wake-forest",
+    "western-caro",
+    "wingate"
+  ],
+  "schools_not_seen_in_requested_weeks": [
+    "elizabeth-city-st",
+    "livingstone",
+    "shaw",
+    "winston-salem-st"
+  ],
+  "note": "Not seen does not imply missing coverage: a school may have no game in the requested weeks.",
+  "games_collected": 44,
+  "successful_endpoints": [
+    "fbs/11",
+    "fbs/12",
+    "fbs/13",
+    "fcs/11",
+    "fcs/12",
+    "fcs/13",
+    "d2/11",
+    "d2/12",
+    "d2/13",
+    "d3/11",
+    "d3/12",
+    "d3/13"
+  ],
+  "errors": []
+}
