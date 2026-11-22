@@ -66,8 +66,8 @@ def collect(config, today, fetch=get_json):
                         all_games[(division, game['id'])] = game
             except Exception as exc:
                 errors.append({'endpoint': f'{division}/{week}', 'error': str(exc)[:180]})
-    if not successful:
-        raise RuntimeError('No successful NCAA responses; refusing to replace prior feed')
+    if len(successful) != len(DIVISIONS) * len(weeks):
+        raise RuntimeError(f'Incomplete NCAA responses ({len(successful)}/{len(DIVISIONS) * len(weeks)}); refusing to replace prior feed: {errors}')
     games = sorted(all_games.values(), key=lambda g: (g['date'], str(g['start_time_epoch']), g['division'], g['id']))
     nc_games = [g for g in games if g['away']['ncaa_slug'] in nc_slugs or g['home']['ncaa_slug'] in nc_slugs]
     return {'schema_version': 1, 'source': 'Unofficial NCAA API (henrygd/ncaa-api)',
@@ -80,6 +80,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--date', help='YYYY-MM-DD, default today in America/New_York')
     parser.add_argument('--config', default=str(ROOT / 'config.json'))
+    parser.add_argument('--diagnostics', default=str(ROOT / 'public' / 'diagnostics.json'))
     parser.add_argument('--output', default=str(ROOT / 'public' / 'nc-scores.json'))
     args = parser.parse_args()
     from zoneinfo import ZoneInfo
@@ -91,6 +92,22 @@ def main():
     temp = path.with_suffix('.tmp')
     temp.write_text(json.dumps(result, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
     temp.replace(path)
+    observed = {side['ncaa_slug'] for game in result['games'] for side in (game['away'], game['home'])}
+    diag = {
+        'generated_at_utc': result['generated_at_utc'],
+        'season': result['season'],
+        'requested_weeks': result['requested_weeks'],
+        'configured_school_count': len(config['nc_school_slugs']),
+        'schools_seen_in_requested_weeks': sorted(observed.intersection(config['nc_school_slugs'])),
+        'schools_not_seen_in_requested_weeks': sorted(set(config['nc_school_slugs']) - observed),
+        'note': 'Not seen does not imply missing coverage: a school may have no game in the requested weeks.',
+        'games_collected': result['game_count'],
+        'successful_endpoints': result['successful_endpoints'],
+        'errors': result['errors']
+    }
+    diag_path = Path(args.diagnostics)
+    diag_path.parent.mkdir(parents=True, exist_ok=True)
+    diag_path.write_text(json.dumps(diag, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
     print(f"Saved {result['game_count']} NC games; {len(result['successful_endpoints'])} endpoints succeeded, {len(result['errors'])} failed")
 
 
