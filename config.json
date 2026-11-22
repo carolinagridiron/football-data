@@ -1,0 +1,10 @@
+{
+  "week_anchor_date": "2026-11-21",
+  "week_anchor_number": 12,
+  "max_week": 22,
+  "nc_school_slugs": [
+    "appalachian-st", "charlotte", "duke", "east-carolina", "north-carolina", "north-carolina-st", "wake-forest",
+    "campbell", "davidson", "elon", "gardner-webb", "nc-at", "nc-central", "western-caro",
+    "barton", "brevard", "catawba", "chowan", "fayetteville-st", "johnson-c-smith", "lenoir-rhyne", "mars-hill", "methodist", "nc-wesleyan", "unc-pembroke", "wingate", "guilford", "greensboro", "livingstone", "shaw", "winston-salem-st", "st-augustines", "elizabeth-city-st", "anderson-sc", "newberry"
+  ]
+}
