@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "Unofficial NCAA API (henrygd/ncaa-api)",
-  "generated_at_utc": "2026-11-23T15:23:26.588809+00:00",
+  "generated_at_utc": "2026-11-23T17:17:30.960282+00:00",
   "season": 2026,
   "requested_weeks": [
     11,
@@ -985,30 +985,6 @@
       "network": ""
     },
     {
-      "id": "6603677",
-      "division": "fbs",
-      "date": "11/28/2026",
-      "start_time_et": "TBA",
-      "start_time_epoch": "1795842000",
-      "away": {
-        "name": "Duke",
-        "ncaa_slug": "duke",
-        "score": null,
-        "winner": false
-      },
-      "home": {
-        "name": "Wake Forest",
-        "ncaa_slug": "wake-forest",
-        "score": null,
-        "winner": false
-      },
-      "status": "pre",
-      "period": "",
-      "clock": "0:00",
-      "final_message": "",
-      "network": ""
-    },
-    {
       "id": "6604240",
       "division": "fbs",
       "date": "11/28/2026",
@@ -1079,8 +1055,32 @@
       "clock": "0:00",
       "final_message": "",
       "network": ""
+    },
+    {
+      "id": "6603677",
+      "division": "fbs",
+      "date": "11/28/2026",
+      "start_time_et": "3:30 PM ET",
+      "start_time_epoch": "1795897800",
+      "away": {
+        "name": "Duke",
+        "ncaa_slug": "duke",
+        "score": null,
+        "winner": false
+      },
+      "home": {
+        "name": "Wake Forest",
+        "ncaa_slug": "wake-forest",
+        "score": null,
+        "winner": false
+      },
+      "status": "pre",
+      "period": "",
+      "clock": "0:00",
+      "final_message": "",
+      "network": ""
     }
   ],
   "game_count": 44,
-  "all_games_count": 600
+  "all_games_count": 601
 }
