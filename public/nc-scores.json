@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "Unofficial NCAA API (henrygd/ncaa-api)",
-  "generated_at_utc": "2026-11-23T09:39:19.307454+00:00",
+  "generated_at_utc": "2026-11-23T11:17:45.524902+00:00",
   "season": 2026,
   "requested_weeks": [
     11,
