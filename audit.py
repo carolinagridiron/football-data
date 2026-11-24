@@ -37,6 +37,14 @@ ALIASES = {
     'fau':'fla-atlantic','florida atlantic':'fla-atlantic',
     'south alabama':'south-ala',
     'virginia state':'virginia-st','virginia st':'virginia-st',
+    'louisville':'louisville','albany':'albany-ny',
+    'north carolina a and t':'nc-at','n c a and t':'nc-at',
+    'n c central':'nc-central','winston salem st':'winston-salem-st',
+    'georgia southern':'ga-southern','georgia state':'georgia-st',
+    'appalachian st':'appalachian-st','e tennessee st':'east-tennessee-st',
+    'east tennessee state':'east-tennessee-st','east tennessee st':'east-tennessee-st',
+    'unc charlotte':'charlotte','florida atlantic':'fla-atlantic',
+    'em and henry':'emory-henry','emory and henry':'emory-henry',
 }
 
 def key(value):
@@ -82,37 +90,79 @@ def score(value):
     try: return int(float(value)) if str(value).strip() else None
     except (ValueError,TypeError): return None
 
+def parse_day(value):
+    for fmt in ('%Y-%m-%d', '%m/%d/%Y'):
+        try: return dt.datetime.strptime(str(value), fmt).date()
+        except ValueError: pass
+    return None
+
+def game_pair(game):
+    return tuple(sorted((slug(game['away']['ncaa_slug']),slug(game['home']['ncaa_slug']))))
+
+def collapse_duplicates(games):
+    """Collapse identical cross-division listings of the same NCAA game ID.
+
+    Conflicting data for one ID is preserved for review, never silently chosen.
+    """
+    by_id=defaultdict(list)
+    for g in games: by_id[str(g['id'])].append(g)
+    collapsed=[]; conflicts=[]
+    for gid,records in by_id.items():
+        signatures={(game_pair(g),str(g['date']),str(g['away']['score']),str(g['home']['score']),g['status']) for g in records}
+        if len(signatures)==1:
+            collapsed.append(records[0])
+        else:
+            conflicts.append(gid)
+            collapsed.extend(records)
+    return collapsed,conflicts
+
 def compare(reference,games,active):
-    # A two-team identity AND exact date are required. Never use fuzzy guesses to auto-match.
-    index=defaultdict(list)
+    """Conservative matching: both teams + date (within two days only if unique).
+
+    Never match solely on score, school, or a fuzzy name. Preserve ambiguous cases.
+    """
+    games,duplicate_conflicts=collapse_duplicates(games)
+    by_pair=defaultdict(list)
     for g in games:
-        try: day=dt.datetime.strptime(g['date'],'%m/%d/%Y').date().isoformat()
-        except ValueError: continue
-        pair=tuple(sorted([slug(g['away']['ncaa_slug']),slug(g['home']['ncaa_slug'])]))
-        index[(day,pair)].append(g)
-    reports=[]; matched_ids=set()
+        if parse_day(g['date']): by_pair[game_pair(g)].append(g)
+    reports=[];matched_ids=set()
     for r in reference:
-        pair=tuple(sorted([slug(r['visitor']),slug(r['home'])]))
+        pair=tuple(sorted((slug(r['visitor']),slug(r['home']))))
         base={'date':r['date'],'division':r['division'],'visitor':r['visitor'],'home':r['home'],
               'sheet_visitor_score':r['visitor_score'],'sheet_home_score':r['home_score'],
               'sheet_status':r['status'],'ncaa_id':'','ncaa_visitor_score':'','ncaa_home_score':'',
-              'ncaa_status':'','finding':'','notes':''}
-        if 'louisburg' in pair or r['division'].lower()=='juco':
-            base['finding']='MANUAL_ONLY'; reports.append(base);continue
-        candidates=index.get((r['date'],pair),[])
-        # A game listed under two divisions must be checked, not silently selected.
-        candidates=list({(g['division'],g['id']):g for g in candidates}.values())
+              'ncaa_status':'','finding':'','notes':'','date_offset_days':'','match_method':''}
+        if 'louisburg' in pair or str(r['division']).lower()=='juco':
+            base['finding']='MANUAL_ONLY';reports.append(base);continue
+        day=parse_day(r['date'])
+        options=[g for g in by_pair.get(pair,[]) if day and parse_day(g['date'])]
+        exact=[g for g in options if parse_day(g['date'])==day]
+        near=[g for g in options if abs((parse_day(g['date'])-day).days)<=2]
+        if len(exact)==1:
+            candidates=exact; method='EXACT'
+        elif len(exact)>1:
+            candidates=exact;method='AMBIGUOUS_EXACT'
+        elif len(near)==1:
+            candidates=near;method='DATE_TOLERANCE'
+        else:
+            candidates=near;method='AMBIGUOUS_NEAR' if near else 'NO_MATCH'
         if len(candidates)!=1:
-            base['finding']=('SCHEDULED_NOT_IN_NCAA' if str(r['status']).lower().strip() in ('scheduled','pre') and not candidates else ('UNMATCHED' if not candidates else 'AMBIGUOUS'))
-            base['notes']='No exact date and two-team match' if not candidates else 'Multiple NCAA records matched'
-            reports.append(base);continue
-        g=candidates[0];matched_ids.add((g['division'],g['id']));base['ncaa_id']=g['id'];base['ncaa_status']=g['status']
+            base['finding']=('AMBIGUOUS' if candidates else
+                'SCHEDULED_NOT_IN_NCAA' if str(r['status']).lower().strip() in ('scheduled','pre') else 'UNMATCHED')
+            base['notes']=('Multiple NCAA records share the same two-team/date window' if candidates
+                else 'No two-team match within 2 days; could be a coverage gap, alias, or schedule difference')
+            base['match_method']=method;reports.append(base);continue
+        g=candidates[0];matched_ids.add(str(g['id']))
+        base['ncaa_id']=g['id'];base['ncaa_status']=g['status'];base['match_method']=method
+        offset=(parse_day(g['date'])-day).days
+        base['date_offset_days']=offset
+        if offset:base['notes']=f'NCAA date differs by {offset:+d} day(s); verify schedule date'
         va=slug(r['visitor'])==slug(g['away']['ncaa_slug'])
         vs=g['away']['score'] if va else g['home']['score']
         hs=g['home']['score'] if va else g['away']['score']
         base['ncaa_visitor_score']=vs if vs is not None else ''
         base['ncaa_home_score']=hs if hs is not None else ''
-        sheet_final=str(r['status']).lower().strip()=='final'; ncaa_final=g['status'].lower()=='final'
+        sheet_final=str(r['status']).lower().strip()=='final';ncaa_final=g['status'].lower()=='final'
         if sheet_final and ncaa_final:
             base['finding']='MATCH' if score(r['visitor_score'])==vs and score(r['home_score'])==hs else 'SCORE_DISCREPANCY'
         elif sheet_final!=ncaa_final:
@@ -122,7 +172,7 @@ def compare(reference,games,active):
         reports.append(base)
     extra=[]
     for g in games:
-        if (g['division'],g['id']) in matched_ids:continue
+        if str(g['id']) in matched_ids:continue
         if g['away']['ncaa_slug'] not in active and g['home']['ncaa_slug'] not in active:continue
         extra.append({'date':g['date'],'division':g['division'],'ncaa_id':g['id'],
                       'away':g['away']['name'],'home':g['home']['name'],'away_score':g['away']['score'],
@@ -155,8 +205,10 @@ def main():
              'endpoints_successful':len(endpoints),'optional_week_zero_warnings':warnings,'ncaa_games_retrieved':len(games),
              'editorial_records':len(reference),'findings':counts,'ncaa_only_games':len(extra),
              'editorial_precedence':'Google Sheets; report is read-only',
-             'limitations':['Exact date and two-team matching only','Aliases are explicit; unmatched records require review',
-                            'NCAA may not cover non-NCAA opponents','2026 reference is a frozen snapshot, not live Google Sheets']}
+             'limitations':['Two-team matching with at most 2-day date tolerance; ambiguous cases never auto-resolved','Aliases are explicit; unmatched records require review',
+                            'NCAA may not cover non-NCAA opponents','2026 reference is a frozen snapshot, not live Google Sheets'],
+             'date_tolerance_matches':sum(r['match_method']=='DATE_TOLERANCE' for r in report),
+             'manual_review_required':sum(r['finding'] in ('SCORE_DISCREPANCY','STATUS_DISCREPANCY','AMBIGUOUS','UNMATCHED') for r in report)}
     (out/'summary.json').write_text(json.dumps(summary,indent=2)+'\n',encoding='utf-8')
     print(json.dumps(summary,indent=2))
 
