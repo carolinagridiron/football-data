@@ -1,0 +1,663 @@
+ncaa_slug,division,conference,suggested_logo_filename,provenance
+abilene-christian,fcs,United Athletic Conference (UAC),abilene-christian.svg,user_supplied_inventory
+adams-st,d2,Rocky Mountain Athletic Conference (RMAC),adams-st.svg,user_supplied_inventory
+adrian,d3,Michigan Intercollegiate Athletic Association (MIAA),adrian.svg,user_supplied_inventory
+air-force,fbs,Mountain West,air-force.svg,user_supplied_inventory
+akron,fbs,MAC,akron.svg,user_supplied_inventory
+alabama,fbs,SEC,alabama.svg,user_supplied_inventory
+alabama-am,fcs,Southwestern Athletic Conference (SWAC),alabama-am.svg,user_supplied_inventory
+alabama-st,fcs,Southwestern Athletic Conference (SWAC),alabama-st.svg,user_supplied_inventory
+albany-ny,fcs,Coastal Athletic Association (CAA),albany-ny.svg,user_supplied_inventory
+albany-st-ga,d2,Southern Intercollegiate Athletic Conference (SIAC),albany-st-ga.svg,user_supplied_inventory
+albion,d3,Michigan Intercollegiate Athletic Association (MIAA),albion.svg,user_supplied_inventory
+albright,d3,Middle Atlantic Conference (MAC),albright.svg,user_supplied_inventory
+alcorn,fcs,Southwestern Athletic Conference (SWAC),alcorn.svg,user_supplied_inventory
+alfred,d3,Empire 8,alfred.svg,user_supplied_inventory
+allegheny,d3,Presidents' Athletic Conference (PAC),allegheny.svg,user_supplied_inventory
+allen,d2,Southern Intercollegiate Athletic Conference (SIAC),allen.svg,user_supplied_inventory
+alma,d3,Michigan Intercollegiate Athletic Association (MIAA),alma.svg,user_supplied_inventory
+alvernia,d3,Middle Atlantic Conference (MAC),alvernia.svg,user_supplied_inventory
+american-intl,d2,Northeast-10 Conference (NE10),american-intl.svg,user_supplied_inventory
+amherst,d3,New England Small College Athletic Conference (NESCAC),amherst.svg,user_supplied_inventory
+anderson-in,d3,Heartland Collegiate Athletic Conference (HCAC),anderson-in.svg,user_supplied_inventory
+anderson-sc,d2,South Atlantic Conference (SAC),anderson-sc.svg,user_supplied_inventory
+angelo-st,d2,Lone Star Conference (LSC),angelo-st.svg,user_supplied_inventory
+anna-maria,d3,Massachusetts State Collegiate Athletic Conference (MASCAC),anna-maria.svg,user_supplied_inventory
+appalachian-st,fbs,Sun Belt,appalachian-st.svg,user_supplied_inventory
+arizona,fbs,Big 12,arizona.svg,user_supplied_inventory
+arizona-st,fbs,Big 12,arizona-st.svg,user_supplied_inventory
+ark-monticello,d2,Great American Conference (GAC),ark-monticello.svg,user_supplied_inventory
+ark-pine-bluff,fcs,Southwestern Athletic Conference (SWAC),ark-pine-bluff.svg,user_supplied_inventory
+arkansas,fbs,SEC,arkansas.svg,user_supplied_inventory
+arkansas-st,fbs,Sun Belt,arkansas-st.svg,user_supplied_inventory
+arkansas-tech,d2,Great American Conference (GAC),arkansas-tech.svg,user_supplied_inventory
+army,fbs,American Athletic Conference,army.svg,user_supplied_inventory
+ashland,d2,Great Midwest Athletic Conference (G-MAC),ashland.svg,user_supplied_inventory
+assumption,d2,Northeast-10 Conference (NE10),assumption.svg,user_supplied_inventory
+auburn,fbs,SEC,auburn.svg,user_supplied_inventory
+augsburg,d3,Minnesota Intercollegiate Athletic Conference (MIAC),augsburg.svg,user_supplied_inventory
+augustana-il,d3,College Conference of Illinois & Wisconsin (CCIW),augustana-il.svg,user_supplied_inventory
+augustana-sd,d2,Northern Sun Intercollegiate Conference (NSIC),augustana-sd.svg,user_supplied_inventory
+aurora,d3,Northern Athletics Collegiate Conference (NACC),aurora.svg,user_supplied_inventory
+austin,d3,Southern Collegiate Athletic Conference (SCAC),austin.svg,user_supplied_inventory
+austin-peay,fcs,United Athletic Conference (UAC),austin-peay.svg,user_supplied_inventory
+averett,d3,Old Dominion Athletic Conference (ODAC),averett.svg,user_supplied_inventory
+baldwin-wallace,d3,Ohio Athletic Conference (OAC),baldwin-wallace.svg,user_supplied_inventory
+ball-st,fbs,MAC,ball-st.svg,user_supplied_inventory
+barton,d2,Conference Carolinas,barton.svg,user_supplied_inventory
+bates,d3,New England Small College Athletic Conference (NESCAC),bates.svg,user_supplied_inventory
+baylor,fbs,Big 12,baylor.svg,user_supplied_inventory
+belhaven,d3,USA South Athletic Conference,belhaven.svg,user_supplied_inventory
+beloit,d3,Midwest Conference (MWC),beloit.svg,user_supplied_inventory
+bemidji-st,d2,Northern Sun Intercollegiate Conference (NSIC),bemidji-st.svg,user_supplied_inventory
+benedict,d2,Southern Intercollegiate Athletic Conference (SIAC),benedict.svg,user_supplied_inventory
+benedictine-il,d3,Northern Athletics Collegiate Conference (NACC),benedictine-il.svg,user_supplied_inventory
+bentley,d2,Northeast-10 Conference (NE10),bentley.svg,user_supplied_inventory
+berry,d3,Southern Athletic Association (SAA),berry.svg,user_supplied_inventory
+bethany-wv,d3,Presidents' Athletic Conference (PAC),bethany-wv.svg,user_supplied_inventory
+bethel-mn,d3,Minnesota Intercollegiate Athletic Conference (MIAC),bethel-mn.svg,user_supplied_inventory
+bethune-cookman,fcs,Southwestern Athletic Conference (SWAC),bethune-cookman.svg,user_supplied_inventory
+black-hills-st,d2,Rocky Mountain Athletic Conference (RMAC),black-hills-st.svg,user_supplied_inventory
+bloomsburg,d2,Pennsylvania State Athletic Conference (PSAC),bloomsburg.svg,user_supplied_inventory
+bluefield-st,d2,Central Intercollegiate Athletic Association (CIAA),bluefield-st.svg,user_supplied_inventory
+bluffton,d3,Heartland Collegiate Athletic Conference (HCAC),bluffton.svg,user_supplied_inventory
+boise-st,fbs,Mountain West,boise-st.svg,user_supplied_inventory
+boston-college,fbs,ACC,boston-college.svg,user_supplied_inventory
+bowdoin,d3,New England Small College Athletic Conference (NESCAC),bowdoin.svg,user_supplied_inventory
+bowie-st,d2,Central Intercollegiate Athletic Association (CIAA),bowie-st.svg,user_supplied_inventory
+bowling-green,fbs,MAC,bowling-green.svg,user_supplied_inventory
+brevard,d3,USA South Athletic Conference,brevard.svg,user_supplied_inventory
+bridgewater-st,d3,Massachusetts State Collegiate Athletic Conference (MASCAC),bridgewater-st.svg,user_supplied_inventory
+bridgewater-va,d3,Old Dominion Athletic Conference (ODAC),bridgewater-va.svg,user_supplied_inventory
+brockport,d3,Empire 8,brockport.svg,user_supplied_inventory
+brown,fcs,Ivy League,brown.svg,user_supplied_inventory
+bryant,fcs,Coastal Athletic Association (CAA),bryant.svg,user_supplied_inventory
+bucknell,fcs,Patriot League,bucknell.svg,user_supplied_inventory
+buena-vista,d3,American Rivers Conference (A-R-C),buena-vista.svg,user_supplied_inventory
+buffalo,fbs,MAC,buffalo.svg,user_supplied_inventory
+buffalo-st,d3,Liberty League,buffalo-st.svg,user_supplied_inventory
+butler,fcs,Pioneer Football League,butler.svg,user_supplied_inventory
+byu,fbs,Big 12,byu.svg,user_supplied_inventory
+cal-lutheran,d3,Southern California Intercollegiate Athletic Conference (SCIAC),cal-lutheran.svg,user_supplied_inventory
+cal-poly,fcs,Big Sky Conference,cal-poly.svg,user_supplied_inventory
+california,fbs,ACC,california.svg,user_supplied_inventory
+california-pa,d2,Pennsylvania State Athletic Conference (PSAC),california-pa.svg,user_supplied_inventory
+calvin,d3,Michigan Intercollegiate Athletic Association (MIAA),calvin.svg,user_supplied_inventory
+campbell,fcs,Coastal Athletic Association (CAA),campbell.svg,user_supplied_inventory
+capital,d3,Ohio Athletic Conference (OAC),capital.svg,user_supplied_inventory
+carleton,d3,Minnesota Intercollegiate Athletic Conference (MIAC),carleton.svg,user_supplied_inventory
+carnegie-mellon,d3,Presidents' Athletic Conference (PAC),carnegie-mellon.svg,user_supplied_inventory
+carroll-wi,d3,College Conference of Illinois & Wisconsin (CCIW),carroll-wi.svg,user_supplied_inventory
+carson-newman,d2,South Atlantic Conference (SAC),carson-newman.svg,user_supplied_inventory
+carthage,d3,College Conference of Illinois & Wisconsin (CCIW),carthage.svg,user_supplied_inventory
+case-western,d3,Presidents' Athletic Conference (PAC),case-western.svg,user_supplied_inventory
+castleton,d3,Massachusetts State Collegiate Athletic Conference (MASCAC),castleton.svg,user_supplied_inventory
+catawba,d2,South Atlantic Conference (SAC),catawba.svg,user_supplied_inventory
+catholic,d3,Landmark Conference,catholic.svg,user_supplied_inventory
+centenary-la,d3,Southern Collegiate Athletic Conference (SCAC),centenary-la.svg,user_supplied_inventory
+central-ark,fcs,United Athletic Conference (UAC),central-ark.svg,user_supplied_inventory
+central-conn-st,fcs,Northeast Conference (NEC),central-conn-st.svg,user_supplied_inventory
+central-ia,d3,American Rivers Conference (A-R-C),central-ia.svg,user_supplied_inventory
+central-mich,fbs,MAC,central-mich.svg,user_supplied_inventory
+central-mo,d2,Mid-America Intercollegiate Athletics Association (MIAA),central-mo.svg,user_supplied_inventory
+central-okla,d2,Mid-America Intercollegiate Athletics Association (MIAA),central-okla.svg,user_supplied_inventory
+central-st-oh,d2,Southern Intercollegiate Athletic Conference (SIAC),central-st-oh.svg,user_supplied_inventory
+central-wash,d2,Lone Star Conference (LSC),central-wash.svg,user_supplied_inventory
+centre,d3,Southern Athletic Association (SAA),centre.svg,user_supplied_inventory
+chadron-st,d2,Rocky Mountain Athletic Conference (RMAC),chadron-st.svg,user_supplied_inventory
+chapman,d3,Southern California Intercollegiate Athletic Conference (SCIAC),chapman.svg,user_supplied_inventory
+charleston-so,fcs,Ohio Valley Conference (OVC),charleston-so.svg,user_supplied_inventory
+charleston-wv,d2,Mountain East Conference (MEC),charleston-wv.svg,user_supplied_inventory
+charlotte,fbs,American Athletic Conference,charlotte.svg,user_supplied_inventory
+chattanooga,fcs,Southern Conference (SoCon),chattanooga.svg,user_supplied_inventory
+chicago,d3,Midwest Conference (MWC),chicago.svg,user_supplied_inventory
+chicago-st,fcs,FCS Independents,chicago-st.svg,user_supplied_inventory
+chowan,d2,Conference Carolinas,chowan.svg,user_supplied_inventory
+christopher-newport,d3,New Jersey Athletic Conference (NJAC),christopher-newport.svg,user_supplied_inventory
+cincinnati,fbs,Big 12,cincinnati.svg,user_supplied_inventory
+citadel,fcs,Southern Conference (SoCon),citadel.svg,user_supplied_inventory
+claremont-m-s,d3,Southern California Intercollegiate Athletic Conference (SCIAC),claremont-m-s.svg,user_supplied_inventory
+clarion,d2,Pennsylvania State Athletic Conference (PSAC),clarion.svg,user_supplied_inventory
+clark-atlanta,d2,Southern Intercollegiate Athletic Conference (SIAC),clark-atlanta.svg,user_supplied_inventory
+clemson,fbs,ACC,clemson.svg,user_supplied_inventory
+coast-guard,d3,New England Women's and Men's Athletic Conference (NEWMAC),coast-guard.svg,user_supplied_inventory
+coastal-caro,fbs,Sun Belt,coastal-caro.svg,user_supplied_inventory
+coe,d3,American Rivers Conference (A-R-C),coe.svg,user_supplied_inventory
+colby,d3,New England Small College Athletic Conference (NESCAC),colby.svg,user_supplied_inventory
+colgate,fcs,Patriot League,colgate.svg,user_supplied_inventory
+colo-sch-of-mines,d2,Rocky Mountain Athletic Conference (RMAC),colo-sch-of-mines.svg,user_supplied_inventory
+colorado,fbs,Big 12,colorado.svg,user_supplied_inventory
+colorado-mesa,d2,Rocky Mountain Athletic Conference (RMAC),colorado-mesa.svg,user_supplied_inventory
+colorado-st,fbs,Mountain West,colorado-st.svg,user_supplied_inventory
+colorado-st-pueblo,d2,Rocky Mountain Athletic Conference (RMAC),colorado-st-pueblo.svg,user_supplied_inventory
+columbia,fcs,Ivy League,columbia.svg,user_supplied_inventory
+concord,d2,Mountain East Conference (MEC),concord.svg,user_supplied_inventory
+concordia-chicago,d3,Northern Athletics Collegiate Conference (NACC),concordia-chicago.svg,user_supplied_inventory
+concordia-mhead,d3,Minnesota Intercollegiate Athletic Conference (MIAC),concordia-mhead.svg,user_supplied_inventory
+concordia-st-paul,d2,Northern Sun Intercollegiate Conference (NSIC),concordia-st-paul.svg,user_supplied_inventory
+concordia-wisconsin,d3,Northern Athletics Collegiate Conference (NACC),concordia-wisconsin.svg,user_supplied_inventory
+cornell,fcs,Ivy League,cornell.svg,user_supplied_inventory
+cornell-college,d3,Midwest Conference (MWC),cornell-college.svg,user_supplied_inventory
+cortland,d3,Empire 8,cortland.svg,user_supplied_inventory
+crown-mn,d3,Upper Midwest Athletic Conference (UMAC),crown-mn.svg,user_supplied_inventory
+curry,d3,Conference of New England (CNE),curry.svg,user_supplied_inventory
+dartmouth,fcs,Ivy League,dartmouth.svg,user_supplied_inventory
+davenport,d2,Great Lakes Intercollegiate Athletic Conference (GLIAC),davenport.svg,user_supplied_inventory
+davidson,fcs,Pioneer Football League,davidson.svg,user_supplied_inventory
+dayton,fcs,Pioneer Football League,dayton.svg,user_supplied_inventory
+dean,d3,Massachusetts State Collegiate Athletic Conference (MASCAC),dean.svg,user_supplied_inventory
+delaware,fbs,Conference USA,delaware.svg,user_supplied_inventory
+delaware-st,fcs,Mid-Eastern Athletic Conference (MEAC),delaware-st.svg,user_supplied_inventory
+delaware-valley,d3,Middle Atlantic Conference (MAC),delaware-valley.svg,user_supplied_inventory
+delta-st,d2,Gulf South Conference (GSC),delta-st.svg,user_supplied_inventory
+denison,d3,North Coast Athletic Conference (NCAC),denison.svg,user_supplied_inventory
+depauw,d3,North Coast Athletic Conference (NCAC),depauw.svg,user_supplied_inventory
+dickinson,d3,Centennial Conference,dickinson.svg,user_supplied_inventory
+drake,fcs,Pioneer Football League,drake.svg,user_supplied_inventory
+dubuque,d3,American Rivers Conference (A-R-C),dubuque.svg,user_supplied_inventory
+duke,fbs,ACC,duke.svg,user_supplied_inventory
+duquesne,fcs,Northeast Conference (NEC),duquesne.svg,user_supplied_inventory
+east-carolina,fbs,American Athletic Conference,east-carolina.svg,user_supplied_inventory
+east-central,d2,Great American Conference (GAC),east-central.svg,user_supplied_inventory
+east-stroudsburg,d2,Pennsylvania State Athletic Conference (PSAC),east-stroudsburg.svg,user_supplied_inventory
+east-tenn-st,fcs,Southern Conference (SoCon),east-tenn-st.svg,user_supplied_inventory
+east-tex-baptist,d3,American Southwest Conference (ASC),east-tex-baptist.svg,user_supplied_inventory
+east-texas-am,fcs,Southland Conference,east-texas-am.svg,user_supplied_inventory
+eastern,d3,Middle Atlantic Conference (MAC),eastern.svg,user_supplied_inventory
+eastern-ill,fcs,Ohio Valley Conference (OVC),eastern-ill.svg,user_supplied_inventory
+eastern-ky,fcs,United Athletic Conference (UAC),eastern-ky.svg,user_supplied_inventory
+eastern-mich,fbs,MAC,eastern-mich.svg,user_supplied_inventory
+eastern-nm,d2,Lone Star Conference (LSC),eastern-nm.svg,user_supplied_inventory
+eastern-wash,fcs,Big Sky Conference,eastern-wash.svg,user_supplied_inventory
+edinboro,d2,Pennsylvania State Athletic Conference (PSAC),edinboro.svg,user_supplied_inventory
+edward-waters,d2,Southern Intercollegiate Athletic Conference (SIAC),edward-waters.svg,user_supplied_inventory
+elizabeth-city-st,d2,Central Intercollegiate Athletic Association (CIAA),elizabeth-city-st.svg,user_supplied_inventory
+elmhurst,d3,College Conference of Illinois & Wisconsin (CCIW),elmhurst.svg,user_supplied_inventory
+elon,fcs,Coastal Athletic Association (CAA),elon.svg,user_supplied_inventory
+emory-henry,d2,South Atlantic Conference (SAC),emory-henry.svg,user_supplied_inventory
+emporia-st,d2,Mid-America Intercollegiate Athletics Association (MIAA),emporia-st.svg,user_supplied_inventory
+endicott,d3,Conference of New England (CNE),endicott.svg,user_supplied_inventory
+erskine,d2,Conference Carolinas,erskine.svg,user_supplied_inventory
+eureka,d3,Northern Athletics Collegiate Conference (NACC),eureka.svg,user_supplied_inventory
+fairmont-st,d2,Mountain East Conference (MEC),fairmont-st.svg,user_supplied_inventory
+fayetteville-st,d2,Central Intercollegiate Athletic Association (CIAA),fayetteville-st.svg,user_supplied_inventory
+fdu-florham,d3,Middle Atlantic Conference (MAC),fdu-florham.svg,user_supplied_inventory
+ferris-st,d2,Great Lakes Intercollegiate Athletic Conference (GLIAC),ferris-st.svg,user_supplied_inventory
+ferrum,d2,Conference Carolinas,ferrum.svg,user_supplied_inventory
+findlay,d2,Great Midwest Athletic Conference (G-MAC),findlay.svg,user_supplied_inventory
+fitchburg-st,d3,Massachusetts State Collegiate Athletic Conference (MASCAC),fitchburg-st.svg,user_supplied_inventory
+fiu,fbs,Conference USA,fiu.svg,user_supplied_inventory
+fla-atlantic,fbs,American Athletic Conference,fla-atlantic.svg,user_supplied_inventory
+florida,fbs,SEC,florida.svg,user_supplied_inventory
+florida-am,fcs,Southwestern Athletic Conference (SWAC),florida-am.svg,user_supplied_inventory
+florida-st,fbs,ACC,florida-st.svg,user_supplied_inventory
+fordham,fcs,Patriot League,fordham.svg,user_supplied_inventory
+fort-hays-st,d2,Mid-America Intercollegiate Athletics Association (MIAA),fort-hays-st.svg,user_supplied_inventory
+fort-lewis,d2,Rocky Mountain Athletic Conference (RMAC),fort-lewis.svg,user_supplied_inventory
+fort-valley-st,d2,Southern Intercollegiate Athletic Conference (SIAC),fort-valley-st.svg,user_supplied_inventory
+framingham-st,d3,Massachusetts State Collegiate Athletic Conference (MASCAC),framingham-st.svg,user_supplied_inventory
+franklin,d3,Heartland Collegiate Athletic Conference (HCAC),franklin.svg,user_supplied_inventory
+franklin-marshall,d3,Centennial Conference,franklin-marshall.svg,user_supplied_inventory
+franklin-pierce,d2,Northeast-10 Conference (NE10),franklin-pierce.svg,user_supplied_inventory
+fresno-st,fbs,Mountain West,fresno-st.svg,user_supplied_inventory
+frostburg-st,d2,Mountain East Conference (MEC),frostburg-st.svg,user_supplied_inventory
+furman,fcs,Southern Conference (SoCon),furman.svg,user_supplied_inventory
+ga-southern,fbs,Sun Belt,ga-southern.svg,user_supplied_inventory
+gallaudet,d3,Old Dominion Athletic Conference (ODAC),gallaudet.svg,user_supplied_inventory
+gannon,d2,Pennsylvania State Athletic Conference (PSAC),gannon.svg,user_supplied_inventory
+gardner-webb,fcs,Ohio Valley Conference (OVC),gardner-webb.svg,user_supplied_inventory
+geneva,d3,Presidents' Athletic Conference (PAC),geneva.svg,user_supplied_inventory
+george-fox,d3,Northwest Conference (NWC),george-fox.svg,user_supplied_inventory
+georgetown,fcs,Patriot League,georgetown.svg,user_supplied_inventory
+georgia,fbs,SEC,georgia.svg,user_supplied_inventory
+georgia-st,fbs,Sun Belt,georgia-st.svg,user_supplied_inventory
+georgia-tech,fbs,ACC,georgia-tech.svg,user_supplied_inventory
+gettysburg,d3,Centennial Conference,gettysburg.svg,user_supplied_inventory
+glenville-st,d2,Mountain East Conference (MEC),glenville-st.svg,user_supplied_inventory
+grambling,fcs,Southwestern Athletic Conference (SWAC),grambling.svg,user_supplied_inventory
+grand-valley-st,d2,Great Lakes Intercollegiate Athletic Conference (GLIAC),grand-valley-st.svg,user_supplied_inventory
+greensboro,d3,USA South Athletic Conference,greensboro.svg,user_supplied_inventory
+greenville,d3,Upper Midwest Athletic Conference (UMAC),greenville.svg,user_supplied_inventory
+grinnell,d3,Midwest Conference (MWC),grinnell.svg,user_supplied_inventory
+grove-city,d3,Presidents' Athletic Conference (PAC),grove-city.svg,user_supplied_inventory
+guilford,d3,Old Dominion Athletic Conference (ODAC),guilford.svg,user_supplied_inventory
+gustavus-adolphus,d3,Minnesota Intercollegiate Athletic Conference (MIAC),gustavus-adolphus.svg,user_supplied_inventory
+hamilton,d3,New England Small College Athletic Conference (NESCAC),hamilton.svg,user_supplied_inventory
+hamline,d3,Minnesota Intercollegiate Athletic Conference (MIAC),hamline.svg,user_supplied_inventory
+hampden-sydney,d3,Old Dominion Athletic Conference (ODAC),hampden-sydney.svg,user_supplied_inventory
+hampton,fcs,Coastal Athletic Association (CAA),hampton.svg,user_supplied_inventory
+hanover,d3,Heartland Collegiate Athletic Conference (HCAC),hanover.svg,user_supplied_inventory
+hardin-simmons,d3,American Southwest Conference (ASC),hardin-simmons.svg,user_supplied_inventory
+harding,d2,Great American Conference (GAC),harding.svg,user_supplied_inventory
+hartwick,d3,Empire 8,hartwick.svg,user_supplied_inventory
+harvard,fcs,Ivy League,harvard.svg,user_supplied_inventory
+hawaii,fbs,Mountain West,hawaii.svg,user_supplied_inventory
+heidelberg,d3,Ohio Athletic Conference (OAC),heidelberg.svg,user_supplied_inventory
+henderson-st,d2,Great American Conference (GAC),henderson-st.svg,user_supplied_inventory
+hendrix,d3,Southern Athletic Association (SAA),hendrix.svg,user_supplied_inventory
+hilbert,d3,Empire 8,hilbert.svg,user_supplied_inventory
+hillsdale,d2,Great Midwest Athletic Conference (G-MAC),hillsdale.svg,user_supplied_inventory
+hiram,d3,North Coast Athletic Conference (NCAC),hiram.svg,user_supplied_inventory
+hobart,d3,Liberty League,hobart.svg,user_supplied_inventory
+holy-cross,fcs,Patriot League,holy-cross.svg,user_supplied_inventory
+hope,d3,Michigan Intercollegiate Athletic Association (MIAA),hope.svg,user_supplied_inventory
+houston,fbs,Big 12,houston.svg,user_supplied_inventory
+houston-christian,fcs,Southland Conference,houston-christian.svg,user_supplied_inventory
+howard,fcs,Mid-Eastern Athletic Conference (MEAC),howard.svg,user_supplied_inventory
+howard-payne,d3,American Southwest Conference (ASC),howard-payne.svg,user_supplied_inventory
+huntingdon,d3,USA South Athletic Conference,huntingdon.svg,user_supplied_inventory
+husson,d3,Conference of New England (CNE),husson.svg,user_supplied_inventory
+idaho,fcs,Big Sky Conference,idaho.svg,user_supplied_inventory
+idaho-st,fcs,Big Sky Conference,idaho-st.svg,user_supplied_inventory
+illinois,fbs,Big Ten,illinois.svg,user_supplied_inventory
+illinois-col,d3,Midwest Conference (MWC),illinois-col.svg,user_supplied_inventory
+illinois-st,fcs,Missouri Valley Football Conference (MVFC),illinois-st.svg,user_supplied_inventory
+illinois-wesleyan,d3,College Conference of Illinois & Wisconsin (CCIW),illinois-wesleyan.svg,user_supplied_inventory
+incarnate-word,fcs,Southland Conference,incarnate-word.svg,user_supplied_inventory
+indiana,fbs,Big Ten,indiana.svg,user_supplied_inventory
+indiana-pa,d2,Pennsylvania State Athletic Conference (PSAC),indiana-pa.svg,user_supplied_inventory
+indiana-st,fcs,Missouri Valley Football Conference (MVFC),indiana-st.svg,user_supplied_inventory
+indianapolis,d2,Great Lakes Valley Conference (GLVC),indianapolis.svg,user_supplied_inventory
+iowa,fbs,Big Ten,iowa.svg,user_supplied_inventory
+iowa-st,fbs,Big 12,iowa-st.svg,user_supplied_inventory
+ithaca,d3,Liberty League,ithaca.svg,user_supplied_inventory
+jackson-st,fcs,Southwestern Athletic Conference (SWAC),jackson-st.svg,user_supplied_inventory
+jacksonville-st,fbs,Conference USA,jacksonville-st.svg,user_supplied_inventory
+james-madison,fbs,Sun Belt,james-madison.svg,user_supplied_inventory
+john-carroll,d3,Ohio Athletic Conference (OAC),john-carroll.svg,user_supplied_inventory
+johns-hopkins,d3,Centennial Conference,johns-hopkins.svg,user_supplied_inventory
+johnson-c-smith,d2,Central Intercollegiate Athletic Association (CIAA),johnson-c-smith.svg,user_supplied_inventory
+juniata,d3,Landmark Conference,juniata.svg,user_supplied_inventory
+kalamazoo,d3,Michigan Intercollegiate Athletic Association (MIAA),kalamazoo.svg,user_supplied_inventory
+kansas,fbs,Big 12,kansas.svg,user_supplied_inventory
+kansas-st,fbs,Big 12,kansas-st.svg,user_supplied_inventory
+kean,d3,New Jersey Athletic Conference (NJAC),kean.svg,user_supplied_inventory
+kennesaw-st,fbs,Conference USA,kennesaw-st.svg,user_supplied_inventory
+kent-st,fbs,MAC,kent-st.svg,user_supplied_inventory
+kentucky,fbs,SEC,kentucky.svg,user_supplied_inventory
+kentucky-st,d2,Southern Intercollegiate Athletic Conference (SIAC),kentucky-st.svg,user_supplied_inventory
+kenyon,d3,North Coast Athletic Conference (NCAC),kenyon.svg,user_supplied_inventory
+keystone,d3,Landmark Conference,keystone.svg,user_supplied_inventory
+kings-pa,d3,Middle Atlantic Conference (MAC),kings-pa.svg,user_supplied_inventory
+knox,d3,Midwest Conference (MWC),knox.svg,user_supplied_inventory
+kutztown,d2,Pennsylvania State Athletic Conference (PSAC),kutztown.svg,user_supplied_inventory
+ky-wesleyan,d2,Great Midwest Athletic Conference (G-MAC),ky-wesleyan.svg,user_supplied_inventory
+la-grange,d3,USA South Athletic Conference,la-grange.svg,user_supplied_inventory
+la-lafayette,fbs,Sun Belt,la-lafayette.svg,user_confirmed
+la-monroe,fbs,Sun Belt,la-monroe.svg,user_supplied_inventory
+la-verne,d3,Southern California Intercollegiate Athletic Conference (SCIAC),la-verne.svg,user_supplied_inventory
+lafayette,fcs,Patriot League,lafayette.svg,user_supplied_inventory
+lake-erie,d2,Great Midwest Athletic Conference (G-MAC),lake-erie.svg,user_supplied_inventory
+lake-forest,d3,Midwest Conference (MWC),lake-forest.svg,user_supplied_inventory
+lakeland,d3,Northern Athletics Collegiate Conference (NACC),lakeland.svg,user_supplied_inventory
+lamar,fcs,Southland Conference,lamar.svg,user_supplied_inventory
+lane,d2,Southern Intercollegiate Athletic Conference (SIAC),lane.svg,user_supplied_inventory
+lawrence,d3,Midwest Conference (MWC),lawrence.svg,user_supplied_inventory
+lebanon-valley,d3,Middle Atlantic Conference (MAC),lebanon-valley.svg,user_supplied_inventory
+lehigh,fcs,Patriot League,lehigh.svg,user_supplied_inventory
+lenoir-rhyne,d2,South Atlantic Conference (SAC),lenoir-rhyne.svg,user_supplied_inventory
+lewis-clark,d3,Northwest Conference (NWC),lewis-clark.svg,user_supplied_inventory
+liberty,fbs,Conference USA,liberty.svg,user_supplied_inventory
+lincoln-ca,d2,DII Independents / Reclassifying,lincoln-ca.svg,user_supplied_inventory
+lincoln-mo,d2,Great Lakes Valley Conference (GLVC),lincoln-mo.svg,user_supplied_inventory
+lincoln-pa,d2,Central Intercollegiate Athletic Association (CIAA),lincoln-pa.svg,user_supplied_inventory
+lindenwood,fcs,Ohio Valley Conference (OVC),lindenwood.svg,user_supplied_inventory
+linfield,d3,Northwest Conference (NWC),linfield.svg,user_supplied_inventory
+liu,fcs,Northeast Conference (NEC),liu.svg,user_supplied_inventory
+livingstone,d2,Central Intercollegiate Athletic Association (CIAA),livingstone.svg,user_supplied_inventory
+lock-haven,d2,Pennsylvania State Athletic Conference (PSAC),lock-haven.svg,user_supplied_inventory
+loras,d3,American Rivers Conference (A-R-C),loras.svg,user_supplied_inventory
+louisiana-tech,fbs,Conference USA,louisiana-tech.svg,user_supplied_inventory
+louisville,fbs,ACC,louisville.svg,user_supplied_inventory
+lsu,fbs,SEC,lsu.svg,user_supplied_inventory
+luther,d3,American Rivers Conference (A-R-C),luther.svg,user_supplied_inventory
+lycoming,d3,Landmark Conference,lycoming.svg,user_supplied_inventory
+lyon,d3,Southern Collegiate Athletic Conference (SCAC),lyon.svg,user_supplied_inventory
+macalester,d3,Minnesota Intercollegiate Athletic Conference (MIAC),macalester.svg,user_supplied_inventory
+maine,fcs,Coastal Athletic Association (CAA),maine.svg,user_supplied_inventory
+maine-maritime,d3,Conference of New England (CNE),maine-maritime.svg,user_supplied_inventory
+manchester,d3,Heartland Collegiate Athletic Conference (HCAC),manchester.svg,user_supplied_inventory
+marietta,d3,Ohio Athletic Conference (OAC),marietta.svg,user_supplied_inventory
+marist,fcs,Pioneer Football League,marist.svg,user_supplied_inventory
+maritime,d3,New England Women's and Men's Athletic Conference (NEWMAC),maritime.svg,user_supplied_inventory
+mars-hill,d2,South Atlantic Conference (SAC),mars-hill.svg,user_supplied_inventory
+marshall,fbs,Sun Belt,marshall.svg,user_supplied_inventory
+martin-luther,d3,Upper Midwest Athletic Conference (UMAC),martin-luther.svg,user_supplied_inventory
+mary,d2,Northern Sun Intercollegiate Conference (NSIC),mary.svg,user_supplied_inventory
+mary-hardin-baylor,d3,American Southwest Conference (ASC),mary-hardin-baylor.svg,user_supplied_inventory
+maryland,fbs,Big Ten,maryland.svg,user_supplied_inventory
+maryville-tn,d3,USA South Athletic Conference,maryville-tn.svg,user_supplied_inventory
+mass-maritime,d3,Massachusetts State Collegiate Athletic Conference (MASCAC),mass-maritime.svg,user_supplied_inventory
+massachusetts,fbs,MAC,massachusetts.svg,user_supplied_inventory
+mcdaniel,d3,Centennial Conference,mcdaniel.svg,user_supplied_inventory
+mckendree,d2,Great Lakes Valley Conference (GLVC),mckendree.svg,user_supplied_inventory
+mcmurry,d3,Southern Collegiate Athletic Conference (SCAC),mcmurry.svg,user_supplied_inventory
+mcneese,fcs,Southland Conference,mcneese.svg,user_supplied_inventory
+memphis,fbs,American Athletic Conference,memphis.svg,user_supplied_inventory
+mercer,fcs,Southern Conference (SoCon),mercer.svg,user_supplied_inventory
+merchant-marine,d3,New England Women's and Men's Athletic Conference (NEWMAC),merchant-marine.svg,user_supplied_inventory
+mercyhurst,fcs,Northeast Conference (NEC),mercyhurst.svg,user_supplied_inventory
+merrimack,fcs,FCS Independents,merrimack.svg,user_confirmed
+methodist,d3,USA South Athletic Conference,methodist.svg,user_supplied_inventory
+miami-fl,fbs,ACC,miami-fl.svg,user_supplied_inventory
+miami-oh,fbs,MAC,miami-oh.svg,user_supplied_inventory
+michigan,fbs,Big Ten,michigan.svg,user_supplied_inventory
+michigan-st,fbs,Big Ten,michigan-st.svg,user_supplied_inventory
+michigan-tech,d2,Great Lakes Intercollegiate Athletic Conference (GLIAC),michigan-tech.svg,user_supplied_inventory
+middle-tenn,fbs,Conference USA,middle-tenn.svg,user_supplied_inventory
+middlebury,d3,New England Small College Athletic Conference (NESCAC),middlebury.svg,user_supplied_inventory
+midwestern-st,d2,Lone Star Conference (LSC),midwestern-st.svg,user_supplied_inventory
+miles,d2,Southern Intercollegiate Athletic Conference (SIAC),miles.svg,user_supplied_inventory
+millersville,d2,Pennsylvania State Athletic Conference (PSAC),millersville.svg,user_supplied_inventory
+millikin,d3,College Conference of Illinois & Wisconsin (CCIW),millikin.svg,user_supplied_inventory
+millsaps,d3,Southern Athletic Association (SAA),millsaps.svg,user_supplied_inventory
+minn-crookston,d2,Northern Sun Intercollegiate Conference (NSIC),minn-crookston.svg,user_supplied_inventory
+minn-duluth,d2,Northern Sun Intercollegiate Conference (NSIC),minn-duluth.svg,user_supplied_inventory
+minn-morris,d3,Upper Midwest Athletic Conference (UMAC),minn-morris.svg,user_supplied_inventory
+minnesota,fbs,Big Ten,minnesota.svg,user_supplied_inventory
+minnesota-st,d2,Northern Sun Intercollegiate Conference (NSIC),minnesota-st.svg,user_supplied_inventory
+minot-st,d2,Northern Sun Intercollegiate Conference (NSIC),minot-st.svg,user_supplied_inventory
+misericordia,d3,Middle Atlantic Conference (MAC),misericordia.svg,user_supplied_inventory
+mississippi-st,fbs,SEC,mississippi-st.svg,user_supplied_inventory
+mississippi-val,fcs,Southwestern Athletic Conference (SWAC),mississippi-val.svg,user_supplied_inventory
+missouri,fbs,SEC,missouri.svg,user_supplied_inventory
+missouri-southern,d2,Mid-America Intercollegiate Athletics Association (MIAA),missouri-southern.svg,user_supplied_inventory
+missouri-st,fbs,Conference USA,missouri-st.svg,user_confirmed
+missouri-western,d2,Mid-America Intercollegiate Athletics Association (MIAA),missouri-western.svg,user_supplied_inventory
+mit,d3,New England Women's and Men's Athletic Conference (NEWMAC),mit.svg,user_supplied_inventory
+monmouth,fcs,Coastal Athletic Association (CAA),monmouth.svg,user_supplied_inventory
+monmouth-il,d3,Midwest Conference (MWC),monmouth-il.svg,user_supplied_inventory
+montana,fcs,Big Sky Conference,montana.svg,user_supplied_inventory
+montana-st,fcs,Big Sky Conference,montana-st.svg,user_supplied_inventory
+montclair-st,d3,New Jersey Athletic Conference (NJAC),montclair-st.svg,user_supplied_inventory
+moravian,d3,Landmark Conference,moravian.svg,user_supplied_inventory
+morehead-st,fcs,Pioneer Football League,morehead-st.svg,user_supplied_inventory
+morehouse,d2,Southern Intercollegiate Athletic Conference (SIAC),morehouse.svg,user_supplied_inventory
+morgan-st,fcs,Mid-Eastern Athletic Conference (MEAC),morgan-st.svg,user_supplied_inventory
+morrisville-st,d3,Empire 8,morrisville-st.svg,user_supplied_inventory
+mount-union,d3,Ohio Athletic Conference (OAC),mount-union.svg,user_supplied_inventory
+msu-moorhead,d2,Northern Sun Intercollegiate Conference (NSIC),msu-moorhead.svg,user_supplied_inventory
+mt-st-joseph,d3,Heartland Collegiate Athletic Conference (HCAC),mt-st-joseph.svg,user_supplied_inventory
+muhlenberg,d3,Centennial Conference,muhlenberg.svg,user_supplied_inventory
+murray-st,fcs,Missouri Valley Football Conference (MVFC),murray-st.svg,user_supplied_inventory
+muskingum,d3,Ohio Athletic Conference (OAC),muskingum.svg,user_supplied_inventory
+navy,fbs,American Athletic Conference,navy.svg,user_supplied_inventory
+nc-at,fcs,Coastal Athletic Association (CAA),nc-at.svg,user_supplied_inventory
+nc-central,fcs,Mid-Eastern Athletic Conference (MEAC),nc-central.svg,user_supplied_inventory
+nc-wesleyan,d3,USA South Athletic Conference,nc-wesleyan.svg,user_supplied_inventory
+neb-kearney,d2,Mid-America Intercollegiate Athletics Association (MIAA),neb-kearney.svg,user_supplied_inventory
+neb-wesleyan,d3,American Rivers Conference (A-R-C),neb-wesleyan.svg,user_supplied_inventory
+nebraska,fbs,Big Ten,nebraska.svg,user_supplied_inventory
+nevada,fbs,Mountain West,nevada.svg,user_supplied_inventory
+new-england,d3,Conference of New England (CNE),new-england.svg,user_supplied_inventory
+new-hampshire,fcs,Coastal Athletic Association (CAA),new-hampshire.svg,user_supplied_inventory
+new-haven,fcs,Northeast Conference (NEC),new-haven.svg,user_supplied_inventory
+new-mexico,fbs,Mountain West,new-mexico.svg,user_supplied_inventory
+new-mexico-st,fbs,Conference USA,new-mexico-st.svg,user_supplied_inventory
+newberry,d2,South Atlantic Conference (SAC),newberry.svg,user_supplied_inventory
+nicholls,fcs,Southland Conference,nicholls.svg,user_supplied_inventory
+nichols,d3,Conference of New England (CNE),nichols.svg,user_supplied_inventory
+nm-highlands,d2,Rocky Mountain Athletic Conference (RMAC),nm-highlands.svg,user_supplied_inventory
+norfolk-st,fcs,Mid-Eastern Athletic Conference (MEAC),norfolk-st.svg,user_supplied_inventory
+north-ala,fcs,United Athletic Conference (UAC),north-ala.svg,user_supplied_inventory
+north-carolina,fbs,ACC,north-carolina.svg,user_supplied_inventory
+north-carolina-st,fbs,ACC,north-carolina-st.svg,user_confirmed
+north-central-il,d3,College Conference of Illinois & Wisconsin (CCIW),north-central-il.svg,user_supplied_inventory
+north-dakota,fcs,Missouri Valley Football Conference (MVFC),north-dakota.svg,user_supplied_inventory
+north-greenville,d2,Conference Carolinas,north-greenville.svg,user_supplied_inventory
+north-park,d3,College Conference of Illinois & Wisconsin (CCIW),north-park.svg,user_supplied_inventory
+north-texas,fbs,American Athletic Conference,north-texas.svg,user_supplied_inventory
+northeastern-st,d2,Mid-America Intercollegiate Athletics Association (MIAA),northeastern-st.svg,user_supplied_inventory
+northern-ariz,fcs,Big Sky Conference,northern-ariz.svg,user_supplied_inventory
+northern-colo,fcs,Big Sky Conference,northern-colo.svg,user_supplied_inventory
+northern-ill,fbs,MAC,northern-ill.svg,user_supplied_inventory
+northern-mich,d2,Great Lakes Intercollegiate Athletic Conference (GLIAC),northern-mich.svg,user_supplied_inventory
+northern-st,d2,Northern Sun Intercollegiate Conference (NSIC),northern-st.svg,user_supplied_inventory
+northwest-mo-st,d2,Mid-America Intercollegiate Athletics Association (MIAA),northwest-mo-st.svg,user_supplied_inventory
+northwestern,fbs,Big Ten,northwestern.svg,user_supplied_inventory
+northwestern-mn,d3,Upper Midwest Athletic Conference (UMAC),northwestern-mn.svg,user_supplied_inventory
+northwestern-okla,d2,Great American Conference (GAC),northwestern-okla.svg,user_supplied_inventory
+northwestern-st,fcs,Southland Conference,northwestern-st.svg,user_supplied_inventory
+northwood,d2,Great Midwest Athletic Conference (G-MAC),northwood.svg,user_supplied_inventory
+norwich,d3,New England Women's and Men's Athletic Conference (NEWMAC),norwich.svg,user_supplied_inventory
+notre-dame,fbs,FBS Independents,notre-dame.svg,user_supplied_inventory
+oberlin,d3,North Coast Athletic Conference (NCAC),oberlin.svg,user_supplied_inventory
+ohio,fbs,MAC,ohio.svg,user_supplied_inventory
+ohio-dominican,d2,Great Midwest Athletic Conference (G-MAC),ohio-dominican.svg,user_supplied_inventory
+ohio-northern,d3,Ohio Athletic Conference (OAC),ohio-northern.svg,user_supplied_inventory
+ohio-st,fbs,Big Ten,ohio-st.svg,user_supplied_inventory
+ohio-wesleyan,d3,North Coast Athletic Conference (NCAC),ohio-wesleyan.svg,user_supplied_inventory
+okla-baptist,d2,Great American Conference (GAC),okla-baptist.svg,user_supplied_inventory
+oklahoma,fbs,SEC,oklahoma.svg,user_supplied_inventory
+oklahoma-st,fbs,Big 12,oklahoma-st.svg,user_supplied_inventory
+old-dominion,fbs,Sun Belt,old-dominion.svg,user_supplied_inventory
+ole-miss,fbs,SEC,ole-miss.svg,user_supplied_inventory
+olivet,d3,Michigan Intercollegiate Athletic Association (MIAA),olivet.svg,user_supplied_inventory
+oregon,fbs,Big Ten,oregon.svg,user_supplied_inventory
+oregon-st,fbs,Pac-12,oregon-st.svg,user_supplied_inventory
+otterbein,d3,Ohio Athletic Conference (OAC),otterbein.svg,user_supplied_inventory
+ouachita-baptist,d2,Great American Conference (GAC),ouachita-baptist.svg,user_supplied_inventory
+pace,d2,Northeast-10 Conference (NE10),pace.svg,user_supplied_inventory
+pacific-lutheran,d3,Northwest Conference (NWC),pacific-lutheran.svg,user_supplied_inventory
+pacific-ore,d3,Northwest Conference (NWC),pacific-ore.svg,user_supplied_inventory
+penn,fcs,Ivy League,penn.svg,user_supplied_inventory
+penn-st,fbs,Big Ten,penn-st.svg,user_supplied_inventory
+pittsburg-st,d2,Mid-America Intercollegiate Athletics Association (MIAA),pittsburg-st.svg,user_supplied_inventory
+pittsburgh,fbs,ACC,pittsburgh.svg,user_supplied_inventory
+plymouth-st,d3,Massachusetts State Collegiate Athletic Conference (MASCAC),plymouth-st.svg,user_supplied_inventory
+pomona-pitzer,d3,Southern California Intercollegiate Athletic Conference (SCIAC),pomona-pitzer.svg,user_supplied_inventory
+portland-st,fcs,Big Sky Conference,portland-st.svg,user_supplied_inventory
+post,d2,Northeast-10 Conference (NE10),post.svg,user_supplied_inventory
+prairie-view,fcs,Southwestern Athletic Conference (SWAC),prairie-view.svg,user_supplied_inventory
+presbyterian,fcs,Pioneer Football League,presbyterian.svg,user_supplied_inventory
+princeton,fcs,Ivy League,princeton.svg,user_supplied_inventory
+puget-sound,d3,Northwest Conference (NWC),puget-sound.svg,user_supplied_inventory
+purdue,fbs,Big Ten,purdue.svg,user_supplied_inventory
+quincy,d2,Great Lakes Valley Conference (GLVC),quincy.svg,user_supplied_inventory
+randolph-macon,d3,Old Dominion Athletic Conference (ODAC),randolph-macon.svg,user_supplied_inventory
+redlands,d3,Southern California Intercollegiate Athletic Conference (SCIAC),redlands.svg,user_supplied_inventory
+rensselaer,d3,Liberty League,rensselaer.svg,user_supplied_inventory
+rhode-island,fcs,Coastal Athletic Association (CAA),rhode-island.svg,user_supplied_inventory
+rhodes,d3,Southern Athletic Association (SAA),rhodes.svg,user_supplied_inventory
+rice,fbs,American Athletic Conference,rice.svg,user_supplied_inventory
+richmond,fcs,Patriot League,richmond.svg,user_supplied_inventory
+ripon,d3,Midwest Conference (MWC),ripon.svg,user_supplied_inventory
+roanoke,d3,Old Dominion Athletic Conference (ODAC),roanoke.svg,user_supplied_inventory
+robert-morris,fcs,Northeast Conference (NEC),robert-morris.svg,user_supplied_inventory
+rochester,d3,Liberty League,rochester.svg,user_supplied_inventory
+rockford,d3,Northern Athletics Collegiate Conference (NACC),rockford.svg,user_supplied_inventory
+roosevelt,d2,Great Lakes Intercollegiate Athletic Conference (GLIAC),roosevelt.svg,user_supplied_inventory
+rose-hulman,d3,Heartland Collegiate Athletic Conference (HCAC),rose-hulman.svg,user_supplied_inventory
+rowan,d3,New Jersey Athletic Conference (NJAC),rowan.svg,user_supplied_inventory
+rutgers,fbs,Big Ten,rutgers.svg,user_supplied_inventory
+sacred-heart,fcs,Coastal Athletic Association (CAA),sacred-heart.svg,user_supplied_inventory
+saginaw-valley,d2,Great Lakes Intercollegiate Athletic Conference (GLIAC),saginaw-valley.svg,user_supplied_inventory
+saint-vincent,d3,Presidents' Athletic Conference (PAC),saint-vincent.svg,user_supplied_inventory
+salisbury,d3,New Jersey Athletic Conference (NJAC),salisbury.svg,user_supplied_inventory
+salve-regina,d3,New England Women's and Men's Athletic Conference (NEWMAC),salve-regina.svg,user_supplied_inventory
+sam-houston,fbs,Conference USA,sam-houston.svg,user_supplied_inventory
+samford,fcs,Southern Conference (SoCon),samford.svg,user_supplied_inventory
+san-diego,fcs,Pioneer Football League,san-diego.svg,user_supplied_inventory
+san-diego-st,fbs,Mountain West,san-diego-st.svg,user_supplied_inventory
+san-jose-st,fbs,Mountain West,san-jose-st.svg,user_supplied_inventory
+savannah-st,d2,Southern Intercollegiate Athletic Conference (SIAC),savannah-st.svg,user_supplied_inventory
+sd-mines,d2,Rocky Mountain Athletic Conference (RMAC),sd-mines.svg,user_supplied_inventory
+seton-hill,d2,Pennsylvania State Athletic Conference (PSAC),seton-hill.svg,user_supplied_inventory
+sewanee,d3,Southern Athletic Association (SAA),sewanee.svg,user_supplied_inventory
+shaw,d2,Central Intercollegiate Athletic Association (CIAA),shaw.svg,user_supplied_inventory
+shenandoah,d3,Old Dominion Athletic Conference (ODAC),shenandoah.svg,user_supplied_inventory
+shepherd,d2,Pennsylvania State Athletic Conference (PSAC),shepherd.svg,user_supplied_inventory
+shippensburg,d2,Pennsylvania State Athletic Conference (PSAC),shippensburg.svg,user_supplied_inventory
+shorter,d2,Conference Carolinas,shorter.svg,user_supplied_inventory
+simpson,d3,American Rivers Conference (A-R-C),simpson.svg,user_supplied_inventory
+sioux-falls,d2,Northern Sun Intercollegiate Conference (NSIC),sioux-falls.svg,user_supplied_inventory
+slippery-rock,d2,Pennsylvania State Athletic Conference (PSAC),slippery-rock.svg,user_supplied_inventory
+smu,fbs,ACC,smu.svg,user_supplied_inventory
+south-ala,fbs,Sun Belt,south-ala.svg,user_supplied_inventory
+south-carolina,fbs,SEC,south-carolina.svg,user_supplied_inventory
+south-carolina-st,fcs,Mid-Eastern Athletic Conference (MEAC),south-carolina-st.svg,user_supplied_inventory
+south-dakota,fcs,Missouri Valley Football Conference (MVFC),south-dakota.svg,user_supplied_inventory
+south-dakota-st,fcs,Missouri Valley Football Conference (MVFC),south-dakota-st.svg,user_supplied_inventory
+south-fla,fbs,American Athletic Conference,south-fla.svg,user_supplied_inventory
+southeast-mo-st,fcs,Ohio Valley Conference (OVC),southeast-mo-st.svg,user_supplied_inventory
+southeastern-la,fcs,Southland Conference,southeastern-la.svg,user_supplied_inventory
+southeastern-okla,d2,Great American Conference (GAC),southeastern-okla.svg,user_supplied_inventory
+southern-ark,d2,Great American Conference (GAC),southern-ark.svg,user_supplied_inventory
+southern-california,fbs,Big Ten,southern-california.svg,user_supplied_inventory
+southern-conn-st,d2,Northeast-10 Conference (NE10),southern-conn-st.svg,user_supplied_inventory
+southern-ill,fcs,Missouri Valley Football Conference (MVFC),southern-ill.svg,user_supplied_inventory
+southern-miss,fbs,Sun Belt,southern-miss.svg,user_supplied_inventory
+southern-nazarene,d2,Great American Conference (GAC),southern-nazarene.svg,user_supplied_inventory
+southern-u,fcs,Southwestern Athletic Conference (SWAC),southern-u.svg,user_supplied_inventory
+southern-utah,fcs,Big Sky Conference,southern-utah.svg,user_supplied_inventory
+southern-va,d3,USA South Athletic Conference,southern-va.svg,user_supplied_inventory
+southwest-baptist,d2,Great Lakes Valley Conference (GLVC),southwest-baptist.svg,user_supplied_inventory
+southwest-minn-st,d2,Northern Sun Intercollegiate Conference (NSIC),southwest-minn-st.svg,user_supplied_inventory
+southwestern-okla,d2,Great American Conference (GAC),southwestern-okla.svg,user_supplied_inventory
+southwestern-tex,d3,Southern Athletic Association (SAA),southwestern-tex.svg,user_supplied_inventory
+springfield,d3,New England Women's and Men's Athletic Conference (NEWMAC),springfield.svg,user_supplied_inventory
+st-anselm,d2,Northeast-10 Conference (NE10),st-anselm.svg,user_supplied_inventory
+st-john-fisher,d3,Empire 8,st-john-fisher.svg,user_supplied_inventory
+st-johns-mn,d3,Minnesota Intercollegiate Athletic Conference (MIAC),st-johns-mn.svg,user_supplied_inventory
+st-lawrence,d3,Liberty League,st-lawrence.svg,user_supplied_inventory
+st-norbert,d3,Northern Athletics Collegiate Conference (NACC),st-norbert.svg,user_supplied_inventory
+st-olaf,d3,Minnesota Intercollegiate Athletic Conference (MIAC),st-olaf.svg,user_supplied_inventory
+st-scholastica,d3,Minnesota Intercollegiate Athletic Conference (MIAC),st-scholastica.svg,user_supplied_inventory
+st-thomas-mn,fcs,Pioneer Football League,st-thomas-mn.svg,user_supplied_inventory
+stanford,fbs,ACC,stanford.svg,user_supplied_inventory
+stephen-f-austin,fcs,Southland Conference,stephen-f-austin.svg,user_supplied_inventory
+stetson,fcs,Pioneer Football League,stetson.svg,user_supplied_inventory
+stevenson,d3,Middle Atlantic Conference (MAC),stevenson.svg,user_supplied_inventory
+stonehill,fcs,Northeast Conference (NEC),stonehill.svg,user_supplied_inventory
+stony-brook,fcs,Coastal Athletic Association (CAA),stony-brook.svg,user_supplied_inventory
+sul-ross-st,d2,Lone Star Conference (LSC),sul-ross-st.svg,user_supplied_inventory
+susquehanna,d3,Landmark Conference,susquehanna.svg,user_supplied_inventory
+syracuse,fbs,ACC,syracuse.svg,user_supplied_inventory
+tarleton-st,fcs,United Athletic Conference (UAC),tarleton-st.svg,user_supplied_inventory
+tcnj,d3,New Jersey Athletic Conference (NJAC),tcnj.svg,user_supplied_inventory
+tcu,fbs,Big 12,tcu.svg,user_supplied_inventory
+temple,fbs,American Athletic Conference,temple.svg,user_supplied_inventory
+tennessee,fbs,SEC,tennessee.svg,user_supplied_inventory
+tennessee-st,fcs,Ohio Valley Conference (OVC),tennessee-st.svg,user_supplied_inventory
+tennessee-tech,fcs,Southern Conference (SoCon),tennessee-tech.svg,user_supplied_inventory
+texas,fbs,SEC,texas.svg,user_supplied_inventory
+texas-am,fbs,SEC,texas-am.svg,user_supplied_inventory
+texas-am-kingsville,d2,Lone Star Conference (LSC),texas-am-kingsville.svg,user_supplied_inventory
+texas-lutheran,d3,Southern Collegiate Athletic Conference (SCAC),texas-lutheran.svg,user_supplied_inventory
+texas-southern,fcs,Southwestern Athletic Conference (SWAC),texas-southern.svg,user_supplied_inventory
+texas-st,fbs,Sun Belt,texas-st.svg,user_supplied_inventory
+texas-tech,fbs,Big 12,texas-tech.svg,user_supplied_inventory
+thiel,d3,Presidents' Athletic Conference (PAC),thiel.svg,user_supplied_inventory
+thomas-more,d2,Great Midwest Athletic Conference (G-MAC),thomas-more.svg,user_supplied_inventory
+tiffin,d2,Great Midwest Athletic Conference (G-MAC),tiffin.svg,user_supplied_inventory
+toledo,fbs,MAC,toledo.svg,user_supplied_inventory
+towson,fcs,Coastal Athletic Association (CAA),towson.svg,user_supplied_inventory
+trine,d3,Michigan Intercollegiate Athletic Association (MIAA),trine.svg,user_supplied_inventory
+trinity-ct,d3,New England Small College Athletic Conference (NESCAC),trinity-ct.svg,user_supplied_inventory
+trinity-tx,d3,Southern Athletic Association (SAA),trinity-tx.svg,user_supplied_inventory
+troy,fbs,Sun Belt,troy.svg,user_supplied_inventory
+truman,d2,Great Lakes Valley Conference (GLVC),truman.svg,user_supplied_inventory
+tufts,d3,New England Small College Athletic Conference (NESCAC),tufts.svg,user_supplied_inventory
+tulane,fbs,American Athletic Conference,tulane.svg,user_supplied_inventory
+tulsa,fbs,American Athletic Conference,tulsa.svg,user_supplied_inventory
+tusculum,d2,South Atlantic Conference (SAC),tusculum.svg,user_supplied_inventory
+tuskegee,d2,Southern Intercollegiate Athletic Conference (SIAC),tuskegee.svg,user_supplied_inventory
+uab,fbs,American Athletic Conference,uab.svg,user_supplied_inventory
+uc-davis,fcs,Big Sky Conference,uc-davis.svg,user_supplied_inventory
+ucf,fbs,Big 12,ucf.svg,user_supplied_inventory
+ucla,fbs,Big Ten,ucla.svg,user_supplied_inventory
+uconn,fbs,FBS Independents,uconn.svg,user_supplied_inventory
+unc-pembroke,d2,Conference Carolinas,unc-pembroke.svg,user_confirmed
+uni,fcs,Missouri Valley Football Conference (MVFC),uni.svg,user_supplied_inventory
+union-ny,d3,Liberty League,union-ny.svg,user_supplied_inventory
+unlv,fbs,Mountain West,unlv.svg,user_supplied_inventory
+upper-iowa,d2,Great Lakes Valley Conference (GLVC),upper-iowa.svg,user_supplied_inventory
+ursinus,d3,Centennial Conference,ursinus.svg,user_supplied_inventory
+ut-dallas,d2,DII Independents / Reclassifying,ut-dallas.svg,user_supplied_inventory
+ut-martin,fcs,Ohio Valley Conference (OVC),ut-martin.svg,user_supplied_inventory
+ut-permian-basin,d2,Lone Star Conference (LSC),ut-permian-basin.svg,user_supplied_inventory
+ut-rio-grande-valley,fcs,Southland Conference,ut-rio-grande-valley.svg,user_supplied_inventory
+utah,fbs,Big 12,utah.svg,user_supplied_inventory
+utah-st,fbs,Mountain West,utah-st.svg,user_supplied_inventory
+utah-tech,fcs,Big Sky Conference,utah-tech.svg,user_supplied_inventory
+utep,fbs,Conference USA,utep.svg,user_supplied_inventory
+utica,d3,Empire 8,utica.svg,user_supplied_inventory
+utsa,fbs,American Athletic Conference,utsa.svg,user_supplied_inventory
+uva-wise,d2,South Atlantic Conference (SAC),uva-wise.svg,user_supplied_inventory
+valdosta-st,d2,Gulf South Conference (GSC),valdosta-st.svg,user_supplied_inventory
+valparaiso,fcs,Pioneer Football League,valparaiso.svg,user_supplied_inventory
+vanderbilt,fbs,SEC,vanderbilt.svg,user_supplied_inventory
+villanova,fcs,Patriot League,villanova.svg,user_supplied_inventory
+virginia,fbs,ACC,virginia.svg,user_supplied_inventory
+virginia-st,d2,Central Intercollegiate Athletic Association (CIAA),virginia-st.svg,user_supplied_inventory
+virginia-tech,fbs,ACC,virginia-tech.svg,user_supplied_inventory
+virginia-union,d2,Central Intercollegiate Athletic Association (CIAA),virginia-union.svg,user_supplied_inventory
+vmi,fcs,Southern Conference (SoCon),vmi.svg,user_supplied_inventory
+wabash,d3,North Coast Athletic Conference (NCAC),wabash.svg,user_supplied_inventory
+wagner,fcs,Northeast Conference (NEC),wagner.svg,user_supplied_inventory
+wake-forest,fbs,ACC,wake-forest.svg,user_supplied_inventory
+walsh,d2,Great Midwest Athletic Conference (G-MAC),walsh.svg,user_supplied_inventory
+wartburg,d3,American Rivers Conference (A-R-C),wartburg.svg,user_supplied_inventory
+wash-jeff,d3,Presidents' Athletic Conference (PAC),wash-jeff.svg,user_supplied_inventory
+wash-lee,d3,Old Dominion Athletic Conference (ODAC),wash-lee.svg,user_supplied_inventory
+washburn,d2,Mid-America Intercollegiate Athletics Association (MIAA),washburn.svg,user_supplied_inventory
+washington,fbs,Big Ten,washington.svg,user_supplied_inventory
+washington-st,fbs,Pac-12,washington-st.svg,user_supplied_inventory
+washu,d3,College Conference of Illinois & Wisconsin (CCIW),washu.svg,user_supplied_inventory
+wayne-st-mi,d2,Great Lakes Intercollegiate Athletic Conference (GLIAC),wayne-st-mi.svg,user_supplied_inventory
+wayne-st-ne,d2,Northern Sun Intercollegiate Conference (NSIC),wayne-st-ne.svg,user_supplied_inventory
+waynesburg,d3,Presidents' Athletic Conference (PAC),waynesburg.svg,user_supplied_inventory
+weber-st,fcs,Big Sky Conference,weber-st.svg,user_supplied_inventory
+wesleyan-ct,d3,New England Small College Athletic Conference (NESCAC),wesleyan-ct.svg,user_supplied_inventory
+west-ala,d2,Gulf South Conference (GSC),west-ala.svg,user_supplied_inventory
+west-chester,d2,Pennsylvania State Athletic Conference (PSAC),west-chester.svg,user_supplied_inventory
+west-fla,fcs,United Athletic Conference (UAC),west-fla.svg,user_supplied_inventory
+west-ga,fcs,United Athletic Conference (UAC),west-ga.svg,user_supplied_inventory
+west-liberty,d2,Mountain East Conference (MEC),west-liberty.svg,user_supplied_inventory
+west-tex-am,d2,Lone Star Conference (LSC),west-tex-am.svg,user_supplied_inventory
+west-va-st,d2,Mountain East Conference (MEC),west-va-st.svg,user_supplied_inventory
+west-va-wesleyan,d2,Mountain East Conference (MEC),west-va-wesleyan.svg,user_supplied_inventory
+west-virginia,fbs,Big 12,west-virginia.svg,user_supplied_inventory
+western-caro,fcs,Southern Conference (SoCon),western-caro.svg,user_supplied_inventory
+western-colo,d2,Rocky Mountain Athletic Conference (RMAC),western-colo.svg,user_supplied_inventory
+western-ill,fcs,Ohio Valley Conference (OVC),western-ill.svg,user_supplied_inventory
+western-ky,fbs,Conference USA,western-ky.svg,user_supplied_inventory
+western-mich,fbs,MAC,western-mich.svg,user_supplied_inventory
+western-new-eng,d3,Conference of New England (CNE),western-new-eng.svg,user_supplied_inventory
+western-nm,d2,Lone Star Conference (LSC),western-nm.svg,user_supplied_inventory
+western-ore,d2,Lone Star Conference (LSC),western-ore.svg,user_supplied_inventory
+westfield-st,d3,Massachusetts State Collegiate Athletic Conference (MASCAC),westfield-st.svg,user_supplied_inventory
+westminster-mo,d3,Upper Midwest Athletic Conference (UMAC),westminster-mo.svg,user_supplied_inventory
+westminster-pa,d3,Presidents' Athletic Conference (PAC),westminster-pa.svg,user_supplied_inventory
+wheaton-il,d3,College Conference of Illinois & Wisconsin (CCIW),wheaton-il.svg,user_supplied_inventory
+wheeling,d2,Mountain East Conference (MEC),wheeling.svg,user_supplied_inventory
+whitworth,d3,Northwest Conference (NWC),whitworth.svg,user_supplied_inventory
+widener,d3,Middle Atlantic Conference (MAC),widener.svg,user_supplied_inventory
+wilkes,d3,Landmark Conference,wilkes.svg,user_supplied_inventory
+willamette,d3,Northwest Conference (NWC),willamette.svg,user_supplied_inventory
+william-jewell,d2,Great Lakes Valley Conference (GLVC),william-jewell.svg,user_supplied_inventory
+william-mary,fcs,Patriot League,william-mary.svg,user_supplied_inventory
+williams,d3,New England Small College Athletic Conference (NESCAC),williams.svg,user_supplied_inventory
+wilmington-oh,d3,Ohio Athletic Conference (OAC),wilmington-oh.svg,user_supplied_inventory
+wingate,d2,South Atlantic Conference (SAC),wingate.svg,user_supplied_inventory
+winona-st,d2,Northern Sun Intercollegiate Conference (NSIC),winona-st.svg,user_supplied_inventory
+winston-salem,d2,Central Intercollegiate Athletic Association (CIAA),winston-salem.svg,user_confirmed
+wis-eau-claire,d3,Wisconsin Intercollegiate Athletic Conference (WIAC),wis-eau-claire.svg,user_supplied_inventory
+wis-la-crosse,d3,Wisconsin Intercollegiate Athletic Conference (WIAC),wis-la-crosse.svg,user_supplied_inventory
+wis-lutheran,d3,Northern Athletics Collegiate Conference (NACC),wis-lutheran.svg,user_supplied_inventory
+wis-oshkosh,d3,Wisconsin Intercollegiate Athletic Conference (WIAC),wis-oshkosh.svg,user_supplied_inventory
+wis-platteville,d3,Wisconsin Intercollegiate Athletic Conference (WIAC),wis-platteville.svg,user_supplied_inventory
+wis-river-falls,d3,Wisconsin Intercollegiate Athletic Conference (WIAC),wis-river-falls.svg,user_supplied_inventory
+wis-stevens-point,d3,Wisconsin Intercollegiate Athletic Conference (WIAC),wis-stevens-point.svg,user_supplied_inventory
+wis-stout,d3,Wisconsin Intercollegiate Athletic Conference (WIAC),wis-stout.svg,user_supplied_inventory
+wis-whitewater,d3,Wisconsin Intercollegiate Athletic Conference (WIAC),wis-whitewater.svg,user_supplied_inventory
+wisconsin,fbs,Big Ten,wisconsin.svg,user_supplied_inventory
+wittenberg,d3,North Coast Athletic Conference (NCAC),wittenberg.svg,user_supplied_inventory
+wm-paterson,d3,New Jersey Athletic Conference (NJAC),wm-paterson.svg,user_supplied_inventory
+wofford,fcs,Southern Conference (SoCon),wofford.svg,user_supplied_inventory
+wooster,d3,North Coast Athletic Conference (NCAC),wooster.svg,user_supplied_inventory
+worcester-st,d3,Massachusetts State Collegiate Athletic Conference (MASCAC),worcester-st.svg,user_supplied_inventory
+wpi,d3,New England Women's and Men's Athletic Conference (NEWMAC),wpi.svg,user_supplied_inventory
+wyoming,fbs,Mountain West,wyoming.svg,user_supplied_inventory
+yale,fcs,Ivy League,yale.svg,user_supplied_inventory
+youngstown-st,fcs,Missouri Valley Football Conference (MVFC),youngstown-st.svg,user_supplied_inventory
