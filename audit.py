@@ -68,9 +68,9 @@ def fetch_season(config, season, last_week, fetch=get_json, pause=0.4):
     games={}; failures=[]; endpoints=[]; warnings=[]; endpoint_coverage=[]
     for division in DIVISIONS:
         for week in range(0,last_week+1):
-            endpoint=f'{division}/{week}'
+            endpoint=f'{division}/{week:02d}'
             try:
-                payload=fetch(f'{BASE}/scoreboard/football/{division}/{season}/{week}')
+                payload=fetch(f'{BASE}/scoreboard/football/{division}/{season}/{week:02d}')
                 if not isinstance(payload,dict) or not isinstance(payload.get('games'),list):
                     raise ValueError('Missing games array')
                 endpoints.append(endpoint)
