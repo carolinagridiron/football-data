@@ -12,48 +12,13 @@ from pathlib import Path
 from collector import BASE, DIVISIONS, get_json, normalize, load_config
 
 ROOT = Path(__file__).resolve().parent
-ALIASES = {
-    'app state':'appalachian-st','appalachian state':'appalachian-st',
-    'unc':'north-carolina','north carolina':'north-carolina',
-    'nc state':'north-carolina-st','north carolina state':'north-carolina-st',
-    'ecu':'east-carolina','east carolina':'east-carolina',
-    'nc at':'nc-at','north carolina at':'nc-at',
-    'nc central':'nc-central','north carolina central':'nc-central',
-    'western carolina':'western-caro','western caro':'western-caro',
-    'unc pembroke':'unc-pembroke','pembroke':'unc-pembroke',
-    'nc wesleyan':'nc-wesleyan','north carolina wesleyan':'nc-wesleyan',
-    'winston salem state':'winston-salem-st','winston salem st':'winston-salem-st',
-    'elizabeth city state':'elizabeth-city-st','elizabeth city st':'elizabeth-city-st',
-    'fayetteville state':'fayetteville-st','fayetteville st':'fayetteville-st',
-    'johnson c smith':'johnson-c-smith','lenoir rhyne':'lenoir-rhyne',
-    'livingstone':'livingstone','shaw':'shaw','mars hill':'mars-hill',
-    'florida state':'florida-st','florida st':'florida-st',
-    'central state':'central-st-oh','central st':'central-st-oh',
-    'south carolina state':'south-carolina-st','south carolina st':'south-carolina-st',
-    'georgia tech':'georgia-tech','army':'army','army west point':'army',
-    'louisburg':'louisburg','louisburg college':'louisburg',
-    'ualbany':'albany-ny','albany ny':'albany-ny',
-    'miami fl':'miami-fl',
-    'emory and henry':'emory-henry','emory henry':'emory-henry',
-    'fau':'fla-atlantic','florida atlantic':'fla-atlantic',
-    'south alabama':'south-ala',
-    'virginia state':'virginia-st','virginia st':'virginia-st',
-    'louisville':'louisville','albany':'albany-ny',
-    'north carolina a and t':'nc-at','n c a and t':'nc-at',
-    'n c central':'nc-central','winston salem st':'winston-salem-st',
-    'georgia southern':'ga-southern','georgia state':'georgia-st',
-    'appalachian st':'appalachian-st','e tennessee st':'east-tennessee-st',
-    'east tennessee state':'east-tennessee-st','east tennessee st':'east-tennessee-st',
-    'unc charlotte':'charlotte','florida atlantic':'fla-atlantic',
-    'em and henry':'emory-henry','emory and henry':'emory-henry',
-}
+from team_directory.lookup import load_lookup, resolve_name
 
-def key(value):
-    return re.sub(r'[^a-z0-9]+',' ',str(value or '').lower().replace('&',' and ')).strip()
+DIRECTORY = load_lookup(ROOT / 'team_directory' / 'ncaa_teams.csv', ROOT / 'team_directory' / 'editorial_names.csv')
 
 def slug(value):
-    k=key(value)
-    return ALIASES.get(k, k.replace(' ','-'))
+    return resolve_name(value, DIRECTORY)
+
 
 def read_reference(path):
     with open(path, newline='', encoding='utf-8-sig') as f:
