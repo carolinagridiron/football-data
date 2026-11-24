@@ -7,6 +7,7 @@ import json
 import re
 import time
 from collections import defaultdict
+import collections
 from pathlib import Path
 from collector import BASE, DIVISIONS, get_json, normalize, load_config
 
@@ -32,7 +33,7 @@ ALIASES = {
     'georgia tech':'georgia-tech','army':'army','army west point':'army',
     'louisburg':'louisburg','louisburg college':'louisburg',
     'ualbany':'albany-ny','albany ny':'albany-ny',
-    'miami':'miami-fl','miami fl':'miami-fl',
+    'miami fl':'miami-fl',
     'emory and henry':'emory-henry','emory henry':'emory-henry',
     'fau':'fla-atlantic','florida atlantic':'fla-atlantic',
     'south alabama':'south-ala',
@@ -64,7 +65,7 @@ def read_reference(path):
 
 def fetch_season(config, season, last_week, fetch=get_json, pause=0.4):
     # Include week 0: early-season football can begin before the week 1 anchor.
-    games={}; failures=[]; endpoints=[]; warnings=[]
+    games={}; failures=[]; endpoints=[]; warnings=[]; endpoint_coverage=[]
     for division in DIVISIONS:
         for week in range(0,last_week+1):
             endpoint=f'{division}/{week}'
@@ -73,6 +74,8 @@ def fetch_season(config, season, last_week, fetch=get_json, pause=0.4):
                 if not isinstance(payload,dict) or not isinstance(payload.get('games'),list):
                     raise ValueError('Missing games array')
                 endpoints.append(endpoint)
+                dates=sorted({str(x.get('game',{}).get('startDate','')) for x in payload['games'] if isinstance(x,dict) and isinstance(x.get('game'),dict) and x['game'].get('startDate')})
+                endpoint_coverage.append({'endpoint':endpoint,'games_returned':len(payload['games']),'first_game_date':dates[0] if dates else '', 'last_game_date':dates[-1] if dates else ''})
                 for item in payload['games']:
                     g=normalize(item,division)
                     if g['id']:
@@ -84,7 +87,7 @@ def fetch_season(config, season, last_week, fetch=get_json, pause=0.4):
             if pause: time.sleep(pause)
     if failures:
         raise RuntimeError('Full-season audit incomplete; no audit files published: '+json.dumps(failures))
-    return list(games.values()),endpoints,warnings
+    return list(games.values()),endpoints,warnings,endpoint_coverage
 
 def score(value):
     try: return int(float(value)) if str(value).strip() else None
@@ -195,15 +198,42 @@ def main():
     if args.season!=2026:raise SystemExit('This audited reference is for 2026 only')
     if not 0<=args.through_week<=config['max_week']:raise SystemExit('Invalid through-week')
     reference=read_reference(args.reference)
-    games,endpoints,warnings=fetch_season(config,args.season,args.through_week)
+    games,endpoints,warnings,endpoint_coverage=fetch_season(config,args.season,args.through_week)
     report,extra=compare(reference,games,set(config['nc_school_slugs']))
+    # Diagnostics: never interpret a missing match as an incorrect score.
+    all_games, conflicts = collapse_duplicates(games)
+    by_team=defaultdict(list)
+    for g in all_games:
+        for side in ('away','home'):
+            by_team[slug(g[side]['ncaa_slug'])].append(g)
+    diagnostic=[]
+    for r, finding in zip(reference, report):
+        if finding['finding'] not in ('UNMATCHED','SCHEDULED_NOT_IN_NCAA','AMBIGUOUS'):
+            continue
+        team_a,team_b=slug(r['visitor']),slug(r['home'])
+        date=parse_day(r['date'])
+        candidates_a=by_team.get(team_a,[]);candidates_b=by_team.get(team_b,[])
+        both=[g for g in candidates_a if g in candidates_b]
+        nearby_a=[g for g in candidates_a if date and parse_day(g['date']) and abs((parse_day(g['date'])-date).days)<=2]
+        nearby_b=[g for g in candidates_b if date and parse_day(g['date']) and abs((parse_day(g['date'])-date).days)<=2]
+        if both:reason='SAME_TEAMS_OTHER_DATE_OR_DUPLICATE'
+        elif nearby_a or nearby_b:reason='ONE_TEAM_PRESENT_NEAR_DATE_CHECK_OPPONENT_ALIAS'
+        elif candidates_a or candidates_b:reason='TEAM_PRESENT_ELSEWHERE_CHECK_DATE_OR_COVERAGE'
+        else:reason='NEITHER_TEAM_IN_FETCHED_NCAA_DATA'
+        diagnostic.append({'date':r['date'],'visitor':r['visitor'],'home':r['home'],
+          'visitor_slug':team_a,'home_slug':team_b,'finding':finding['finding'],
+          'diagnostic_reason':reason,'visitor_games_in_api':len(candidates_a),
+          'home_games_in_api':len(candidates_b),'same_pair_any_date':len(both),
+          'visitor_games_near_date':len(nearby_a),'home_games_near_date':len(nearby_b)})
     out=Path(args.outdir)
     write_csv(out/'game_comparison.csv',report,list(report[0]))
+    write_csv(out/'unmatched_diagnostics.csv',diagnostic,list(diagnostic[0]) if diagnostic else ['date','visitor','home','diagnostic_reason'])
+    write_csv(out/'endpoint_coverage.csv',endpoint_coverage,['endpoint','games_returned','first_game_date','last_game_date'])
     write_csv(out/'ncaa_only_games.csv',extra,['date','division','ncaa_id','away','home','away_score','home_score','status'])
     counts={k:sum(r['finding']==k for r in report) for k in sorted(set(r['finding'] for r in report))}
     summary={'season':args.season,'weeks_checked':list(range(args.through_week+1)),
              'endpoints_successful':len(endpoints),'optional_week_zero_warnings':warnings,'ncaa_games_retrieved':len(games),
-             'editorial_records':len(reference),'findings':counts,'ncaa_only_games':len(extra),
+             'editorial_records':len(reference),'diagnostic_reason_counts':dict(collections.Counter(d['diagnostic_reason'] for d in diagnostic)),'findings':counts,'ncaa_only_games':len(extra),
              'editorial_precedence':'Google Sheets; report is read-only',
              'limitations':['Two-team matching with at most 2-day date tolerance; ambiguous cases never auto-resolved','Aliases are explicit; unmatched records require review',
                             'NCAA may not cover non-NCAA opponents','2026 reference is a frozen snapshot, not live Google Sheets'],
