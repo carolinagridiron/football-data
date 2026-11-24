@@ -54,7 +54,7 @@ def collect(config, today, fetch=get_json):
     weeks = weeks_for_day(today, config)
     for division in DIVISIONS:
         for week in weeks:
-            url = f'{BASE}/scoreboard/football/{division}/{today.year}/{week}'
+            url = f'{BASE}/scoreboard/football/{division}/{today.year}/{week:02d}'
             try:
                 response = fetch(url)
                 if not isinstance(response.get('games'), list):
