@@ -33,6 +33,21 @@ def load_lookup(directory, names, external=None):
                 if k in mapping and mapping[k] != identity:
                     raise ValueError("External name conflicts with NCAA name: " + k)
                 mapping[k] = identity
+    # Exact NCAA-side spellings for external opponents; these are identities,
+    # not NCAA membership slugs. Keep this map explicit and conflict-checked.
+    if external is not None:
+        for alias, identity in {
+            'Bluefield Univ.': 'external:bluefield-university',
+            'Bluefield University': 'external:bluefield-university',
+            'Monroe': 'external:monroe-university',
+            'Monroe University': 'external:monroe-university',
+            'VU-Lynchburg': 'external:virginia-lynchburg',
+            'Virginia-Lynchburg': 'external:virginia-lynchburg',
+        }.items():
+            k=key(alias)
+            if k in mapping and mapping[k] != identity:
+                raise ValueError('External alias conflicts with existing mapping: ' + alias)
+            mapping[k]=identity
     return mapping
 
 def resolve_name(value, mapping):
