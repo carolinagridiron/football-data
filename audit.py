@@ -14,7 +14,7 @@ from collector import BASE, DIVISIONS, get_json, normalize, load_config
 ROOT = Path(__file__).resolve().parent
 from team_directory.lookup import load_lookup, resolve_name
 
-DIRECTORY = load_lookup(ROOT / 'team_directory' / 'ncaa_teams.csv', ROOT / 'team_directory' / 'editorial_names.csv')
+DIRECTORY = load_lookup(ROOT / 'team_directory' / 'ncaa_teams.csv', ROOT / 'team_directory' / 'editorial_names.csv', ROOT / 'team_directory' / 'external_opponents.csv')
 
 def slug(value):
     return resolve_name(value, DIRECTORY)
