@@ -1,0 +1,22 @@
+name: Test NCAA audit
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'audit.py'
+      - 'team_directory/**'
+      - 'audit/editorial_exceptions.csv'
+      - 'tests/**'
+      - '.github/workflows/test-audit.yml'
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Run audit regression tests
+        run: python -m unittest discover -s tests -p 'test_stabilization.py' -v
