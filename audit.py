@@ -84,11 +84,43 @@ def collapse_duplicates(games):
             collapsed.extend(records)
     return collapsed,conflicts
 
-def compare(reference,games,active):
+def read_exceptions(path):
+    if not path.exists():
+        raise FileNotFoundError('Missing required editorial exception register: ' + str(path))
+    with path.open(newline='', encoding='utf-8-sig') as f:
+        rows=list(csv.DictReader(f))
+    required={'date','ncaa_game_id','visitor','home','editorial_visitor_score',
+              'editorial_home_score','ncaa_visitor_score','ncaa_home_score','review_status'}
+    if not rows or not required.issubset(rows[0]):
+        raise ValueError('Editorial exceptions register missing required fields')
+    by_id={}
+    for row in rows:
+        gid=row['ncaa_game_id'].strip()
+        if not gid or gid in by_id: raise ValueError('Blank or duplicate exception game ID')
+        if row['review_status'] != 'approved_editorial_exception':
+            raise ValueError('Unapproved exception cannot suppress discrepancy: '+gid)
+        by_id[gid]=row
+    return by_id
+
+
+def approved_exception(row, game, editorial, ncaa, exceptions):
+    entry=exceptions.get(str(game['id']))
+    if not entry: return False
+    return (entry['date']==row['date'] and
+            slug(entry['visitor'])==slug(row['visitor']) and
+            slug(entry['home'])==slug(row['home']) and
+            score(entry['editorial_visitor_score'])==score(row['visitor_score']) and
+            score(entry['editorial_home_score'])==score(row['home_score']) and
+            score(entry['ncaa_visitor_score'])==ncaa[0] and
+            score(entry['ncaa_home_score'])==ncaa[1])
+
+
+def compare(reference,games,active,exceptions=None):
     """Conservative matching: both teams + date (within two days only if unique).
 
     Never match solely on score, school, or a fuzzy name. Preserve ambiguous cases.
     """
+    exceptions = exceptions or {}
     games,duplicate_conflicts=collapse_duplicates(games)
     by_pair=defaultdict(list)
     for g in games:
@@ -99,9 +131,10 @@ def compare(reference,games,active):
         base={'date':r['date'],'division':r['division'],'visitor':r['visitor'],'home':r['home'],
               'sheet_visitor_score':r['visitor_score'],'sheet_home_score':r['home_score'],
               'sheet_status':r['status'],'ncaa_id':'','ncaa_visitor_score':'','ncaa_home_score':'',
-              'ncaa_status':'','finding':'','notes':'','date_offset_days':'','match_method':''}
+              'ncaa_status':'','finding':'','notes':'','date_offset_days':'','match_method':'','external_opponent':'','editorial_exception':''}
         if 'louisburg' in pair or str(r['division']).lower()=='juco':
             base['finding']='MANUAL_ONLY';reports.append(base);continue
+        base['external_opponent']='yes' if any(v.startswith('external:') for v in pair) else 'no'
         day=parse_day(r['date'])
         options=[g for g in by_pair.get(pair,[]) if day and parse_day(g['date'])]
         exact=[g for g in options if parse_day(g['date'])==day]
@@ -132,7 +165,14 @@ def compare(reference,games,active):
         base['ncaa_home_score']=hs if hs is not None else ''
         sheet_final=str(r['status']).lower().strip()=='final';ncaa_final=g['status'].lower()=='final'
         if sheet_final and ncaa_final:
-            base['finding']='MATCH' if score(r['visitor_score'])==vs and score(r['home_score'])==hs else 'SCORE_DISCREPANCY'
+            if score(r['visitor_score'])==vs and score(r['home_score'])==hs:
+                base['finding']='MATCH'
+            elif approved_exception(r,g,(score(r['visitor_score']),score(r['home_score'])),(vs,hs),exceptions):
+                base['finding']='ACCEPTED_EXCEPTION'
+                base['editorial_exception']='yes'
+                base['notes']='Approved editorial result differs from NCAA; editorial score retained'
+            else:
+                base['finding']='SCORE_DISCREPANCY'
         elif sheet_final!=ncaa_final:
             base['finding']='STATUS_DISCREPANCY'
         else:
@@ -158,13 +198,15 @@ def main():
     p.add_argument('--through-week',type=int,default=13)
     p.add_argument('--reference',default=str(ROOT/'audit/reference_2026.csv'))
     p.add_argument('--outdir',default=str(ROOT/'audit-results'))
+    p.add_argument('--exceptions',default=str(ROOT/'audit/editorial_exceptions.csv'))
     args=p.parse_args()
     config=load_config(ROOT/'config.json')
     if args.season!=2026:raise SystemExit('This audited reference is for 2026 only')
     if not 0<=args.through_week<=config['max_week']:raise SystemExit('Invalid through-week')
     reference=read_reference(args.reference)
     games,endpoints,warnings,endpoint_coverage=fetch_season(config,args.season,args.through_week)
-    report,extra=compare(reference,games,set(config['nc_school_slugs']))
+    exceptions=read_exceptions(Path(args.exceptions))
+    report,extra=compare(reference,games,set(config['nc_school_slugs']),exceptions)
     # Diagnostics: never interpret a missing match as an incorrect score.
     all_games, conflicts = collapse_duplicates(games)
     by_team=defaultdict(list)
@@ -196,10 +238,14 @@ def main():
     write_csv(out/'endpoint_coverage.csv',endpoint_coverage,['endpoint','games_returned','first_game_date','last_game_date'])
     write_csv(out/'ncaa_only_games.csv',extra,['date','division','ncaa_id','away','home','away_score','home_score','status'])
     counts={k:sum(r['finding']==k for r in report) for k in sorted(set(r['finding'] for r in report))}
-    summary={'season':args.season,'weeks_checked':list(range(args.through_week+1)),
+    summary={'audit_version':'1.5.3','season':args.season,'weeks_checked':list(range(args.through_week+1)),
              'endpoints_successful':len(endpoints),'optional_week_zero_warnings':warnings,'ncaa_games_retrieved':len(games),
              'editorial_records':len(reference),'diagnostic_reason_counts':dict(collections.Counter(d['diagnostic_reason'] for d in diagnostic)),'findings':counts,'ncaa_only_games':len(extra),
              'editorial_precedence':'Google Sheets; report is read-only',
+             'approved_exception_count':counts.get('ACCEPTED_EXCEPTION',0),
+             'external_opponent_matched_count':sum(r['external_opponent']=='yes' and r['finding'] in ('MATCH','MATCH_NONFINAL','ACCEPTED_EXCEPTION') for r in report),
+             'pending_scheduled_count':counts.get('SCHEDULED_NOT_IN_NCAA',0),
+             'duplicate_conflicting_game_ids':conflicts,
              'limitations':['Two-team matching with at most 2-day date tolerance; ambiguous cases never auto-resolved','Aliases are explicit; unmatched records require review',
                             'NCAA may not cover non-NCAA opponents','2026 reference is a frozen snapshot, not live Google Sheets'],
              'date_tolerance_matches':sum(r['match_method']=='DATE_TOLERANCE' for r in report),
