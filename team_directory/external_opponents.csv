@@ -1,5 +1,6 @@
-
-editorial_name,official_name
-Bluefield,Bluefield University (VA)
-Monroe,Monroe University-New Rochelle (NY)
-VU-Lynchburg,Virginia University of Lynchburg
+editorial_name,official_name,affiliation_2026,identity
+Bluefield,Bluefield University (VA),NAIA,external:bluefield-university
+Bluefield Univ.,Bluefield University (VA),NAIA,external:bluefield-university
+Monroe,Monroe University-New Rochelle (NY),Non-NCAA; NCAA DII applicant,external:monroe-university
+VU-Lynchburg,Virginia University of Lynchburg,NCCAA,external:virginia-lynchburg
+Virginia-Lynchburg,Virginia University of Lynchburg,NCCAA,external:virginia-lynchburg
