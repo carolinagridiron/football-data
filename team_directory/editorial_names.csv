@@ -38,7 +38,6 @@ louisiana,la-lafayette
 louisiana lafayette,la-lafayette
 merrimack,merrimack
 miami fl,miami-fl
-Miami,miami-fl
 miami ohio,miami-oh
 middle tennessee,middle-tenn
 missouri state,missouri-st
@@ -82,7 +81,7 @@ wake forest,wake-forest
 Washington and Lee,wash-lee
 west ala,west-ala
 west alabama,west-ala
-West Virginia State,west-va-st
+West Virginia State,west-virginia-st
 western carolina,western-caro
 Western Illinois,western-ill
 western kentucky,western-ky
@@ -90,3 +89,6 @@ William and Mary,william-mary
 winston salem,winston-salem
 winston salem st,winston-salem
 winston salem state,winston-salem
+Miami,miami-fl
+West Virginia St.,west-virginia-st
+Lindenwood,lindenwood-mo
