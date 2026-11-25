@@ -5,7 +5,7 @@ import re
 def key(value):
     return re.sub(r"[^a-z0-9]+", " ", str(value or "").lower().replace("&", " and ")).strip()
 
-def load_lookup(directory, names):
+def load_lookup(directory, names, external=None):
     with open(directory, encoding="utf-8-sig", newline="") as f:
         slugs={r["ncaa_slug"] for r in csv.DictReader(f)}
     mapping={}
@@ -19,6 +19,20 @@ def load_lookup(directory, names):
             if k in mapping and mapping[k]!=row["ncaa_slug"]:
                 raise ValueError("Conflicting mapping: " + k)
             mapping[k]=row["ncaa_slug"]
+    # NCAA scoreboard responses can retain older abbreviations. Normalize both
+    # the old and current identifiers to the user-confirmed canonical slug.
+    for old, current in {"west-va-st": "west-virginia-st", "lindenwood": "lindenwood-mo"}.items():
+        mapping[key(old)] = current
+    if external is not None:
+        with open(external, encoding="utf-8-sig", newline="") as f:
+            for row in csv.DictReader(f):
+                k = key(row["editorial_name"])
+                identity = row["identity"]
+                if not identity.startswith("external:"):
+                    raise ValueError("External identity must be namespaced: " + identity)
+                if k in mapping and mapping[k] != identity:
+                    raise ValueError("External name conflicts with NCAA name: " + k)
+                mapping[k] = identity
     return mapping
 
 def resolve_name(value, mapping):
