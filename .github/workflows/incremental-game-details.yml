@@ -1,0 +1,50 @@
+name: Incremental NCAA game details
+on:
+  workflow_dispatch:
+    inputs:
+      season:
+        description: Season year
+        required: true
+        default: '2026'
+      write_files:
+        description: Write archive and detail files (true after dry run)
+        required: true
+        default: 'false'
+permissions:
+  contents: write
+concurrency:
+  group: ncaa-score-update
+  cancel-in-progress: false
+jobs:
+  incremental:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run incremental tests
+        run: python -m unittest discover -s tests -p 'test_incremental_details.py'
+      - name: Update recent game details
+        env:
+          SEASON: ${{ inputs.season }}
+          WRITE_FILES: ${{ inputs.write_files }}
+        run: |
+          if [ "$WRITE_FILES" = "true" ]; then
+            python incremental_details.py --season "$SEASON" --write
+          else
+            python incremental_details.py --season "$SEASON"
+          fi
+      - name: Commit archive and detail files
+        if: ${{ inputs.write_files == 'true' }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public/archive/ public/game-details/
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update recent NCAA game details'
+            git push
+          fi
