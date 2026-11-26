@@ -38,6 +38,7 @@ def load_lookup(directory, names, external=None):
     if external is not None:
         for alias, identity in {
             'Bluefield Univ.': 'external:bluefield-university',
+            'bluefield-col': 'external:bluefield-university',
             'Bluefield University': 'external:bluefield-university',
             'Monroe': 'external:monroe-university',
             'Monroe University': 'external:monroe-university',
