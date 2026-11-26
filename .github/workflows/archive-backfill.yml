@@ -1,0 +1,48 @@
+name: NCAA Archive Backfill (review first)
+on:
+  workflow_dispatch:
+    inputs:
+      season:
+        description: Season to archive
+        required: true
+        default: '2026'
+      max_week:
+        description: Last NCAA week to scan
+        required: true
+        default: '22'
+      detail_limit:
+        description: Maximum individual game detail requests per run
+        required: true
+        default: '15'
+      write_archive:
+        description: Set true ONLY after reviewing a successful dry run
+        required: true
+        default: 'false'
+permissions:
+  contents: write
+concurrency:
+  group: ncaa-score-update
+  cancel-in-progress: false
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s tests -p 'test_archive_collector.py'
+      - name: Run backfill
+        run: |
+          python archive_collector.py --season '${{ inputs.season }}' --max-week '${{ inputs.max_week }}' --detail-limit '${{ inputs.detail_limit }}' ${{ inputs.write_archive == 'true' && '--write' || '' }}
+      - name: Commit archive (explicit opt-in only)
+        if: ${{ inputs.write_archive == 'true' }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public/archive/
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update NCAA historical archive'
+            git push
+          fi
