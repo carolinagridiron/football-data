@@ -44,43 +44,108 @@ def merge(existing, incoming):
         elif nonempty(new) and old!=new: conflicts.append({'field':field,'old':old,'new':new})
     result['id']=incoming['id'];return result,conflicts
 
+def detail_state(detail, final=False):
+    """Classify a successfully fetched detail payload, not just its completeness."""
+    periods = detail.get('period_scores') or []
+    venue = detail.get('venue') or {}
+    has_venue = any(venue.get(k) for k in ('stadium', 'city', 'state'))
+    if periods and has_venue:
+        return 'COMPLETE'
+    if periods or has_venue:
+        return 'PARTIAL'
+    return 'NO_DATA'
+
+
 def sweep(year, config, max_week, fetch=get_json, detail_fetch=get_json, existing=None, detail_limit=0, pause=0):
-    existing=existing or {}; games=dict(existing.get('games') or {}); details=dict(existing.get('details') or {})
-    report={'season':year,'successful_weeks':[],'failed_weeks':[],'detail_requests':0,'detail_errors':[],'conflicts':[],'new_games':0}
-    nc=set(config['nc_school_slugs']); discovered={}
+    existing = existing or {}
+    games = dict(existing.get('games') or {})
+    details = dict(existing.get('details') or {})
+    tracking = dict(existing.get('detail_tracking') or {})
+    report = {'season':year,'successful_weeks':[],'failed_weeks':[],
+              'detail_requests':0,'detail_errors':[],'conflicts':[],'new_games':0}
+    nc = set(config['nc_school_slugs'])
+    discovered = {}
     for div in DIVISIONS:
-        for week in range(1,max_week+1):
+        for week in range(1, max_week+1):
             try:
-                data=fetch(f'{BASE}/scoreboard/football/{div}/{year}/{week:02d}')
-                if not isinstance(data.get('games'),list):raise ValueError('Missing games list')
+                data = fetch(f'{BASE}/scoreboard/football/{div}/{year}/{week:02d}')
+                if not isinstance(data.get('games'), list):
+                    raise ValueError('Missing games list')
                 report['successful_weeks'].append(f'{div}/{week}')
                 for item in data['games']:
-                    g=normalize(item,div)
-                    if g['id'] and (g['away']['ncaa_slug'] in nc or g['home']['ncaa_slug'] in nc): discovered[g['id']]=g
-            except Exception as exc:report['failed_weeks'].append({'endpoint':f'{div}/{week}','error':str(exc)[:180]})
+                    g = normalize(item, div)
+                    if g['id'] and (g['away']['ncaa_slug'] in nc or g['home']['ncaa_slug'] in nc):
+                        discovered[g['id']] = g
+            except Exception as exc:
+                report['failed_weeks'].append({'endpoint':f'{div}/{week}', 'error':str(exc)[:180]})
     if report['failed_weeks']:
-        report['blocked']='Incomplete scoreboard coverage: no archive write permitted'
-        return existing,report
-    for gid,g in discovered.items():
-        if gid not in games: games[gid]=g;report['new_games']+=1
-        elif games[gid]!=g:
-            # Do not overwrite archived final scores; report changes for review.
-            if is_final(games[gid]) and (games[gid]['away']['score'],games[gid]['home']['score']) != (g['away']['score'],g['home']['score']):
-                report['conflicts'].append({'game_id':gid,'type':'final_score','old':[games[gid]['away']['score'],games[gid]['home']['score']],'new':[g['away']['score'],g['home']['score']]})
-            else: games[gid]=g
-    eligible=[g for g in discovered.values() if g['id'] not in details or not (nonempty(details[g['id']].get('period_scores')) and nonempty(details[g['id']].get('venue',{}).get('stadium')))]
-    eligible.sort(key=lambda g:(is_final(g),g.get('date',''),g['id']))
-    for g in eligible[:detail_limit]:
-        gid=g['id'];report['detail_requests']+=1
+        report['blocked'] = 'Incomplete scoreboard coverage: no archive write permitted'
+        return existing, report
+    for gid, g in discovered.items():
+        if gid not in games:
+            games[gid] = g
+            report['new_games'] += 1
+        elif games[gid] != g:
+            if is_final(games[gid]) and (games[gid]['away']['score'], games[gid]['home']['score']) != (g['away']['score'], g['home']['score']):
+                report['conflicts'].append({'game_id':gid,'type':'final_score',
+                    'old':[games[gid]['away']['score'],games[gid]['home']['score']],
+                    'new':[g['away']['score'],g['home']['score']]})
+            else:
+                games[gid] = g
+
+    # Migration: previously fetched detail records should not be requested again
+    # merely because the NCAA omitted a stadium or scoring breakdown.
+    for gid, detail in details.items():
+        if gid not in tracking:
+            tracking[gid] = {'status':detail_state(detail), 'attempts':1,
+                             'last_attempt_utc':None, 'last_error':None}
+
+    def eligible(g):
+        gid = g['id']
+        t = tracking.get(gid, {})
+        status = t.get('status', 'PENDING')
+        attempts = int(t.get('attempts') or 0)
+        if status in ('COMPLETE', 'NO_DATA'):
+            return False
+        if status == 'PARTIAL' and attempts >= 2 and is_final(g):
+            return False
+        if status == 'RETRY' and attempts >= 3:
+            return False
+        return True
+
+    candidates = sorted((g for g in discovered.values() if eligible(g)),
+                        key=lambda g:(is_final(g),g.get('date',''),g['id']))
+    for g in candidates[:max(0,detail_limit)]:
+        gid = g['id']
+        prior = tracking.get(gid, {})
+        attempts = int(prior.get('attempts') or 0)+1
+        timestamp = dt.datetime.now(dt.timezone.utc).isoformat()
+        report['detail_requests'] += 1
         try:
-            detail=parse_detail(detail_fetch(f'{BASE}/game/{gid}'),gid)
-            merged,conflicts=merge(details.get(gid),detail)
-            details[gid]=merged
+            detail = parse_detail(detail_fetch(f'{BASE}/game/{gid}'),gid)
+            merged, conflicts = merge(details.get(gid),detail)
+            details[gid] = merged
             report['conflicts'] += [dict(game_id=gid,type='detail',**c) for c in conflicts]
-        except Exception as exc:report['detail_errors'].append({'game_id':gid,'error':str(exc)[:180]})
-        if pause:time.sleep(pause)
-    report['games_total']=len(games);report['details_total']=len(details);report['details_pending']=max(0,len(eligible)-min(detail_limit,len(eligible)))
-    return {'schema_version':1,'season':year,'games':games,'details':details},report
+            tracking[gid] = {'status':detail_state(merged),'attempts':attempts,
+                             'last_attempt_utc':timestamp,'last_error':None}
+        except Exception as exc:
+            message = str(exc)[:180]
+            report['detail_errors'].append({'game_id':gid,'error':message})
+            tracking[gid] = {'status':'RETRY','attempts':attempts,
+                             'last_attempt_utc':timestamp,'last_error':message}
+        if pause:
+            time.sleep(pause)
+    counts = {s:0 for s in ('COMPLETE','PARTIAL','NO_DATA','RETRY','PENDING')}
+    for gid in games:
+        state = tracking.get(gid,{}).get('status','PENDING')
+        counts[state] = counts.get(state,0)+1
+    report['detail_status_counts'] = counts
+    report['details_total'] = len(details)
+    report['games_total'] = len(games)
+    report['details_pending'] = sum(eligible(g) for g in discovered.values())
+    report['details_attempted_unique'] = sum(1 for gid in games if gid in tracking)
+    return {'schema_version':1,'season':year,'games':games,'details':details,
+            'detail_tracking':tracking}, report
 
 def atomic_json(path,obj):
     path.parent.mkdir(parents=True,exist_ok=True)
