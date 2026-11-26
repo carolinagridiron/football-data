@@ -64,8 +64,21 @@ def parse_day(value):
         except ValueError: pass
     return None
 
+def side_identity(side):
+    """Resolve NCAA slug first; use display name when slug is empty.
+
+    This does not invent an NCAA slug for external opponents.
+    """
+    raw = str(side.get('ncaa_slug') or '').strip()
+    if raw:
+        identity = slug(raw)
+        if not identity.startswith('unresolved:'):
+            return identity
+    return slug(side.get('name') or raw)
+
+
 def game_pair(game):
-    return tuple(sorted((slug(game['away']['ncaa_slug']),slug(game['home']['ncaa_slug']))))
+    return tuple(sorted((side_identity(game['away']), side_identity(game['home']))))
 
 def collapse_duplicates(games):
     """Collapse identical cross-division listings of the same NCAA game ID.
@@ -88,10 +101,12 @@ def read_exceptions(path):
     if not path.exists():
         raise FileNotFoundError('Missing required editorial exception register: ' + str(path))
     with path.open(newline='', encoding='utf-8-sig') as f:
-        rows=list(csv.DictReader(f))
+        reader=csv.DictReader(f)
+        reader_fields=set(reader.fieldnames or [])
+        rows=list(reader)
     required={'date','ncaa_game_id','visitor','home','editorial_visitor_score',
               'editorial_home_score','ncaa_visitor_score','ncaa_home_score','review_status'}
-    if not rows or not required.issubset(rows[0]):
+    if not required.issubset(reader_fields):
         raise ValueError('Editorial exceptions register missing required fields')
     by_id={}
     for row in rows:
@@ -158,7 +173,7 @@ def compare(reference,games,active,exceptions=None):
         offset=(parse_day(g['date'])-day).days
         base['date_offset_days']=offset
         if offset:base['notes']=f'NCAA date differs by {offset:+d} day(s); verify schedule date'
-        va=slug(r['visitor'])==slug(g['away']['ncaa_slug'])
+        va=slug(r['visitor'])==side_identity(g['away'])
         vs=g['away']['score'] if va else g['home']['score']
         hs=g['home']['score'] if va else g['away']['score']
         base['ncaa_visitor_score']=vs if vs is not None else ''
@@ -181,7 +196,7 @@ def compare(reference,games,active,exceptions=None):
     extra=[]
     for g in games:
         if str(g['id']) in matched_ids:continue
-        if g['away']['ncaa_slug'] not in active and g['home']['ncaa_slug'] not in active:continue
+        if side_identity(g['away']) not in active and side_identity(g['home']) not in active:continue
         extra.append({'date':g['date'],'division':g['division'],'ncaa_id':g['id'],
                       'away':g['away']['name'],'home':g['home']['name'],'away_score':g['away']['score'],
                       'home_score':g['home']['score'],'status':g['status']})
@@ -196,23 +211,32 @@ def main():
     p=argparse.ArgumentParser()
     p.add_argument('--season',type=int,default=2026)
     p.add_argument('--through-week',type=int,default=13)
-    p.add_argument('--reference',default=str(ROOT/'audit/reference_2026.csv'))
+    p.add_argument('--reference',default=None,help='Season-specific reference CSV; defaults to audit/reference_<season>.csv')
     p.add_argument('--outdir',default=str(ROOT/'audit-results'))
-    p.add_argument('--exceptions',default=str(ROOT/'audit/editorial_exceptions.csv'))
+    p.add_argument('--exceptions',default=None,help='Season-specific exceptions CSV; defaults to audit/editorial_exceptions_<season>.csv if present, otherwise legacy 2026 register')
     args=p.parse_args()
     config=load_config(ROOT/'config.json')
-    if args.season!=2026:raise SystemExit('This audited reference is for 2026 only')
+    if args.season < 2026: raise SystemExit('Season must be 2026 or later')
+    reference_path=Path(args.reference) if args.reference else ROOT/'audit'/f'reference_{args.season}.csv'
+    if not reference_path.exists():
+        raise SystemExit(f'Missing {args.season} editorial reference: {reference_path}; refusing to reuse another season')
+    exception_path=Path(args.exceptions) if args.exceptions else ROOT/'audit'/f'editorial_exceptions_{args.season}.csv'
+    if not exception_path.exists():
+        if args.season==2026 and not args.exceptions:
+            exception_path=ROOT/'audit'/'editorial_exceptions.csv'
+        else:
+            raise SystemExit(f'Missing {args.season} exception register: {exception_path}; create a header-only CSV if no exceptions')
     if not 0<=args.through_week<=config['max_week']:raise SystemExit('Invalid through-week')
-    reference=read_reference(args.reference)
+    reference=read_reference(reference_path)
     games,endpoints,warnings,endpoint_coverage=fetch_season(config,args.season,args.through_week)
-    exceptions=read_exceptions(Path(args.exceptions))
+    exceptions=read_exceptions(exception_path)
     report,extra=compare(reference,games,set(config['nc_school_slugs']),exceptions)
     # Diagnostics: never interpret a missing match as an incorrect score.
     all_games, conflicts = collapse_duplicates(games)
     by_team=defaultdict(list)
     for g in all_games:
         for side in ('away','home'):
-            by_team[slug(g[side]['ncaa_slug'])].append(g)
+            by_team[side_identity(g[side])].append(g)
     diagnostic=[]
     for r, finding in zip(reference, report):
         if finding['finding'] not in ('UNMATCHED','SCHEDULED_NOT_IN_NCAA','AMBIGUOUS'):
@@ -238,7 +262,7 @@ def main():
     write_csv(out/'endpoint_coverage.csv',endpoint_coverage,['endpoint','games_returned','first_game_date','last_game_date'])
     write_csv(out/'ncaa_only_games.csv',extra,['date','division','ncaa_id','away','home','away_score','home_score','status'])
     counts={k:sum(r['finding']==k for r in report) for k in sorted(set(r['finding'] for r in report))}
-    summary={'audit_version':'1.5.3','season':args.season,'weeks_checked':list(range(args.through_week+1)),
+    summary={'audit_version':'1.5.4','season':args.season,'reference_file':str(reference_path),'exceptions_file':str(exception_path),'weeks_checked':list(range(args.through_week+1)),
              'endpoints_successful':len(endpoints),'optional_week_zero_warnings':warnings,'ncaa_games_retrieved':len(games),
              'editorial_records':len(reference),'diagnostic_reason_counts':dict(collections.Counter(d['diagnostic_reason'] for d in diagnostic)),'findings':counts,'ncaa_only_games':len(extra),
              'editorial_precedence':'Google Sheets; report is read-only',
