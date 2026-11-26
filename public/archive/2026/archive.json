@@ -1,0 +1,7822 @@
+{
+  "details": {
+    "6603677": {
+      "id": "6603677",
+      "ncaa_away": {
+        "id": "40",
+        "name": "Duke",
+        "slug": "duke"
+      },
+      "ncaa_home": {
+        "id": "2358",
+        "name": "Wake Forest",
+        "slug": "wake-forest"
+      },
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
+    "6603992": {
+      "id": "6603992",
+      "ncaa_away": {
+        "id": "913",
+        "name": "NC State",
+        "slug": "north-carolina-st"
+      },
+      "ncaa_home": {
+        "id": "977",
+        "name": "Virginia",
+        "slug": "virginia"
+      },
+      "period_scores": [
+        {
+          "away": "0",
+          "home": "10",
+          "period": "1"
+        },
+        {
+          "away": "0",
+          "home": "7",
+          "period": "2"
+        },
+        {
+          "away": "8",
+          "home": "7",
+          "period": "3"
+        },
+        {
+          "away": "0",
+          "home": "10",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": "Charlottesville",
+        "stadium": "Scott Stadium",
+        "state": "VA"
+      }
+    },
+    "6604240": {
+      "id": "6604240",
+      "ncaa_away": {
+        "id": "1356",
+        "name": "Navy",
+        "slug": "navy"
+      },
+      "ncaa_home": {
+        "id": "56190",
+        "name": "Charlotte",
+        "slug": "charlotte"
+      },
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
+    "6604299": {
+      "id": "6604299",
+      "ncaa_away": {
+        "id": "391",
+        "name": "Fla. Atlantic",
+        "slug": "fla-atlantic"
+      },
+      "ncaa_home": {
+        "id": "1467",
+        "name": "East Carolina",
+        "slug": "east-carolina"
+      },
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
+    "6604316": {
+      "id": "6604316",
+      "ncaa_away": {
+        "id": "905",
+        "name": "North Carolina",
+        "slug": "north-carolina"
+      },
+      "ncaa_home": {
+        "id": "1703",
+        "name": "TCU",
+        "slug": "tcu"
+      },
+      "period_scores": [
+        {
+          "away": "10",
+          "home": "10",
+          "period": "1"
+        },
+        {
+          "away": "2",
+          "home": "0",
+          "period": "2"
+        },
+        {
+          "away": "3",
+          "home": "0",
+          "period": "3"
+        },
+        {
+          "away": "0",
+          "home": "0",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
+    "6604349": {
+      "id": "6604349",
+      "ncaa_away": {
+        "id": "1550",
+        "name": "App State",
+        "slug": "appalachian-st"
+      },
+      "ncaa_home": {
+        "id": "2003",
+        "name": "South Alabama",
+        "slug": "south-ala"
+      },
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
+    "6604578": {
+      "id": "6604578",
+      "ncaa_away": {
+        "id": "875",
+        "name": "Glenville St.",
+        "slug": "glenville-st"
+      },
+      "ncaa_home": {
+        "id": "1904",
+        "name": "Elon",
+        "slug": "elon"
+      },
+      "period_scores": [
+        {
+          "away": "0",
+          "home": "7",
+          "period": "1"
+        },
+        {
+          "away": "0",
+          "home": "14",
+          "period": "2"
+        },
+        {
+          "away": "7",
+          "home": "14",
+          "period": "3"
+        },
+        {
+          "away": "0",
+          "home": "7",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": "Elon",
+        "stadium": "Rhodes Stadium",
+        "state": "NC"
+      }
+    },
+    "6604894": {
+      "id": "6604894",
+      "ncaa_away": {
+        "id": "512",
+        "name": "Concord",
+        "slug": "concord"
+      },
+      "ncaa_home": {
+        "id": "1092",
+        "name": "Davidson",
+        "slug": "davidson"
+      },
+      "period_scores": [
+        {
+          "away": "7",
+          "home": "7",
+          "period": "1"
+        },
+        {
+          "away": "21",
+          "home": "21",
+          "period": "2"
+        },
+        {
+          "away": "10",
+          "home": "0",
+          "period": "3"
+        },
+        {
+          "away": "3",
+          "home": "7",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
+    "6605436": {
+      "id": "6605436",
+      "ncaa_away": {
+        "id": "641",
+        "name": "Virginia Union",
+        "slug": "virginia-union"
+      },
+      "ncaa_home": {
+        "id": "1597",
+        "name": "Lenoir-Rhyne",
+        "slug": "lenoir-rhyne"
+      },
+      "period_scores": [
+        {
+          "away": "0",
+          "home": "14",
+          "period": "1"
+        },
+        {
+          "away": "0",
+          "home": "17",
+          "period": "2"
+        },
+        {
+          "away": "0",
+          "home": "7",
+          "period": "3"
+        },
+        {
+          "away": "3",
+          "home": "7",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": "Hickory",
+        "stadium": "Moretz Stadium",
+        "state": "NC"
+      }
+    },
+    "6605673": {
+      "id": "6605673",
+      "ncaa_away": {
+        "id": "897",
+        "name": "Wingate",
+        "slug": "wingate"
+      },
+      "ncaa_home": {
+        "id": "235",
+        "name": "UNC Pembroke",
+        "slug": "unc-pembroke"
+      },
+      "period_scores": [
+        {
+          "away": "0",
+          "home": "0",
+          "period": "1"
+        },
+        {
+          "away": "13",
+          "home": "0",
+          "period": "2"
+        },
+        {
+          "away": "0",
+          "home": "7",
+          "period": "3"
+        },
+        {
+          "away": "0",
+          "home": "14",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": "Pembroke",
+        "stadium": "Grace P. Johnson Stadium",
+        "state": "NC"
+      }
+    },
+    "6640224": {
+      "id": "6640224",
+      "ncaa_away": {
+        "id": "1387942",
+        "name": "Barton",
+        "slug": "barton"
+      },
+      "ncaa_home": {
+        "id": "2028",
+        "name": "Virginia St.",
+        "slug": "virginia-st"
+      },
+      "period_scores": [
+        {
+          "away": "7",
+          "home": "7",
+          "period": "1"
+        },
+        {
+          "away": "7",
+          "home": "16",
+          "period": "2"
+        },
+        {
+          "away": "3",
+          "home": "0",
+          "period": "3"
+        },
+        {
+          "away": "0",
+          "home": "21",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
+    "6640225": {
+      "id": "6640225",
+      "ncaa_away": {
+        "id": "2569",
+        "name": "Gardner-Webb",
+        "slug": "gardner-webb"
+      },
+      "ncaa_home": {
+        "id": "1557",
+        "name": "Austin Peay",
+        "slug": "austin-peay"
+      },
+      "period_scores": [
+        {
+          "away": "3",
+          "home": "7",
+          "period": "1"
+        },
+        {
+          "away": "7",
+          "home": "14",
+          "period": "2"
+        },
+        {
+          "away": "0",
+          "home": "14",
+          "period": "3"
+        },
+        {
+          "away": "7",
+          "home": "0",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": "Clarksville",
+        "stadium": "Fortera Stadium",
+        "state": "TN"
+      }
+    },
+    "6640405": {
+      "id": "6640405",
+      "ncaa_away": {
+        "id": "913",
+        "name": "NC State",
+        "slug": "north-carolina-st"
+      },
+      "ncaa_home": {
+        "id": "905",
+        "name": "North Carolina",
+        "slug": "north-carolina"
+      },
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
+    "6661124": {
+      "id": "6661124",
+      "ncaa_away": {
+        "id": "2582",
+        "name": "Newberry",
+        "slug": "newberry"
+      },
+      "ncaa_home": {
+        "id": "235",
+        "name": "UNC Pembroke",
+        "slug": "unc-pembroke"
+      },
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
+    "6679555": {
+      "id": "6679555",
+      "ncaa_away": {
+        "id": "2358",
+        "name": "Wake Forest",
+        "slug": "wake-forest"
+      },
+      "ncaa_home": {
+        "id": "105",
+        "name": "Miami (FL)",
+        "slug": "miami-fl"
+      },
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    }
+  },
+  "games": {
+    "6603622": {
+      "away": {
+        "name": "Charlotte",
+        "ncaa_slug": "charlotte",
+        "score": 14,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "11/21/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Tulsa",
+        "ncaa_slug": "tulsa",
+        "score": 42,
+        "winner": true
+      },
+      "id": "6603622",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1795287600",
+      "start_time_et": "2:00 PM ET",
+      "status": "final"
+    },
+    "6603644": {
+      "away": {
+        "name": "Campbell",
+        "ncaa_slug": "campbell",
+        "score": 3,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/12/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Florida",
+        "ncaa_slug": "florida",
+        "score": 52,
+        "winner": true
+      },
+      "id": "6603644",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789248600",
+      "start_time_et": "5:30 PM ET",
+      "status": "final"
+    },
+    "6603666": {
+      "away": {
+        "name": "Tulane",
+        "ncaa_slug": "tulane",
+        "score": 3,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/05/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Duke",
+        "ncaa_slug": "duke",
+        "score": 17,
+        "winner": true
+      },
+      "id": "6603666",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1788636600",
+      "start_time_et": "3:30 PM ET",
+      "status": "final"
+    },
+    "6603667": {
+      "away": {
+        "name": "Duke",
+        "ncaa_slug": "duke",
+        "score": 31,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "09/12/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Illinois",
+        "ncaa_slug": "illinois",
+        "score": 27,
+        "winner": false
+      },
+      "id": "6603667",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789241400",
+      "start_time_et": "3:30 PM ET",
+      "status": "final"
+    },
+    "6603668": {
+      "away": {
+        "name": "Stanford",
+        "ncaa_slug": "stanford",
+        "score": 7,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/19/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Duke",
+        "ncaa_slug": "duke",
+        "score": 35,
+        "winner": true
+      },
+      "id": "6603668",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789848000",
+      "start_time_et": "4:00 PM ET",
+      "status": "final"
+    },
+    "6603669": {
+      "away": {
+        "name": "William & Mary",
+        "ncaa_slug": "william-mary",
+        "score": 7,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/26/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Duke",
+        "ncaa_slug": "duke",
+        "score": 62,
+        "winner": true
+      },
+      "id": "6603669",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1790451000",
+      "start_time_et": "3:30 PM ET",
+      "status": "final"
+    },
+    "6603670": {
+      "away": {
+        "name": "Duke",
+        "ncaa_slug": "duke",
+        "score": 25,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/10/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Georgia Tech",
+        "ncaa_slug": "georgia-tech",
+        "score": 28,
+        "winner": true
+      },
+      "id": "6603670",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791660600",
+      "start_time_et": "3:30 PM ET",
+      "status": "final"
+    },
+    "6603671": {
+      "away": {
+        "name": "North Carolina",
+        "ncaa_slug": "north-carolina",
+        "score": 24,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/17/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Duke",
+        "ncaa_slug": "duke",
+        "score": 20,
+        "winner": false
+      },
+      "id": "6603671",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792265400",
+      "start_time_et": "3:30 PM ET",
+      "status": "final"
+    },
+    "6603672": {
+      "away": {
+        "name": "Duke",
+        "ncaa_slug": "duke",
+        "score": 19,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/23/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Virginia",
+        "ncaa_slug": "virginia",
+        "score": 16,
+        "winner": false
+      },
+      "id": "6603672",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792796400",
+      "start_time_et": "7:00 PM ET",
+      "status": "final"
+    },
+    "6603673": {
+      "away": {
+        "name": "Boston College",
+        "ncaa_slug": "boston-college",
+        "score": 2,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/31/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Duke",
+        "ncaa_slug": "duke",
+        "score": 47,
+        "winner": true
+      },
+      "id": "6603673",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1793462400",
+      "start_time_et": "12:00 PM ET",
+      "status": "final"
+    },
+    "6603674": {
+      "away": {
+        "name": "Duke",
+        "ncaa_slug": "duke",
+        "score": 25,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "11/14/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Miami (FL)",
+        "ncaa_slug": "miami-fl",
+        "score": 36,
+        "winner": true
+      },
+      "id": "6603674",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794675600",
+      "start_time_et": "12:00 PM ET",
+      "status": "final"
+    },
+    "6603675": {
+      "away": {
+        "name": "Duke",
+        "ncaa_slug": "duke",
+        "score": 41,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "11/07/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "NC State",
+        "ncaa_slug": "north-carolina-st",
+        "score": 3,
+        "winner": false
+      },
+      "id": "6603675",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794072600",
+      "start_time_et": "12:30 PM ET",
+      "status": "final"
+    },
+    "6603676": {
+      "away": {
+        "name": "Clemson",
+        "ncaa_slug": "clemson",
+        "score": 20,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "11/20/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Duke",
+        "ncaa_slug": "duke",
+        "score": 10,
+        "winner": false
+      },
+      "id": "6603676",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1795221000",
+      "start_time_et": "7:30 PM ET",
+      "status": "final"
+    },
+    "6603677": {
+      "away": {
+        "name": "Duke",
+        "ncaa_slug": "duke",
+        "score": null,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "11/28/2026",
+      "division": "fbs",
+      "final_message": "",
+      "home": {
+        "name": "Wake Forest",
+        "ncaa_slug": "wake-forest",
+        "score": null,
+        "winner": false
+      },
+      "id": "6603677",
+      "network": "",
+      "period": "",
+      "start_time_epoch": "1795897800",
+      "start_time_et": "3:30 PM ET",
+      "status": "pre"
+    },
+    "6603693": {
+      "away": {
+        "name": "Western Caro.",
+        "ncaa_slug": "western-caro",
+        "score": 10,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/12/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Cincinnati",
+        "ncaa_slug": "cincinnati",
+        "score": 62,
+        "winner": true
+      },
+      "id": "6603693",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789254000",
+      "start_time_et": "7:00 PM ET",
+      "status": "final"
+    },
+    "6603709": {
+      "away": {
+        "name": "ULM",
+        "ncaa_slug": "la-monroe",
+        "score": 16,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "11/21/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "App State",
+        "ncaa_slug": "appalachian-st",
+        "score": 17,
+        "winner": true
+      },
+      "id": "6603709",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1795289400",
+      "start_time_et": "2:30 PM ET",
+      "status": "final"
+    },
+    "6603717": {
+      "away": {
+        "name": "Memphis",
+        "ncaa_slug": "memphis",
+        "score": 59,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/03/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Charlotte",
+        "ncaa_slug": "charlotte",
+        "score": 8,
+        "winner": false
+      },
+      "id": "6603717",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791039600",
+      "start_time_et": "11:00 AM ET",
+      "status": "final"
+    },
+    "6603720": {
+      "away": {
+        "name": "East Carolina",
+        "ncaa_slug": "east-carolina",
+        "score": 34,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/22/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Memphis",
+        "ncaa_slug": "memphis",
+        "score": 41,
+        "winner": true
+      },
+      "id": "6603720",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792711800",
+      "start_time_et": "7:30 PM ET",
+      "status": "final"
+    },
+    "6603730": {
+      "away": {
+        "name": "Tulane",
+        "ncaa_slug": "tulane",
+        "score": 38,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/30/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Charlotte",
+        "ncaa_slug": "charlotte",
+        "score": 31,
+        "winner": false
+      },
+      "id": "6603730",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1793401200",
+      "start_time_et": "7:00 PM ET",
+      "status": "final"
+    },
+    "6603738": {
+      "away": {
+        "name": "East Carolina",
+        "ncaa_slug": "east-carolina",
+        "score": 17,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/15/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "UAB",
+        "ncaa_slug": "uab",
+        "score": 30,
+        "winner": true
+      },
+      "id": "6603738",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792107000",
+      "start_time_et": "7:30 PM ET",
+      "status": "final"
+    },
+    "6603740": {
+      "away": {
+        "name": "Charlotte",
+        "ncaa_slug": "charlotte",
+        "score": 12,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "11/07/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "UAB",
+        "ncaa_slug": "uab",
+        "score": 23,
+        "winner": true
+      },
+      "id": "6603740",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794083400",
+      "start_time_et": "3:30 PM ET",
+      "status": "final"
+    },
+    "6603748": {
+      "away": {
+        "name": "Louisiana",
+        "ncaa_slug": "la-lafayette",
+        "score": 34,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "09/26/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Charlotte",
+        "ncaa_slug": "charlotte",
+        "score": 7,
+        "winner": false
+      },
+      "id": "6603748",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1790461800",
+      "start_time_et": "6:30 PM ET",
+      "status": "final"
+    },
+    "6603785": {
+      "away": {
+        "name": "App State",
+        "ncaa_slug": "appalachian-st",
+        "score": 3,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/31/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Ga. Southern",
+        "ncaa_slug": "ga-southern",
+        "score": 19,
+        "winner": true
+      },
+      "id": "6603785",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1793485800",
+      "start_time_et": "6:30 PM ET",
+      "status": "final"
+    },
+    "6603864": {
+      "away": {
+        "name": "East Carolina",
+        "ncaa_slug": "east-carolina",
+        "score": 10,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "11/21/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Army West Point",
+        "ncaa_slug": "army",
+        "score": 6,
+        "winner": false
+      },
+      "id": "6603864",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1795280400",
+      "start_time_et": "12:00 PM ET",
+      "status": "final"
+    },
+    "6603923": {
+      "away": {
+        "name": "Elon",
+        "ncaa_slug": "elon",
+        "score": 7,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/17/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Stanford",
+        "ncaa_slug": "stanford",
+        "score": 34,
+        "winner": true
+      },
+      "id": "6603923",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792279800",
+      "start_time_et": "7:30 PM ET",
+      "status": "final"
+    },
+    "6603939": {
+      "away": {
+        "name": "James Madison",
+        "ncaa_slug": "james-madison",
+        "score": 31,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/22/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "App State",
+        "ncaa_slug": "appalachian-st",
+        "score": 34,
+        "winner": true
+      },
+      "id": "6603939",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792710000",
+      "start_time_et": "7:00 PM ET",
+      "status": "final"
+    },
+    "6603971": {
+      "away": {
+        "name": "NC State",
+        "ncaa_slug": "north-carolina-st",
+        "score": 28,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "11/21/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Florida St.",
+        "ncaa_slug": "florida-st",
+        "score": 10,
+        "winner": false
+      },
+      "id": "6603971",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1795293000",
+      "start_time_et": "3:30 PM ET",
+      "status": "final"
+    },
+    "6603992": {
+      "away": {
+        "name": "NC State",
+        "ncaa_slug": "north-carolina-st",
+        "score": 8,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "08/29/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Virginia",
+        "ncaa_slug": "virginia",
+        "score": 34,
+        "winner": true
+      },
+      "id": "6603992",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1788031800",
+      "start_time_et": "3:30 PM ET",
+      "status": "final"
+    },
+    "6603997": {
+      "away": {
+        "name": "Virginia",
+        "ncaa_slug": "virginia",
+        "score": 7,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/31/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Wake Forest",
+        "ncaa_slug": "wake-forest",
+        "score": 51,
+        "winner": true
+      },
+      "id": "6603997",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1793475900",
+      "start_time_et": "3:45 PM ET",
+      "status": "final"
+    },
+    "6603999": {
+      "away": {
+        "name": "North Carolina",
+        "ncaa_slug": "north-carolina",
+        "score": 24,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "11/21/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Virginia",
+        "ncaa_slug": "virginia",
+        "score": 41,
+        "winner": true
+      },
+      "id": "6603999",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1795282200",
+      "start_time_et": "12:30 PM ET",
+      "status": "final"
+    },
+    "6604001": {
+      "away": {
+        "name": "N.C. A&T",
+        "ncaa_slug": "nc-at",
+        "score": 10,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/04/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Georgia St.",
+        "ncaa_slug": "georgia-st",
+        "score": 59,
+        "winner": true
+      },
+      "id": "6604001",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1788562800",
+      "start_time_et": "7:00 PM ET",
+      "status": "final"
+    },
+    "6604007": {
+      "away": {
+        "name": "Georgia St.",
+        "ncaa_slug": "georgia-st",
+        "score": 39,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "11/07/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "App State",
+        "ncaa_slug": "appalachian-st",
+        "score": 23,
+        "winner": false
+      },
+      "id": "6604007",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794079800",
+      "start_time_et": "2:30 PM ET",
+      "status": "final"
+    },
+    "6604016": {
+      "away": {
+        "name": "ETSU",
+        "ncaa_slug": "east-tenn-st",
+        "score": 3,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/12/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "North Carolina",
+        "ncaa_slug": "north-carolina",
+        "score": 35,
+        "winner": true
+      },
+      "id": "6604016",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789228800",
+      "start_time_et": "12:00 PM ET",
+      "status": "final"
+    },
+    "6604020": {
+      "away": {
+        "name": "North Carolina",
+        "ncaa_slug": "north-carolina",
+        "score": 20,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/19/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Clemson",
+        "ncaa_slug": "clemson",
+        "score": 28,
+        "winner": true
+      },
+      "id": "6604020",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789833600",
+      "start_time_et": "12:00 PM ET",
+      "status": "final"
+    },
+    "6604109": {
+      "away": {
+        "name": "Stanford",
+        "ncaa_slug": "stanford",
+        "score": 3,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/03/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Wake Forest",
+        "ncaa_slug": "wake-forest",
+        "score": 57,
+        "winner": true
+      },
+      "id": "6604109",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791043200",
+      "start_time_et": "12:00 PM ET",
+      "status": "final"
+    },
+    "6604111": {
+      "away": {
+        "name": "NC State",
+        "ncaa_slug": "north-carolina-st",
+        "score": 28,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/23/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Stanford",
+        "ncaa_slug": "stanford",
+        "score": 31,
+        "winner": true
+      },
+      "id": "6604111",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792809000",
+      "start_time_et": "10:30 PM ET",
+      "status": "final"
+    },
+    "6604135": {
+      "away": {
+        "name": "Charlotte",
+        "ncaa_slug": "charlotte",
+        "score": 10,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/10/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "North Texas",
+        "ncaa_slug": "north-texas",
+        "score": 50,
+        "winner": true
+      },
+      "id": "6604135",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791660600",
+      "start_time_et": "3:30 PM ET",
+      "status": "final"
+    },
+    "6604141": {
+      "away": {
+        "name": "Notre Dame",
+        "ncaa_slug": "notre-dame",
+        "score": 37,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/03/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "North Carolina",
+        "ncaa_slug": "north-carolina",
+        "score": 26,
+        "winner": false
+      },
+      "id": "6604141",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791043200",
+      "start_time_et": "12:00 PM ET",
+      "status": "final"
+    },
+    "6604159": {
+      "away": {
+        "name": "Wake Forest",
+        "ncaa_slug": "wake-forest",
+        "score": 49,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "11/14/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "SMU",
+        "ncaa_slug": "smu",
+        "score": 7,
+        "winner": false
+      },
+      "id": "6604159",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794675600",
+      "start_time_et": "12:00 PM ET",
+      "status": "final"
+    },
+    "6604160": {
+      "away": {
+        "name": "Maine",
+        "ncaa_slug": "maine",
+        "score": 3,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/05/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "App State",
+        "ncaa_slug": "appalachian-st",
+        "score": 55,
+        "winner": true
+      },
+      "id": "6604160",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1788636600",
+      "start_time_et": "3:30 PM ET",
+      "status": "final"
+    },
+    "6604181": {
+      "away": {
+        "name": "The Citadel",
+        "ncaa_slug": "citadel",
+        "score": 43,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "09/05/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Charlotte",
+        "ncaa_slug": "charlotte",
+        "score": 41,
+        "winner": false
+      },
+      "id": "6604181",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1788636600",
+      "start_time_et": "3:30 PM ET",
+      "status": "final"
+    },
+    "6604212": {
+      "away": {
+        "name": "East Carolina",
+        "ncaa_slug": "east-carolina",
+        "score": 20,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "09/19/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Old Dominion",
+        "ncaa_slug": "old-dominion",
+        "score": 17,
+        "winner": false
+      },
+      "id": "6604212",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789855200",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6604213": {
+      "away": {
+        "name": "Old Dominion",
+        "ncaa_slug": "old-dominion",
+        "score": 10,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/10/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "App State",
+        "ncaa_slug": "appalachian-st",
+        "score": 3,
+        "winner": false
+      },
+      "id": "6604213",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791651600",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6604227": {
+      "away": {
+        "name": "Richmond",
+        "ncaa_slug": "richmond",
+        "score": 0,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/11/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "NC State",
+        "ncaa_slug": "north-carolina-st",
+        "score": 73,
+        "winner": true
+      },
+      "id": "6604227",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789167600",
+      "start_time_et": "7:00 PM ET",
+      "status": "final"
+    },
+    "6604240": {
+      "away": {
+        "name": "Navy",
+        "ncaa_slug": "navy",
+        "score": null,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "11/28/2026",
+      "division": "fbs",
+      "final_message": "",
+      "home": {
+        "name": "Charlotte",
+        "ncaa_slug": "charlotte",
+        "score": null,
+        "winner": false
+      },
+      "id": "6604240",
+      "network": "",
+      "period": "",
+      "start_time_epoch": "1795885200",
+      "start_time_et": "12:00 PM ET",
+      "status": "pre"
+    },
+    "6604249": {
+      "away": {
+        "name": "Charlotte",
+        "ncaa_slug": "charlotte",
+        "score": 38,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/17/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Temple",
+        "ncaa_slug": "temple",
+        "score": 31,
+        "winner": false
+      },
+      "id": "6604249",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792256400",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6604250": {
+      "away": {
+        "name": "Temple",
+        "ncaa_slug": "temple",
+        "score": 9,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/31/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "East Carolina",
+        "ncaa_slug": "east-carolina",
+        "score": 17,
+        "winner": true
+      },
+      "id": "6604250",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1793473200",
+      "start_time_et": "3:00 PM ET",
+      "status": "final"
+    },
+    "6604271": {
+      "away": {
+        "name": "South Fla.",
+        "ncaa_slug": "south-fla",
+        "score": 17,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "11/06/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "East Carolina",
+        "ncaa_slug": "east-carolina",
+        "score": 20,
+        "winner": true
+      },
+      "id": "6604271",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794011400",
+      "start_time_et": "7:30 PM ET",
+      "status": "final"
+    },
+    "6604278": {
+      "away": {
+        "name": "App State",
+        "ncaa_slug": "appalachian-st",
+        "score": 35,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/16/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Coastal Carolina",
+        "ncaa_slug": "coastal-caro",
+        "score": 32,
+        "winner": false
+      },
+      "id": "6604278",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792195200",
+      "start_time_et": "8:00 PM ET",
+      "status": "final"
+    },
+    "6604287": {
+      "away": {
+        "name": "N.C. Central",
+        "ncaa_slug": "nc-central",
+        "score": 9,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/26/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "East Carolina",
+        "ncaa_slug": "east-carolina",
+        "score": 42,
+        "winner": true
+      },
+      "id": "6604287",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1790452800",
+      "start_time_et": "4:00 PM ET",
+      "status": "final"
+    },
+    "6604294": {
+      "away": {
+        "name": "East Carolina",
+        "ncaa_slug": "east-carolina",
+        "score": 10,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/05/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Alabama",
+        "ncaa_slug": "alabama",
+        "score": 48,
+        "winner": true
+      },
+      "id": "6604294",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1788624000",
+      "start_time_et": "12:00 PM ET",
+      "status": "final"
+    },
+    "6604296": {
+      "away": {
+        "name": "App State",
+        "ncaa_slug": "appalachian-st",
+        "score": 27,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "09/12/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "East Carolina",
+        "ncaa_slug": "east-carolina",
+        "score": 24,
+        "winner": false
+      },
+      "id": "6604296",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789228800",
+      "start_time_et": "12:00 PM ET",
+      "status": "final"
+    },
+    "6604297": {
+      "away": {
+        "name": "Rice",
+        "ncaa_slug": "rice",
+        "score": 12,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/10/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "East Carolina",
+        "ncaa_slug": "east-carolina",
+        "score": 28,
+        "winner": true
+      },
+      "id": "6604297",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791651600",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6604298": {
+      "away": {
+        "name": "East Carolina",
+        "ncaa_slug": "east-carolina",
+        "score": 17,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "11/14/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Charlotte",
+        "ncaa_slug": "charlotte",
+        "score": 16,
+        "winner": false
+      },
+      "id": "6604298",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794679200",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6604299": {
+      "away": {
+        "name": "Fla. Atlantic",
+        "ncaa_slug": "fla-atlantic",
+        "score": null,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "11/28/2026",
+      "division": "fbs",
+      "final_message": "",
+      "home": {
+        "name": "East Carolina",
+        "ncaa_slug": "east-carolina",
+        "score": null,
+        "winner": false
+      },
+      "id": "6604299",
+      "network": "",
+      "period": "",
+      "start_time_epoch": "1795888800",
+      "start_time_et": "1:00 PM ET",
+      "status": "pre"
+    },
+    "6604314": {
+      "away": {
+        "name": "Miami (FL)",
+        "ncaa_slug": "miami-fl",
+        "score": 33,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "09/18/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Wake Forest",
+        "ncaa_slug": "wake-forest",
+        "score": 20,
+        "winner": false
+      },
+      "id": "6604314",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789774200",
+      "start_time_et": "7:30 PM ET",
+      "status": "final"
+    },
+    "6604315": {
+      "away": {
+        "name": "Miami (FL)",
+        "ncaa_slug": "miami-fl",
+        "score": 38,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/31/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "North Carolina",
+        "ncaa_slug": "north-carolina",
+        "score": 35,
+        "winner": false
+      },
+      "id": "6604315",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1793489400",
+      "start_time_et": "7:30 PM ET",
+      "status": "final"
+    },
+    "6604316": {
+      "away": {
+        "name": "North Carolina",
+        "ncaa_slug": "north-carolina",
+        "score": 15,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "08/29/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "TCU",
+        "ncaa_slug": "tcu",
+        "score": 10,
+        "winner": false
+      },
+      "id": "6604316",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1788019200",
+      "start_time_et": "12:00 PM ET",
+      "status": "final"
+    },
+    "6604349": {
+      "away": {
+        "name": "App State",
+        "ncaa_slug": "appalachian-st",
+        "score": null,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "11/27/2026",
+      "division": "fbs",
+      "final_message": "",
+      "home": {
+        "name": "South Alabama",
+        "ncaa_slug": "south-ala",
+        "score": null,
+        "winner": false
+      },
+      "id": "6604349",
+      "network": "",
+      "period": "",
+      "start_time_epoch": "1795809600",
+      "start_time_et": "3:00 PM ET",
+      "status": "pre"
+    },
+    "6604351": {
+      "away": {
+        "name": "Akron",
+        "ncaa_slug": "akron",
+        "score": 16,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/03/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Wake Forest",
+        "ncaa_slug": "wake-forest",
+        "score": 38,
+        "winner": true
+      },
+      "id": "6604351",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1788476400",
+      "start_time_et": "7:00 PM ET",
+      "status": "final"
+    },
+    "6604352": {
+      "away": {
+        "name": "Wake Forest",
+        "ncaa_slug": "wake-forest",
+        "score": 38,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "09/12/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Purdue",
+        "ncaa_slug": "purdue",
+        "score": 36,
+        "winner": false
+      },
+      "id": "6604352",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789228800",
+      "start_time_et": "12:00 PM ET",
+      "status": "final"
+    },
+    "6604353": {
+      "away": {
+        "name": "Wake Forest",
+        "ncaa_slug": "wake-forest",
+        "score": 30,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "09/26/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Louisville",
+        "ncaa_slug": "louisville",
+        "score": 27,
+        "winner": false
+      },
+      "id": "6604353",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1790438400",
+      "start_time_et": "12:00 PM ET",
+      "status": "final"
+    },
+    "6604354": {
+      "away": {
+        "name": "Wake Forest",
+        "ncaa_slug": "wake-forest",
+        "score": 38,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/10/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "NC State",
+        "ncaa_slug": "north-carolina-st",
+        "score": 14,
+        "winner": false
+      },
+      "id": "6604354",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791648000",
+      "start_time_et": "12:00 PM ET",
+      "status": "final"
+    },
+    "6604355": {
+      "away": {
+        "name": "Wake Forest",
+        "ncaa_slug": "wake-forest",
+        "score": 41,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/17/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "California",
+        "ncaa_slug": "california",
+        "score": 7,
+        "winner": false
+      },
+      "id": "6604355",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792290600",
+      "start_time_et": "10:30 PM ET",
+      "status": "final"
+    },
+    "6604356": {
+      "away": {
+        "name": "Merrimack",
+        "ncaa_slug": "merrimack",
+        "score": 0,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "11/07/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Wake Forest",
+        "ncaa_slug": "wake-forest",
+        "score": 77,
+        "winner": true
+      },
+      "id": "6604356",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794083400",
+      "start_time_et": "3:30 PM ET",
+      "status": "final"
+    },
+    "6604357": {
+      "away": {
+        "name": "Wake Forest",
+        "ncaa_slug": "wake-forest",
+        "score": 50,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "11/21/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Georgia Tech",
+        "ncaa_slug": "georgia-tech",
+        "score": 29,
+        "winner": false
+      },
+      "id": "6604357",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1795280400",
+      "start_time_et": "12:00 PM ET",
+      "status": "final"
+    },
+    "6604406": {
+      "away": {
+        "name": "Lindenwood",
+        "ncaa_slug": "lindenwood-mo",
+        "score": 34,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "11/07/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Gardner-Webb",
+        "ncaa_slug": "gardner-webb",
+        "score": 21,
+        "winner": false
+      },
+      "id": "6604406",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794076200",
+      "start_time_et": "1:30 PM ET",
+      "status": "final"
+    },
+    "6604420": {
+      "away": {
+        "name": "Eastern Ky.",
+        "ncaa_slug": "eastern-ky",
+        "score": 21,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "08/29/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Western Caro.",
+        "ncaa_slug": "western-caro",
+        "score": 45,
+        "winner": true
+      },
+      "id": "6604420",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1788044400",
+      "start_time_et": "7:00 PM ET",
+      "status": "final"
+    },
+    "6604421": {
+      "away": {
+        "name": "Western Caro.",
+        "ncaa_slug": "western-caro",
+        "score": 19,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/06/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Campbell",
+        "ncaa_slug": "campbell",
+        "score": 28,
+        "winner": true
+      },
+      "id": "6604421",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1788706800",
+      "start_time_et": "11:00 AM ET",
+      "status": "final"
+    },
+    "6604422": {
+      "away": {
+        "name": "Presbyterian",
+        "ncaa_slug": "presbyterian",
+        "score": 14,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/19/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Western Caro.",
+        "ncaa_slug": "western-caro",
+        "score": 58,
+        "winner": true
+      },
+      "id": "6604422",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789848300",
+      "start_time_et": "4:05 PM ET",
+      "status": "final"
+    },
+    "6604423": {
+      "away": {
+        "name": "Western Caro.",
+        "ncaa_slug": "western-caro",
+        "score": 31,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/26/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "ETSU",
+        "ncaa_slug": "east-tenn-st",
+        "score": 58,
+        "winner": true
+      },
+      "id": "6604423",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1790451000",
+      "start_time_et": "3:30 PM ET",
+      "status": "final"
+    },
+    "6604424": {
+      "away": {
+        "name": "Tennessee Tech",
+        "ncaa_slug": "tennessee-tech",
+        "score": 20,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/03/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Western Caro.",
+        "ncaa_slug": "western-caro",
+        "score": 44,
+        "winner": true
+      },
+      "id": "6604424",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791064800",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6604425": {
+      "away": {
+        "name": "Western Caro.",
+        "ncaa_slug": "western-caro",
+        "score": 14,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/10/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Mercer",
+        "ncaa_slug": "mercer",
+        "score": 17,
+        "winner": true
+      },
+      "id": "6604425",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791658800",
+      "start_time_et": "3:00 PM ET",
+      "status": "final"
+    },
+    "6604426": {
+      "away": {
+        "name": "Chattanooga",
+        "ncaa_slug": "chattanooga",
+        "score": 41,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/24/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Western Caro.",
+        "ncaa_slug": "western-caro",
+        "score": 18,
+        "winner": false
+      },
+      "id": "6604426",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792866600",
+      "start_time_et": "2:30 PM ET",
+      "status": "final"
+    },
+    "6604427": {
+      "away": {
+        "name": "Western Caro.",
+        "ncaa_slug": "western-caro",
+        "score": 27,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/31/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Furman",
+        "ncaa_slug": "furman",
+        "score": 26,
+        "winner": false
+      },
+      "id": "6604427",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1793469600",
+      "start_time_et": "2:00 PM ET",
+      "status": "final"
+    },
+    "6604428": {
+      "away": {
+        "name": "Western Caro.",
+        "ncaa_slug": "western-caro",
+        "score": 17,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "11/14/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Samford",
+        "ncaa_slug": "samford",
+        "score": 12,
+        "winner": false
+      },
+      "id": "6604428",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794688200",
+      "start_time_et": "3:30 PM ET",
+      "status": "final"
+    },
+    "6604429": {
+      "away": {
+        "name": "The Citadel",
+        "ncaa_slug": "citadel",
+        "score": 23,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "11/21/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Western Caro.",
+        "ncaa_slug": "western-caro",
+        "score": 38,
+        "winner": true
+      },
+      "id": "6604429",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1795284000",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6604430": {
+      "away": {
+        "name": "Wofford",
+        "ncaa_slug": "wofford",
+        "score": 10,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "11/07/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Western Caro.",
+        "ncaa_slug": "western-caro",
+        "score": 26,
+        "winner": true
+      },
+      "id": "6604430",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794074400",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6604439": {
+      "away": {
+        "name": "Stony Brook",
+        "ncaa_slug": "stony-brook",
+        "score": 35,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "11/07/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Campbell",
+        "ncaa_slug": "campbell",
+        "score": 48,
+        "winner": true
+      },
+      "id": "6604439",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794074400",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6604449": {
+      "away": {
+        "name": "Towson",
+        "ncaa_slug": "towson",
+        "score": 20,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/17/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Campbell",
+        "ncaa_slug": "campbell",
+        "score": 24,
+        "winner": true
+      },
+      "id": "6604449",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792265400",
+      "start_time_et": "3:30 PM ET",
+      "status": "final"
+    },
+    "6604453": {
+      "away": {
+        "name": "Elon",
+        "ncaa_slug": "elon",
+        "score": 24,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "11/21/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Towson",
+        "ncaa_slug": "towson",
+        "score": 28,
+        "winner": true
+      },
+      "id": "6604453",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1795284000",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6604460": {
+      "away": {
+        "name": "Howard",
+        "ncaa_slug": "howard",
+        "score": 0,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/31/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "N.C. Central",
+        "ncaa_slug": "nc-central",
+        "score": 34,
+        "winner": true
+      },
+      "id": "6604460",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1793469600",
+      "start_time_et": "2:00 PM ET",
+      "status": "final"
+    },
+    "6604464": {
+      "away": {
+        "name": "Winston-Salem",
+        "ncaa_slug": "winston-salem",
+        "score": 0,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "08/29/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Norfolk St.",
+        "ncaa_slug": "norfolk-st",
+        "score": 56,
+        "winner": true
+      },
+      "id": "6604464",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1788040800",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6604471": {
+      "away": {
+        "name": "N.C. Central",
+        "ncaa_slug": "nc-central",
+        "score": 29,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "11/07/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Norfolk St.",
+        "ncaa_slug": "norfolk-st",
+        "score": 28,
+        "winner": false
+      },
+      "id": "6604471",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794070800",
+      "start_time_et": "12:00 PM ET",
+      "status": "final"
+    },
+    "6604539": {
+      "away": {
+        "name": "Dickinson",
+        "ncaa_slug": "dickinson",
+        "score": 14,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/12/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Davidson",
+        "ncaa_slug": "davidson",
+        "score": 28,
+        "winner": true
+      },
+      "id": "6604539",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789228800",
+      "start_time_et": "12:00 PM ET",
+      "status": "final"
+    },
+    "6604578": {
+      "away": {
+        "name": "Glenville St.",
+        "ncaa_slug": "glenville-st",
+        "score": 7,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "08/27/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Elon",
+        "ncaa_slug": "elon",
+        "score": 42,
+        "winner": true
+      },
+      "id": "6604578",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1787871600",
+      "start_time_et": "7:00 PM ET",
+      "status": "final"
+    },
+    "6604579": {
+      "away": {
+        "name": "Elon",
+        "ncaa_slug": "elon",
+        "score": 38,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "09/05/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Davidson",
+        "ncaa_slug": "davidson",
+        "score": 0,
+        "winner": false
+      },
+      "id": "6604579",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1788645600",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6604580": {
+      "away": {
+        "name": "Elon",
+        "ncaa_slug": "elon",
+        "score": 10,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/12/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Rhode Island",
+        "ncaa_slug": "rhode-island",
+        "score": 31,
+        "winner": true
+      },
+      "id": "6604580",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789228800",
+      "start_time_et": "12:00 PM ET",
+      "status": "final"
+    },
+    "6604581": {
+      "away": {
+        "name": "Sacred Heart",
+        "ncaa_slug": "sacred-heart",
+        "score": 21,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/19/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Elon",
+        "ncaa_slug": "elon",
+        "score": 24,
+        "winner": true
+      },
+      "id": "6604581",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789855200",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6604582": {
+      "away": {
+        "name": "Maine",
+        "ncaa_slug": "maine",
+        "score": 17,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/26/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Elon",
+        "ncaa_slug": "elon",
+        "score": 43,
+        "winner": true
+      },
+      "id": "6604582",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1790445600",
+      "start_time_et": "2:00 PM ET",
+      "status": "final"
+    },
+    "6604583": {
+      "away": {
+        "name": "Elon",
+        "ncaa_slug": "elon",
+        "score": 23,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/03/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "New Hampshire",
+        "ncaa_slug": "new-hampshire",
+        "score": 30,
+        "winner": true
+      },
+      "id": "6604583",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791046800",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6604584": {
+      "away": {
+        "name": "Wofford",
+        "ncaa_slug": "wofford",
+        "score": 16,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/10/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Elon",
+        "ncaa_slug": "elon",
+        "score": 0,
+        "winner": false
+      },
+      "id": "6604584",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791655200",
+      "start_time_et": "2:00 PM ET",
+      "status": "final"
+    },
+    "6604585": {
+      "away": {
+        "name": "Elon",
+        "ncaa_slug": "elon",
+        "score": 10,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/31/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "N.C. A&T",
+        "ncaa_slug": "nc-at",
+        "score": 13,
+        "winner": true
+      },
+      "id": "6604585",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1793466000",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6604586": {
+      "away": {
+        "name": "Hampton",
+        "ncaa_slug": "hampton",
+        "score": 6,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "11/07/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Elon",
+        "ncaa_slug": "elon",
+        "score": 24,
+        "winner": true
+      },
+      "id": "6604586",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794078000",
+      "start_time_et": "2:00 PM ET",
+      "status": "final"
+    },
+    "6604587": {
+      "away": {
+        "name": "Campbell",
+        "ncaa_slug": "campbell",
+        "score": 24,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "11/14/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Elon",
+        "ncaa_slug": "elon",
+        "score": 28,
+        "winner": true
+      },
+      "id": "6604587",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794682800",
+      "start_time_et": "2:00 PM ET",
+      "status": "final"
+    },
+    "6604616": {
+      "away": {
+        "name": "N.C. A&T",
+        "ncaa_slug": "nc-at",
+        "score": 17,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "11/07/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Monmouth",
+        "ncaa_slug": "monmouth",
+        "score": 21,
+        "winner": true
+      },
+      "id": "6604616",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794070800",
+      "start_time_et": "12:00 PM ET",
+      "status": "final"
+    },
+    "6604624": {
+      "away": {
+        "name": "Monmouth",
+        "ncaa_slug": "monmouth",
+        "score": 55,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "11/21/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Campbell",
+        "ncaa_slug": "campbell",
+        "score": 49,
+        "winner": false
+      },
+      "id": "6604624",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1795284000",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6604638": {
+      "away": {
+        "name": "Davidson",
+        "ncaa_slug": "davidson",
+        "score": 7,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/31/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "St. Thomas (MN)",
+        "ncaa_slug": "st-thomas-mn",
+        "score": 35,
+        "winner": true
+      },
+      "id": "6604638",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1793469600",
+      "start_time_et": "2:00 PM ET",
+      "status": "final"
+    },
+    "6604646": {
+      "away": {
+        "name": "N.C. A&T",
+        "ncaa_slug": "nc-at",
+        "score": 30,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/03/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Bryant",
+        "ncaa_slug": "bryant",
+        "score": 31,
+        "winner": true
+      },
+      "id": "6604646",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791064800",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6604656": {
+      "away": {
+        "name": "Rhode Island",
+        "ncaa_slug": "rhode-island",
+        "score": 18,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/26/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "N.C. A&T",
+        "ncaa_slug": "nc-at",
+        "score": 22,
+        "winner": true
+      },
+      "id": "6604656",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1790452800",
+      "start_time_et": "4:00 PM ET",
+      "status": "final"
+    },
+    "6604673": {
+      "away": {
+        "name": "Gardner-Webb",
+        "ncaa_slug": "gardner-webb",
+        "score": 13,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/05/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Wofford",
+        "ncaa_slug": "wofford",
+        "score": 17,
+        "winner": true
+      },
+      "id": "6604673",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1788629400",
+      "start_time_et": "1:30 PM ET",
+      "status": "final"
+    },
+    "6604681": {
+      "away": {
+        "name": "Drake",
+        "ncaa_slug": "drake",
+        "score": 51,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "09/26/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Davidson",
+        "ncaa_slug": "davidson",
+        "score": 32,
+        "winner": false
+      },
+      "id": "6604681",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1790442000",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6604701": {
+      "away": {
+        "name": "Campbell",
+        "ncaa_slug": "campbell",
+        "score": 49,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "08/29/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "ETSU",
+        "ncaa_slug": "east-tenn-st",
+        "score": 37,
+        "winner": false
+      },
+      "id": "6604701",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1788039000",
+      "start_time_et": "5:30 PM ET",
+      "status": "final"
+    },
+    "6604718": {
+      "away": {
+        "name": "Gardner-Webb",
+        "ncaa_slug": "gardner-webb",
+        "score": 7,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "11/14/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Western Ill.",
+        "ncaa_slug": "western-ill",
+        "score": 45,
+        "winner": true
+      },
+      "id": "6604718",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794682800",
+      "start_time_et": "2:00 PM ET",
+      "status": "final"
+    },
+    "6604728": {
+      "away": {
+        "name": "Gardner-Webb",
+        "ncaa_slug": "gardner-webb",
+        "score": 12,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/03/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Charleston So.",
+        "ncaa_slug": "charleston-so",
+        "score": 10,
+        "winner": false
+      },
+      "id": "6604728",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791064800",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6604743": {
+      "away": {
+        "name": "Chicago St.",
+        "ncaa_slug": "chicago-st",
+        "score": 12,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/17/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "N.C. A&T",
+        "ncaa_slug": "nc-at",
+        "score": 27,
+        "winner": true
+      },
+      "id": "6604743",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792256400",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6604783": {
+      "away": {
+        "name": "Campbell",
+        "ncaa_slug": "campbell",
+        "score": 35,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/24/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Maine",
+        "ncaa_slug": "maine",
+        "score": 6,
+        "winner": false
+      },
+      "id": "6604783",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792861200",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6604805": {
+      "away": {
+        "name": "Morgan St.",
+        "ncaa_slug": "morgan-st",
+        "score": 17,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "08/29/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "N.C. A&T",
+        "ncaa_slug": "nc-at",
+        "score": 7,
+        "winner": false
+      },
+      "id": "6604805",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1788040800",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6604806": {
+      "away": {
+        "name": "N.C. A&T",
+        "ncaa_slug": "nc-at",
+        "score": 22,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/12/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "N.C. Central",
+        "ncaa_slug": "nc-central",
+        "score": 30,
+        "winner": true
+      },
+      "id": "6604806",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789228800",
+      "start_time_et": "12:00 PM ET",
+      "status": "final"
+    },
+    "6604807": {
+      "away": {
+        "name": "N.C. A&T",
+        "ncaa_slug": "nc-at",
+        "score": 14,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/19/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Campbell",
+        "ncaa_slug": "campbell",
+        "score": 42,
+        "winner": true
+      },
+      "id": "6604807",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789855200",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6604808": {
+      "away": {
+        "name": "New Hampshire",
+        "ncaa_slug": "new-hampshire",
+        "score": 27,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/10/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "N.C. A&T",
+        "ncaa_slug": "nc-at",
+        "score": 30,
+        "winner": true
+      },
+      "id": "6604808",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791648000",
+      "start_time_et": "12:00 PM ET",
+      "status": "final"
+    },
+    "6604809": {
+      "away": {
+        "name": "N.C. A&T",
+        "ncaa_slug": "nc-at",
+        "score": 41,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "11/14/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Hampton",
+        "ncaa_slug": "hampton",
+        "score": 14,
+        "winner": false
+      },
+      "id": "6604809",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794679200",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6604810": {
+      "away": {
+        "name": "UAlbany",
+        "ncaa_slug": "albany-ny",
+        "score": 24,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "11/21/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "N.C. A&T",
+        "ncaa_slug": "nc-at",
+        "score": 7,
+        "winner": false
+      },
+      "id": "6604810",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1795280400",
+      "start_time_et": "12:00 PM ET",
+      "status": "final"
+    },
+    "6604835": {
+      "away": {
+        "name": "Morehead St.",
+        "ncaa_slug": "morehead-st",
+        "score": 31,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/17/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Davidson",
+        "ncaa_slug": "davidson",
+        "score": 34,
+        "winner": true
+      },
+      "id": "6604835",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792256400",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6604841": {
+      "away": {
+        "name": "N.C. Central",
+        "ncaa_slug": "nc-central",
+        "score": 31,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/23/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Delaware St.",
+        "ncaa_slug": "delaware-st",
+        "score": 12,
+        "winner": false
+      },
+      "id": "6604841",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792789200",
+      "start_time_et": "5:00 PM ET",
+      "status": "final"
+    },
+    "6604860": {
+      "away": {
+        "name": "William & Mary",
+        "ncaa_slug": "william-mary",
+        "score": 17,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/10/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "N.C. Central",
+        "ncaa_slug": "nc-central",
+        "score": 14,
+        "winner": false
+      },
+      "id": "6604860",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791651600",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6604883": {
+      "away": {
+        "name": "Davidson",
+        "ncaa_slug": "davidson",
+        "score": 3,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "11/14/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Dayton",
+        "ncaa_slug": "dayton",
+        "score": 34,
+        "winner": true
+      },
+      "id": "6604883",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794675600",
+      "start_time_et": "12:00 PM ET",
+      "status": "final"
+    },
+    "6604889": {
+      "away": {
+        "name": "Eastern Ill.",
+        "ncaa_slug": "eastern-ill",
+        "score": 21,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/10/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Gardner-Webb",
+        "ncaa_slug": "gardner-webb",
+        "score": 7,
+        "winner": false
+      },
+      "id": "6604889",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791660600",
+      "start_time_et": "3:30 PM ET",
+      "status": "final"
+    },
+    "6604894": {
+      "away": {
+        "name": "Concord",
+        "ncaa_slug": "concord",
+        "score": 41,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "08/27/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Davidson",
+        "ncaa_slug": "davidson",
+        "score": 35,
+        "winner": false
+      },
+      "id": "6604894",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1787871600",
+      "start_time_et": "7:00 PM ET",
+      "status": "final"
+    },
+    "6604902": {
+      "away": {
+        "name": "Elizabeth City St.",
+        "ncaa_slug": "elizabeth-city-st",
+        "score": 6,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/05/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "N.C. Central",
+        "ncaa_slug": "nc-central",
+        "score": 27,
+        "winner": true
+      },
+      "id": "6604902",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1788645600",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6604913": {
+      "away": {
+        "name": "Campbell",
+        "ncaa_slug": "campbell",
+        "score": 35,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/31/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "UAlbany",
+        "ncaa_slug": "albany-ny",
+        "score": 45,
+        "winner": true
+      },
+      "id": "6604913",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1793462400",
+      "start_time_et": "12:00 PM ET",
+      "status": "final"
+    },
+    "6604939": {
+      "away": {
+        "name": "Gardner-Webb",
+        "ncaa_slug": "gardner-webb",
+        "score": 34,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/31/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Southeast Mo. St.",
+        "ncaa_slug": "southeast-mo-st",
+        "score": 10,
+        "winner": false
+      },
+      "id": "6604939",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1793469600",
+      "start_time_et": "2:00 PM ET",
+      "status": "final"
+    },
+    "6604955": {
+      "away": {
+        "name": "N.C. Central",
+        "ncaa_slug": "nc-central",
+        "score": 30,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "08/29/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Texas Southern",
+        "ncaa_slug": "texas-southern",
+        "score": 42,
+        "winner": true
+      },
+      "id": "6604955",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1788044400",
+      "start_time_et": "7:00 PM ET",
+      "status": "final"
+    },
+    "6604956": {
+      "away": {
+        "name": "N.C. Central",
+        "ncaa_slug": "nc-central",
+        "score": 20,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/19/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Gardner-Webb",
+        "ncaa_slug": "gardner-webb",
+        "score": 44,
+        "winner": true
+      },
+      "id": "6604956",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789855200",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6604957": {
+      "away": {
+        "name": "Campbell",
+        "ncaa_slug": "campbell",
+        "score": 38,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/03/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "N.C. Central",
+        "ncaa_slug": "nc-central",
+        "score": 31,
+        "winner": false
+      },
+      "id": "6604957",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791064800",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6604958": {
+      "away": {
+        "name": "N.C. Central",
+        "ncaa_slug": "nc-central",
+        "score": 24,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "11/14/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "South Carolina St.",
+        "ncaa_slug": "south-carolina-st",
+        "score": 38,
+        "winner": true
+      },
+      "id": "6604958",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794681000",
+      "start_time_et": "1:30 PM ET",
+      "status": "final"
+    },
+    "6604959": {
+      "away": {
+        "name": "Morgan St.",
+        "ncaa_slug": "morgan-st",
+        "score": 31,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "11/21/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "N.C. Central",
+        "ncaa_slug": "nc-central",
+        "score": 41,
+        "winner": true
+      },
+      "id": "6604959",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1795287600",
+      "start_time_et": "2:00 PM ET",
+      "status": "final"
+    },
+    "6604973": {
+      "away": {
+        "name": "Davidson",
+        "ncaa_slug": "davidson",
+        "score": 21,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/10/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Presbyterian",
+        "ncaa_slug": "presbyterian",
+        "score": 38,
+        "winner": true
+      },
+      "id": "6604973",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791648000",
+      "start_time_et": "12:00 PM ET",
+      "status": "final"
+    },
+    "6604984": {
+      "away": {
+        "name": "Davidson",
+        "ncaa_slug": "davidson",
+        "score": 14,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/03/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "San Diego",
+        "ncaa_slug": "san-diego",
+        "score": 63,
+        "winner": true
+      },
+      "id": "6604984",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791057600",
+      "start_time_et": "4:00 PM ET",
+      "status": "final"
+    },
+    "6605000": {
+      "away": {
+        "name": "Catawba",
+        "ncaa_slug": "catawba",
+        "score": 22,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/26/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Tusculum",
+        "ncaa_slug": "tusculum",
+        "score": 27,
+        "winner": true
+      },
+      "id": "6605000",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1790460000",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6605001": {
+      "away": {
+        "name": "Tusculum",
+        "ncaa_slug": "tusculum",
+        "score": 40,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/03/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Mars Hill",
+        "ncaa_slug": "mars-hill",
+        "score": 42,
+        "winner": true
+      },
+      "id": "6605001",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791052200",
+      "start_time_et": "2:30 PM ET",
+      "status": "final"
+    },
+    "6605002": {
+      "away": {
+        "name": "Tusculum",
+        "ncaa_slug": "tusculum",
+        "score": 14,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/10/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Wingate",
+        "ncaa_slug": "wingate",
+        "score": 31,
+        "winner": true
+      },
+      "id": "6605002",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791658800",
+      "start_time_et": "3:00 PM ET",
+      "status": "final"
+    },
+    "6605005": {
+      "away": {
+        "name": "Tusculum",
+        "ncaa_slug": "tusculum",
+        "score": 7,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "11/07/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Lenoir-Rhyne",
+        "ncaa_slug": "lenoir-rhyne",
+        "score": 21,
+        "winner": true
+      },
+      "id": "6605005",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794078000",
+      "start_time_et": "2:00 PM ET",
+      "status": "final"
+    },
+    "6605007": {
+      "away": {
+        "name": "Mars Hill",
+        "ncaa_slug": "mars-hill",
+        "score": 17,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "09/05/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Winston-Salem",
+        "ncaa_slug": "winston-salem",
+        "score": 0,
+        "winner": false
+      },
+      "id": "6605007",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1788652800",
+      "start_time_et": "8:00 PM ET",
+      "status": "final"
+    },
+    "6605008": {
+      "away": {
+        "name": "Catawba",
+        "ncaa_slug": "catawba",
+        "score": 16,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/12/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Mars Hill",
+        "ncaa_slug": "mars-hill",
+        "score": 22,
+        "winner": true
+      },
+      "id": "6605008",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789232400",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6605009": {
+      "away": {
+        "name": "Mars Hill",
+        "ncaa_slug": "mars-hill",
+        "score": 15,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "09/19/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Lenoir-Rhyne",
+        "ncaa_slug": "lenoir-rhyne",
+        "score": 7,
+        "winner": false
+      },
+      "id": "6605009",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789855200",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6605010": {
+      "away": {
+        "name": "Mars Hill",
+        "ncaa_slug": "mars-hill",
+        "score": 10,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "09/26/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Carson-Newman",
+        "ncaa_slug": "carson-newman",
+        "score": 6,
+        "winner": false
+      },
+      "id": "6605010",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1790442000",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6605011": {
+      "away": {
+        "name": "Mars Hill",
+        "ncaa_slug": "mars-hill",
+        "score": 6,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/10/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Emory & Henry",
+        "ncaa_slug": "emory-henry",
+        "score": 17,
+        "winner": true
+      },
+      "id": "6605011",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791651600",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6605012": {
+      "away": {
+        "name": "Newberry",
+        "ncaa_slug": "newberry",
+        "score": 20,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/17/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Mars Hill",
+        "ncaa_slug": "mars-hill",
+        "score": 7,
+        "winner": false
+      },
+      "id": "6605012",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792256400",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6605013": {
+      "away": {
+        "name": "Mars Hill",
+        "ncaa_slug": "mars-hill",
+        "score": 16,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/31/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "UVA Wise",
+        "ncaa_slug": "uva-wise",
+        "score": 21,
+        "winner": true
+      },
+      "id": "6605013",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1793469600",
+      "start_time_et": "2:00 PM ET",
+      "status": "final"
+    },
+    "6605014": {
+      "away": {
+        "name": "Mars Hill",
+        "ncaa_slug": "mars-hill",
+        "score": 14,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "11/07/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Anderson (SC)",
+        "ncaa_slug": "anderson-sc",
+        "score": 17,
+        "winner": true
+      },
+      "id": "6605014",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794085200",
+      "start_time_et": "4:00 PM ET",
+      "status": "final"
+    },
+    "6605015": {
+      "away": {
+        "name": "Wingate",
+        "ncaa_slug": "wingate",
+        "score": 27,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "11/14/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Mars Hill",
+        "ncaa_slug": "mars-hill",
+        "score": 20,
+        "winner": false
+      },
+      "id": "6605015",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794679200",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6605085": {
+      "away": {
+        "name": "Chowan",
+        "ncaa_slug": "chowan",
+        "score": 24,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "08/29/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "West Virginia St.",
+        "ncaa_slug": "west-virginia-st",
+        "score": 56,
+        "winner": true
+      },
+      "id": "6605085",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1788019200",
+      "start_time_et": "12:00 PM ET",
+      "status": "final"
+    },
+    "6605088": {
+      "away": {
+        "name": "Wingate",
+        "ncaa_slug": "wingate",
+        "score": 23,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/12/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Carson-Newman",
+        "ncaa_slug": "carson-newman",
+        "score": 24,
+        "winner": true
+      },
+      "id": "6605088",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789232400",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6605090": {
+      "away": {
+        "name": "Carson-Newman",
+        "ncaa_slug": "carson-newman",
+        "score": 20,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/03/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Lenoir-Rhyne",
+        "ncaa_slug": "lenoir-rhyne",
+        "score": 17,
+        "winner": false
+      },
+      "id": "6605090",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791050400",
+      "start_time_et": "2:00 PM ET",
+      "status": "final"
+    },
+    "6605092": {
+      "away": {
+        "name": "Carson-Newman",
+        "ncaa_slug": "carson-newman",
+        "score": 41,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/31/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Catawba",
+        "ncaa_slug": "catawba",
+        "score": 7,
+        "winner": false
+      },
+      "id": "6605092",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1793466000",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6605103": {
+      "away": {
+        "name": "Shaw",
+        "ncaa_slug": "shaw",
+        "score": 20,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "08/29/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Fayetteville St.",
+        "ncaa_slug": "fayetteville-st",
+        "score": 33,
+        "winner": true
+      },
+      "id": "6605103",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1788040800",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6605104": {
+      "away": {
+        "name": "UNC Pembroke",
+        "ncaa_slug": "unc-pembroke",
+        "score": 7,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/05/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Fayetteville St.",
+        "ncaa_slug": "fayetteville-st",
+        "score": 10,
+        "winner": true
+      },
+      "id": "6605104",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1788645600",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6605105": {
+      "away": {
+        "name": "Valdosta St.",
+        "ncaa_slug": "valdosta-st",
+        "score": 38,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "09/12/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Fayetteville St.",
+        "ncaa_slug": "fayetteville-st",
+        "score": 9,
+        "winner": false
+      },
+      "id": "6605105",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789225200",
+      "start_time_et": "11:00 AM ET",
+      "status": "final"
+    },
+    "6605106": {
+      "away": {
+        "name": "Fayetteville St.",
+        "ncaa_slug": "fayetteville-st",
+        "score": 14,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/19/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Johnson C. Smith",
+        "ncaa_slug": "johnson-c-smith",
+        "score": 20,
+        "winner": true
+      },
+      "id": "6605106",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789837200",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6605107": {
+      "away": {
+        "name": "Virginia Union",
+        "ncaa_slug": "virginia-union",
+        "score": 14,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "09/26/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Fayetteville St.",
+        "ncaa_slug": "fayetteville-st",
+        "score": 0,
+        "winner": false
+      },
+      "id": "6605107",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1790442000",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6605108": {
+      "away": {
+        "name": "Fayetteville St.",
+        "ncaa_slug": "fayetteville-st",
+        "score": 28,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/03/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Livingstone",
+        "ncaa_slug": "livingstone",
+        "score": 20,
+        "winner": false
+      },
+      "id": "6605108",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791050400",
+      "start_time_et": "2:00 PM ET",
+      "status": "final"
+    },
+    "6605109": {
+      "away": {
+        "name": "Elizabeth City St.",
+        "ncaa_slug": "elizabeth-city-st",
+        "score": 7,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/17/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Fayetteville St.",
+        "ncaa_slug": "fayetteville-st",
+        "score": 43,
+        "winner": true
+      },
+      "id": "6605109",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792258200",
+      "start_time_et": "1:30 PM ET",
+      "status": "final"
+    },
+    "6605110": {
+      "away": {
+        "name": "Fayetteville St.",
+        "ncaa_slug": "fayetteville-st",
+        "score": 51,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/24/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Bluefield St.",
+        "ncaa_slug": "bluefield-st",
+        "score": 13,
+        "winner": false
+      },
+      "id": "6605110",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792864800",
+      "start_time_et": "2:00 PM ET",
+      "status": "final"
+    },
+    "6605111": {
+      "away": {
+        "name": "Bowie St.",
+        "ncaa_slug": "bowie-st",
+        "score": 17,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/31/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Fayetteville St.",
+        "ncaa_slug": "fayetteville-st",
+        "score": 21,
+        "winner": true
+      },
+      "id": "6605111",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1793466000",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6605112": {
+      "away": {
+        "name": "Fayetteville St.",
+        "ncaa_slug": "fayetteville-st",
+        "score": 23,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "11/07/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Winston-Salem",
+        "ncaa_slug": "winston-salem",
+        "score": 17,
+        "winner": false
+      },
+      "id": "6605112",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794076200",
+      "start_time_et": "1:30 PM ET",
+      "status": "final"
+    },
+    "6605114": {
+      "away": {
+        "name": "Bowie St.",
+        "ncaa_slug": "bowie-st",
+        "score": 34,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "09/26/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Elizabeth City St.",
+        "ncaa_slug": "elizabeth-city-st",
+        "score": 23,
+        "winner": false
+      },
+      "id": "6605114",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1790442000",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6605115": {
+      "away": {
+        "name": "Shaw",
+        "ncaa_slug": "shaw",
+        "score": 29,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/03/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Bowie St.",
+        "ncaa_slug": "bowie-st",
+        "score": 34,
+        "winner": true
+      },
+      "id": "6605115",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791046800",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6605116": {
+      "away": {
+        "name": "Bowie St.",
+        "ncaa_slug": "bowie-st",
+        "score": 21,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/10/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Winston-Salem",
+        "ncaa_slug": "winston-salem",
+        "score": 0,
+        "winner": false
+      },
+      "id": "6605116",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791651600",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6605118": {
+      "away": {
+        "name": "Johnson C. Smith",
+        "ncaa_slug": "johnson-c-smith",
+        "score": 13,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/24/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Bowie St.",
+        "ncaa_slug": "bowie-st",
+        "score": 16,
+        "winner": true
+      },
+      "id": "6605118",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792861200",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6605187": {
+      "away": {
+        "name": "Albany St. (GA)",
+        "ncaa_slug": "albany-st-ga",
+        "score": 7,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/06/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Johnson C. Smith",
+        "ncaa_slug": "johnson-c-smith",
+        "score": 27,
+        "winner": true
+      },
+      "id": "6605187",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1788724800",
+      "start_time_et": "4:00 PM ET",
+      "status": "final"
+    },
+    "6605216": {
+      "away": {
+        "name": "Valdosta St.",
+        "ncaa_slug": "valdosta-st",
+        "score": 41,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/19/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "UNC Pembroke",
+        "ncaa_slug": "unc-pembroke",
+        "score": 44,
+        "winner": true
+      },
+      "id": "6605216",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789837200",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6605243": {
+      "away": {
+        "name": "Johnson C. Smith",
+        "ncaa_slug": "johnson-c-smith",
+        "score": 10,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "08/29/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Benedict",
+        "ncaa_slug": "benedict",
+        "score": 32,
+        "winner": true
+      },
+      "id": "6605243",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1788037200",
+      "start_time_et": "5:00 PM ET",
+      "status": "final"
+    },
+    "6605323": {
+      "away": {
+        "name": "Shaw",
+        "ncaa_slug": "shaw",
+        "score": 23,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "09/05/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Barton",
+        "ncaa_slug": "barton",
+        "score": 13,
+        "winner": false
+      },
+      "id": "6605323",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1788649200",
+      "start_time_et": "7:00 PM ET",
+      "status": "final"
+    },
+    "6605324": {
+      "away": {
+        "name": "Bluefield Univ.",
+        "ncaa_slug": "bluefield-col",
+        "score": 21,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/12/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Barton",
+        "ncaa_slug": "barton",
+        "score": 36,
+        "winner": true
+      },
+      "id": "6605324",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789236000",
+      "start_time_et": "2:00 PM ET",
+      "status": "final"
+    },
+    "6605325": {
+      "away": {
+        "name": "Barton",
+        "ncaa_slug": "barton",
+        "score": 0,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/19/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Chowan",
+        "ncaa_slug": "chowan",
+        "score": 34,
+        "winner": true
+      },
+      "id": "6605325",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789855200",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6605326": {
+      "away": {
+        "name": "Ferrum",
+        "ncaa_slug": "ferrum",
+        "score": 21,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/03/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Barton",
+        "ncaa_slug": "barton",
+        "score": 0,
+        "winner": false
+      },
+      "id": "6605326",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791050400",
+      "start_time_et": "2:00 PM ET",
+      "status": "final"
+    },
+    "6605327": {
+      "away": {
+        "name": "UNC Pembroke",
+        "ncaa_slug": "unc-pembroke",
+        "score": 59,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/17/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Barton",
+        "ncaa_slug": "barton",
+        "score": 0,
+        "winner": false
+      },
+      "id": "6605327",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792267200",
+      "start_time_et": "4:00 PM ET",
+      "status": "final"
+    },
+    "6605328": {
+      "away": {
+        "name": "North Greenville",
+        "ncaa_slug": "north-greenville",
+        "score": 33,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/24/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Barton",
+        "ncaa_slug": "barton",
+        "score": 7,
+        "winner": false
+      },
+      "id": "6605328",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792864800",
+      "start_time_et": "2:00 PM ET",
+      "status": "final"
+    },
+    "6605329": {
+      "away": {
+        "name": "Barton",
+        "ncaa_slug": "barton",
+        "score": 14,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/31/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Shorter",
+        "ncaa_slug": "shorter",
+        "score": 34,
+        "winner": true
+      },
+      "id": "6605329",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1793462400",
+      "start_time_et": "12:00 PM ET",
+      "status": "final"
+    },
+    "6605330": {
+      "away": {
+        "name": "Barton",
+        "ncaa_slug": "barton",
+        "score": 26,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "11/07/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Erskine",
+        "ncaa_slug": "erskine",
+        "score": 32,
+        "winner": true
+      },
+      "id": "6605330",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794076200",
+      "start_time_et": "1:30 PM ET",
+      "status": "final"
+    },
+    "6605374": {
+      "away": {
+        "name": "Chowan",
+        "ncaa_slug": "chowan",
+        "score": 24,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "09/05/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "UVA Wise",
+        "ncaa_slug": "uva-wise",
+        "score": 20,
+        "winner": false
+      },
+      "id": "6605374",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1788645600",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6605376": {
+      "away": {
+        "name": "UVA Wise",
+        "ncaa_slug": "uva-wise",
+        "score": 27,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/26/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Wingate",
+        "ncaa_slug": "wingate",
+        "score": 41,
+        "winner": true
+      },
+      "id": "6605376",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1790460000",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6605378": {
+      "away": {
+        "name": "Lenoir-Rhyne",
+        "ncaa_slug": "lenoir-rhyne",
+        "score": 50,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/10/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "UVA Wise",
+        "ncaa_slug": "uva-wise",
+        "score": 24,
+        "winner": false
+      },
+      "id": "6605378",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791669600",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6605379": {
+      "away": {
+        "name": "Catawba",
+        "ncaa_slug": "catawba",
+        "score": 41,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "11/07/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "UVA Wise",
+        "ncaa_slug": "uva-wise",
+        "score": 31,
+        "winner": false
+      },
+      "id": "6605379",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794081600",
+      "start_time_et": "3:00 PM ET",
+      "status": "final"
+    },
+    "6605436": {
+      "away": {
+        "name": "Virginia Union",
+        "ncaa_slug": "virginia-union",
+        "score": 3,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "08/28/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Lenoir-Rhyne",
+        "ncaa_slug": "lenoir-rhyne",
+        "score": 45,
+        "winner": true
+      },
+      "id": "6605436",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1787954400",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6605437": {
+      "away": {
+        "name": "West Ala.",
+        "ncaa_slug": "west-ala",
+        "score": 34,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "09/05/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Lenoir-Rhyne",
+        "ncaa_slug": "lenoir-rhyne",
+        "score": 23,
+        "winner": false
+      },
+      "id": "6605437",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1788634800",
+      "start_time_et": "3:00 PM ET",
+      "status": "final"
+    },
+    "6605438": {
+      "away": {
+        "name": "Lenoir-Rhyne",
+        "ncaa_slug": "lenoir-rhyne",
+        "score": 21,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "09/12/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Newberry",
+        "ncaa_slug": "newberry",
+        "score": 14,
+        "winner": false
+      },
+      "id": "6605438",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789254000",
+      "start_time_et": "7:00 PM ET",
+      "status": "final"
+    },
+    "6605439": {
+      "away": {
+        "name": "Wingate",
+        "ncaa_slug": "wingate",
+        "score": 20,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/17/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Lenoir-Rhyne",
+        "ncaa_slug": "lenoir-rhyne",
+        "score": 17,
+        "winner": false
+      },
+      "id": "6605439",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792260000",
+      "start_time_et": "2:00 PM ET",
+      "status": "final"
+    },
+    "6605440": {
+      "away": {
+        "name": "Lenoir-Rhyne",
+        "ncaa_slug": "lenoir-rhyne",
+        "score": 21,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/31/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Emory & Henry",
+        "ncaa_slug": "emory-henry",
+        "score": 20,
+        "winner": false
+      },
+      "id": "6605440",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1793466000",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6605441": {
+      "away": {
+        "name": "Lenoir-Rhyne",
+        "ncaa_slug": "lenoir-rhyne",
+        "score": 45,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "11/14/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Catawba",
+        "ncaa_slug": "catawba",
+        "score": 38,
+        "winner": false
+      },
+      "id": "6605441",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794697200",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6605442": {
+      "away": {
+        "name": "Lenoir-Rhyne",
+        "ncaa_slug": "lenoir-rhyne",
+        "score": 22,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/26/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Anderson (SC)",
+        "ncaa_slug": "anderson-sc",
+        "score": 42,
+        "winner": true
+      },
+      "id": "6605442",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1790445600",
+      "start_time_et": "2:00 PM ET",
+      "status": "final"
+    },
+    "6605456": {
+      "away": {
+        "name": "Virginia Union",
+        "ncaa_slug": "virginia-union",
+        "score": 34,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "09/12/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Chowan",
+        "ncaa_slug": "chowan",
+        "score": 19,
+        "winner": false
+      },
+      "id": "6605456",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789232400",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6605462": {
+      "away": {
+        "name": "Livingstone",
+        "ncaa_slug": "livingstone",
+        "score": 20,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/05/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Virginia Union",
+        "ncaa_slug": "virginia-union",
+        "score": 49,
+        "winner": true
+      },
+      "id": "6605462",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1788645600",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6605466": {
+      "away": {
+        "name": "Elizabeth City St.",
+        "ncaa_slug": "elizabeth-city-st",
+        "score": 7,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/03/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Virginia Union",
+        "ncaa_slug": "virginia-union",
+        "score": 20,
+        "winner": true
+      },
+      "id": "6605466",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791046800",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6605468": {
+      "away": {
+        "name": "Shaw",
+        "ncaa_slug": "shaw",
+        "score": 6,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/24/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Virginia Union",
+        "ncaa_slug": "virginia-union",
+        "score": 49,
+        "winner": true
+      },
+      "id": "6605468",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792861200",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6605515": {
+      "away": {
+        "name": "Emory & Henry",
+        "ncaa_slug": "emory-henry",
+        "score": 10,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/19/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Catawba",
+        "ncaa_slug": "catawba",
+        "score": 24,
+        "winner": true
+      },
+      "id": "6605515",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789855200",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6605518": {
+      "away": {
+        "name": "Emory & Henry",
+        "ncaa_slug": "emory-henry",
+        "score": 44,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "11/07/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Wingate",
+        "ncaa_slug": "wingate",
+        "score": 14,
+        "winner": false
+      },
+      "id": "6605518",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794076200",
+      "start_time_et": "1:30 PM ET",
+      "status": "final"
+    },
+    "6605536": {
+      "away": {
+        "name": "Catawba",
+        "ncaa_slug": "catawba",
+        "score": 13,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "08/29/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Ferrum",
+        "ncaa_slug": "ferrum",
+        "score": 7,
+        "winner": false
+      },
+      "id": "6605536",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1788040800",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6605537": {
+      "away": {
+        "name": "North Greenville",
+        "ncaa_slug": "north-greenville",
+        "score": 40,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "09/05/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Catawba",
+        "ncaa_slug": "catawba",
+        "score": 38,
+        "winner": false
+      },
+      "id": "6605537",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1788645600",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6605538": {
+      "away": {
+        "name": "Wingate",
+        "ncaa_slug": "wingate",
+        "score": 24,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/03/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Catawba",
+        "ncaa_slug": "catawba",
+        "score": 35,
+        "winner": true
+      },
+      "id": "6605538",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791064800",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6605539": {
+      "away": {
+        "name": "Newberry",
+        "ncaa_slug": "newberry",
+        "score": 28,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/10/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Catawba",
+        "ncaa_slug": "catawba",
+        "score": 17,
+        "winner": false
+      },
+      "id": "6605539",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791669600",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6605540": {
+      "away": {
+        "name": "Catawba",
+        "ncaa_slug": "catawba",
+        "score": 37,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/17/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Anderson (SC)",
+        "ncaa_slug": "anderson-sc",
+        "score": 33,
+        "winner": false
+      },
+      "id": "6605540",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792260000",
+      "start_time_et": "2:00 PM ET",
+      "status": "final"
+    },
+    "6605544": {
+      "away": {
+        "name": "Ferrum",
+        "ncaa_slug": "ferrum",
+        "score": 28,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/12/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Shaw",
+        "ncaa_slug": "shaw",
+        "score": 34,
+        "winner": true
+      },
+      "id": "6605544",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789236000",
+      "start_time_et": "2:00 PM ET",
+      "status": "final"
+    },
+    "6605545": {
+      "away": {
+        "name": "Lincoln (PA)",
+        "ncaa_slug": "lincoln-pa",
+        "score": 27,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/19/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Shaw",
+        "ncaa_slug": "shaw",
+        "score": 49,
+        "winner": true
+      },
+      "id": "6605545",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789837200",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6605546": {
+      "away": {
+        "name": "Livingstone",
+        "ncaa_slug": "livingstone",
+        "score": 27,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/26/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Shaw",
+        "ncaa_slug": "shaw",
+        "score": 28,
+        "winner": true
+      },
+      "id": "6605546",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1790442000",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6605547": {
+      "away": {
+        "name": "Shaw",
+        "ncaa_slug": "shaw",
+        "score": 6,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/09/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Johnson C. Smith",
+        "ncaa_slug": "johnson-c-smith",
+        "score": 49,
+        "winner": true
+      },
+      "id": "6605547",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791586800",
+      "start_time_et": "7:00 PM ET",
+      "status": "final"
+    },
+    "6605548": {
+      "away": {
+        "name": "Virginia St.",
+        "ncaa_slug": "virginia-st",
+        "score": 76,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/17/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Shaw",
+        "ncaa_slug": "shaw",
+        "score": 13,
+        "winner": false
+      },
+      "id": "6605548",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792256400",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6605549": {
+      "away": {
+        "name": "Bluefield St.",
+        "ncaa_slug": "bluefield-st",
+        "score": 45,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/31/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Shaw",
+        "ncaa_slug": "shaw",
+        "score": 42,
+        "winner": false
+      },
+      "id": "6605549",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1793466000",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6605550": {
+      "away": {
+        "name": "Newberry",
+        "ncaa_slug": "newberry",
+        "score": 25,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "09/19/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Wingate",
+        "ncaa_slug": "wingate",
+        "score": 22,
+        "winner": false
+      },
+      "id": "6605550",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789855200",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6605571": {
+      "away": {
+        "name": "Allen",
+        "ncaa_slug": "allen",
+        "score": 37,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "08/29/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Livingstone",
+        "ncaa_slug": "livingstone",
+        "score": 16,
+        "winner": false
+      },
+      "id": "6605571",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1788040800",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6605572": {
+      "away": {
+        "name": "Livingstone",
+        "ncaa_slug": "livingstone",
+        "score": 44,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "09/12/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Bluefield St.",
+        "ncaa_slug": "bluefield-st",
+        "score": 30,
+        "winner": false
+      },
+      "id": "6605572",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789250400",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6605573": {
+      "away": {
+        "name": "Winston-Salem",
+        "ncaa_slug": "winston-salem",
+        "score": 13,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/19/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Livingstone",
+        "ncaa_slug": "livingstone",
+        "score": 21,
+        "winner": true
+      },
+      "id": "6605573",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789855200",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6605574": {
+      "away": {
+        "name": "Livingstone",
+        "ncaa_slug": "livingstone",
+        "score": 7,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/10/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Virginia St.",
+        "ncaa_slug": "virginia-st",
+        "score": 59,
+        "winner": true
+      },
+      "id": "6605574",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791655200",
+      "start_time_et": "2:00 PM ET",
+      "status": "final"
+    },
+    "6605575": {
+      "away": {
+        "name": "Elizabeth City St.",
+        "ncaa_slug": "elizabeth-city-st",
+        "score": 34,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/24/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Livingstone",
+        "ncaa_slug": "livingstone",
+        "score": 26,
+        "winner": false
+      },
+      "id": "6605575",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792864800",
+      "start_time_et": "2:00 PM ET",
+      "status": "final"
+    },
+    "6605576": {
+      "away": {
+        "name": "Virginia-Lynchburg",
+        "ncaa_slug": "virginia-lynchburg",
+        "score": 14,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/31/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Livingstone",
+        "ncaa_slug": "livingstone",
+        "score": 37,
+        "winner": true
+      },
+      "id": "6605576",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1793469600",
+      "start_time_et": "2:00 PM ET",
+      "status": "final"
+    },
+    "6605577": {
+      "away": {
+        "name": "Johnson C. Smith",
+        "ncaa_slug": "johnson-c-smith",
+        "score": 27,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "11/07/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Livingstone",
+        "ncaa_slug": "livingstone",
+        "score": 14,
+        "winner": false
+      },
+      "id": "6605577",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794078000",
+      "start_time_et": "2:00 PM ET",
+      "status": "final"
+    },
+    "6605588": {
+      "away": {
+        "name": "Johnson C. Smith",
+        "ncaa_slug": "johnson-c-smith",
+        "score": 31,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "09/12/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Winston-Salem",
+        "ncaa_slug": "winston-salem",
+        "score": 6,
+        "winner": false
+      },
+      "id": "6605588",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789250400",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6605589": {
+      "away": {
+        "name": "Johnson C. Smith",
+        "ncaa_slug": "johnson-c-smith",
+        "score": 51,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/03/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Bluefield St.",
+        "ncaa_slug": "bluefield-st",
+        "score": 0,
+        "winner": false
+      },
+      "id": "6605589",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791046800",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6605590": {
+      "away": {
+        "name": "Lincoln (PA)",
+        "ncaa_slug": "lincoln-pa",
+        "score": 6,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/17/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Johnson C. Smith",
+        "ncaa_slug": "johnson-c-smith",
+        "score": 40,
+        "winner": true
+      },
+      "id": "6605590",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792260000",
+      "start_time_et": "2:00 PM ET",
+      "status": "final"
+    },
+    "6605591": {
+      "away": {
+        "name": "Virginia St.",
+        "ncaa_slug": "virginia-st",
+        "score": 33,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/31/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Johnson C. Smith",
+        "ncaa_slug": "johnson-c-smith",
+        "score": 39,
+        "winner": true
+      },
+      "id": "6605591",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1793466000",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6605610": {
+      "away": {
+        "name": "Brevard",
+        "ncaa_slug": "brevard",
+        "score": 27,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "09/19/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Erskine",
+        "ncaa_slug": "erskine",
+        "score": 14,
+        "winner": false
+      },
+      "id": "6605610",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789844400",
+      "start_time_et": "3:00 PM ET",
+      "status": "final"
+    },
+    "6605612": {
+      "away": {
+        "name": "Erskine",
+        "ncaa_slug": "erskine",
+        "score": 3,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/10/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "UNC Pembroke",
+        "ncaa_slug": "unc-pembroke",
+        "score": 44,
+        "winner": true
+      },
+      "id": "6605612",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791651600",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6605613": {
+      "away": {
+        "name": "Erskine",
+        "ncaa_slug": "erskine",
+        "score": 7,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/17/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Chowan",
+        "ncaa_slug": "chowan",
+        "score": 37,
+        "winner": true
+      },
+      "id": "6605613",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792256400",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6605673": {
+      "away": {
+        "name": "Wingate",
+        "ncaa_slug": "wingate",
+        "score": 13,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "08/27/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "UNC Pembroke",
+        "ncaa_slug": "unc-pembroke",
+        "score": 21,
+        "winner": true
+      },
+      "id": "6605673",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1787868000",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6605674": {
+      "away": {
+        "name": "UNC Pembroke",
+        "ncaa_slug": "unc-pembroke",
+        "score": 31,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "09/12/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Shorter",
+        "ncaa_slug": "shorter",
+        "score": 24,
+        "winner": false
+      },
+      "id": "6605674",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789232400",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6605675": {
+      "away": {
+        "name": "Monroe",
+        "ncaa_slug": "",
+        "score": 6,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/26/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "UNC Pembroke",
+        "ncaa_slug": "unc-pembroke",
+        "score": 24,
+        "winner": true
+      },
+      "id": "6605675",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1790442000",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6605676": {
+      "away": {
+        "name": "North Greenville",
+        "ncaa_slug": "north-greenville",
+        "score": 42,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/03/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "UNC Pembroke",
+        "ncaa_slug": "unc-pembroke",
+        "score": 41,
+        "winner": false
+      },
+      "id": "6605676",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791039600",
+      "start_time_et": "11:00 AM ET",
+      "status": "final"
+    },
+    "6605677": {
+      "away": {
+        "name": "Chowan",
+        "ncaa_slug": "chowan",
+        "score": 21,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/24/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "UNC Pembroke",
+        "ncaa_slug": "unc-pembroke",
+        "score": 38,
+        "winner": true
+      },
+      "id": "6605677",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792868400",
+      "start_time_et": "3:00 PM ET",
+      "status": "final"
+    },
+    "6605678": {
+      "away": {
+        "name": "UNC Pembroke",
+        "ncaa_slug": "unc-pembroke",
+        "score": 45,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "11/07/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Ferrum",
+        "ncaa_slug": "ferrum",
+        "score": 14,
+        "winner": false
+      },
+      "id": "6605678",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794078000",
+      "start_time_et": "2:00 PM ET",
+      "status": "final"
+    },
+    "6605686": {
+      "away": {
+        "name": "Wingate",
+        "ncaa_slug": "wingate",
+        "score": 36,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "09/05/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Delta St.",
+        "ncaa_slug": "delta-st",
+        "score": 13,
+        "winner": false
+      },
+      "id": "6605686",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1788649200",
+      "start_time_et": "7:00 PM ET",
+      "status": "final"
+    },
+    "6605690": {
+      "away": {
+        "name": "Fort Valley St.",
+        "ncaa_slug": "fort-valley-st",
+        "score": 17,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "08/29/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Elizabeth City St.",
+        "ncaa_slug": "elizabeth-city-st",
+        "score": 14,
+        "winner": false
+      },
+      "id": "6605690",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1788022800",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6605691": {
+      "away": {
+        "name": "Virginia St.",
+        "ncaa_slug": "virginia-st",
+        "score": 28,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "09/19/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Elizabeth City St.",
+        "ncaa_slug": "elizabeth-city-st",
+        "score": 14,
+        "winner": false
+      },
+      "id": "6605691",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789837200",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6605692": {
+      "away": {
+        "name": "Lincoln (PA)",
+        "ncaa_slug": "lincoln-pa",
+        "score": 21,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/10/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Elizabeth City St.",
+        "ncaa_slug": "elizabeth-city-st",
+        "score": 35,
+        "winner": true
+      },
+      "id": "6605692",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791651600",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6605693": {
+      "away": {
+        "name": "Winston-Salem",
+        "ncaa_slug": "winston-salem",
+        "score": 0,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/31/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Elizabeth City St.",
+        "ncaa_slug": "elizabeth-city-st",
+        "score": 5,
+        "winner": true
+      },
+      "id": "6605693",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1793466000",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6605694": {
+      "away": {
+        "name": "Elizabeth City St.",
+        "ncaa_slug": "elizabeth-city-st",
+        "score": 58,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "11/07/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Bluefield St.",
+        "ncaa_slug": "bluefield-st",
+        "score": 12,
+        "winner": false
+      },
+      "id": "6605694",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794078000",
+      "start_time_et": "2:00 PM ET",
+      "status": "final"
+    },
+    "6605696": {
+      "away": {
+        "name": "Winston-Salem",
+        "ncaa_slug": "winston-salem",
+        "score": 19,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/26/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Virginia St.",
+        "ncaa_slug": "virginia-st",
+        "score": 49,
+        "winner": true
+      },
+      "id": "6605696",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1790442000",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6605718": {
+      "away": {
+        "name": "West Ala.",
+        "ncaa_slug": "west-ala",
+        "score": 17,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "09/26/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Barton",
+        "ncaa_slug": "barton",
+        "score": 7,
+        "winner": false
+      },
+      "id": "6605718",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1790452800",
+      "start_time_et": "4:00 PM ET",
+      "status": "final"
+    },
+    "6605719": {
+      "away": {
+        "name": "Chowan",
+        "ncaa_slug": "chowan",
+        "score": 26,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/03/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "West Ala.",
+        "ncaa_slug": "west-ala",
+        "score": 29,
+        "winner": true
+      },
+      "id": "6605719",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791061200",
+      "start_time_et": "5:00 PM ET",
+      "status": "final"
+    },
+    "6605756": {
+      "away": {
+        "name": "Chowan",
+        "ncaa_slug": "chowan",
+        "score": 16,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/10/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "North Greenville",
+        "ncaa_slug": "north-greenville",
+        "score": 13,
+        "winner": false
+      },
+      "id": "6605756",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791648000",
+      "start_time_et": "12:00 PM ET",
+      "status": "final"
+    },
+    "6605783": {
+      "away": {
+        "name": "Chowan",
+        "ncaa_slug": "chowan",
+        "score": 28,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/31/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Ferrum",
+        "ncaa_slug": "ferrum",
+        "score": 21,
+        "winner": false
+      },
+      "id": "6605783",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1793469600",
+      "start_time_et": "2:00 PM ET",
+      "status": "final"
+    },
+    "6605788": {
+      "away": {
+        "name": "Anderson (SC)",
+        "ncaa_slug": "anderson-sc",
+        "score": 14,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/31/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Wingate",
+        "ncaa_slug": "wingate",
+        "score": 35,
+        "winner": true
+      },
+      "id": "6605788",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1793473200",
+      "start_time_et": "3:00 PM ET",
+      "status": "final"
+    },
+    "6605809": {
+      "away": {
+        "name": "Shorter",
+        "ncaa_slug": "shorter",
+        "score": 20,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "11/07/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Chowan",
+        "ncaa_slug": "chowan",
+        "score": 23,
+        "winner": true
+      },
+      "id": "6605809",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794074400",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6605825": {
+      "away": {
+        "name": "Winston-Salem",
+        "ncaa_slug": "winston-salem",
+        "score": 21,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/24/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Lincoln (PA)",
+        "ncaa_slug": "lincoln-pa",
+        "score": 14,
+        "winner": false
+      },
+      "id": "6605825",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792861200",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6605841": {
+      "away": {
+        "name": "Bluefield St.",
+        "ncaa_slug": "bluefield-st",
+        "score": 14,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/17/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Winston-Salem",
+        "ncaa_slug": "winston-salem",
+        "score": 43,
+        "winner": true
+      },
+      "id": "6605841",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792256400",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6605910": {
+      "away": {
+        "name": "Wash. & Lee",
+        "ncaa_slug": "wash-lee",
+        "score": 47,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/31/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Guilford",
+        "ncaa_slug": "guilford",
+        "score": 3,
+        "winner": false
+      },
+      "id": "6605910",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1793476800",
+      "start_time_et": "4:00 PM ET",
+      "status": "final"
+    },
+    "6605928": {
+      "away": {
+        "name": "Guilford",
+        "ncaa_slug": "guilford",
+        "score": 7,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/05/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Greensboro",
+        "ncaa_slug": "greensboro",
+        "score": 48,
+        "winner": true
+      },
+      "id": "6605928",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1788645600",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6605929": {
+      "away": {
+        "name": "Greensboro",
+        "ncaa_slug": "greensboro",
+        "score": 14,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/12/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Roanoke",
+        "ncaa_slug": "roanoke",
+        "score": 28,
+        "winner": true
+      },
+      "id": "6605929",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789236000",
+      "start_time_et": "2:00 PM ET",
+      "status": "final"
+    },
+    "6605930": {
+      "away": {
+        "name": "Bluefield Univ.",
+        "ncaa_slug": "bluefield-col",
+        "score": 28,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "09/19/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Greensboro",
+        "ncaa_slug": "greensboro",
+        "score": 7,
+        "winner": false
+      },
+      "id": "6605930",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789855200",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6605931": {
+      "away": {
+        "name": "Southern Va.",
+        "ncaa_slug": "southern-va",
+        "score": 20,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/03/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Greensboro",
+        "ncaa_slug": "greensboro",
+        "score": 42,
+        "winner": true
+      },
+      "id": "6605931",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791064800",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6605932": {
+      "away": {
+        "name": "Greensboro",
+        "ncaa_slug": "greensboro",
+        "score": 20,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/10/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Huntingdon",
+        "ncaa_slug": "huntingdon",
+        "score": 31,
+        "winner": true
+      },
+      "id": "6605932",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791655200",
+      "start_time_et": "2:00 PM ET",
+      "status": "final"
+    },
+    "6605933": {
+      "away": {
+        "name": "Belhaven",
+        "ncaa_slug": "belhaven",
+        "score": 19,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/17/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Greensboro",
+        "ncaa_slug": "greensboro",
+        "score": 10,
+        "winner": false
+      },
+      "id": "6605933",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792256400",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6605934": {
+      "away": {
+        "name": "Greensboro",
+        "ncaa_slug": "greensboro",
+        "score": 14,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/24/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "LaGrange",
+        "ncaa_slug": "lagrange",
+        "score": 22,
+        "winner": true
+      },
+      "id": "6605934",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792861200",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6605935": {
+      "away": {
+        "name": "Greensboro",
+        "ncaa_slug": "greensboro",
+        "score": 28,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/31/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Brevard",
+        "ncaa_slug": "brevard",
+        "score": 30,
+        "winner": true
+      },
+      "id": "6605935",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1793487600",
+      "start_time_et": "7:00 PM ET",
+      "status": "final"
+    },
+    "6605936": {
+      "away": {
+        "name": "N.C. Wesleyan",
+        "ncaa_slug": "nc-wesleyan",
+        "score": 20,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "11/07/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Greensboro",
+        "ncaa_slug": "greensboro",
+        "score": 22,
+        "winner": true
+      },
+      "id": "6605936",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794074400",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6605937": {
+      "away": {
+        "name": "Greensboro",
+        "ncaa_slug": "greensboro",
+        "score": 49,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "11/14/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Methodist",
+        "ncaa_slug": "methodist",
+        "score": 0,
+        "winner": false
+      },
+      "id": "6605937",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794697200",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6605950": {
+      "away": {
+        "name": "Roanoke",
+        "ncaa_slug": "roanoke",
+        "score": 52,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/03/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Guilford",
+        "ncaa_slug": "guilford",
+        "score": 24,
+        "winner": false
+      },
+      "id": "6605950",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791046800",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6606352": {
+      "away": {
+        "name": "Shenandoah",
+        "ncaa_slug": "shenandoah",
+        "score": 30,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "09/04/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Methodist",
+        "ncaa_slug": "methodist",
+        "score": 3,
+        "winner": false
+      },
+      "id": "6606352",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1788559200",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6606353": {
+      "away": {
+        "name": "Methodist",
+        "ncaa_slug": "methodist",
+        "score": 17,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/12/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Guilford",
+        "ncaa_slug": "guilford",
+        "score": 20,
+        "winner": true
+      },
+      "id": "6606353",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789254000",
+      "start_time_et": "7:00 PM ET",
+      "status": "final"
+    },
+    "6606354": {
+      "away": {
+        "name": "Methodist",
+        "ncaa_slug": "methodist",
+        "score": 27,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "09/26/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Apprentice",
+        "ncaa_slug": "apprentice",
+        "score": 22,
+        "winner": false
+      },
+      "id": "6606354",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1790442000",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6606355": {
+      "away": {
+        "name": "Huntingdon",
+        "ncaa_slug": "huntingdon",
+        "score": 31,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/03/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Methodist",
+        "ncaa_slug": "methodist",
+        "score": 6,
+        "winner": false
+      },
+      "id": "6606355",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791046800",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6606356": {
+      "away": {
+        "name": "Methodist",
+        "ncaa_slug": "methodist",
+        "score": 0,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/09/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "LaGrange",
+        "ncaa_slug": "lagrange",
+        "score": 35,
+        "winner": true
+      },
+      "id": "6606356",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791576000",
+      "start_time_et": "4:00 PM ET",
+      "status": "final"
+    },
+    "6606357": {
+      "away": {
+        "name": "Southern Va.",
+        "ncaa_slug": "southern-va",
+        "score": 36,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/17/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Methodist",
+        "ncaa_slug": "methodist",
+        "score": 0,
+        "winner": false
+      },
+      "id": "6606357",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792256400",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6606358": {
+      "away": {
+        "name": "Methodist",
+        "ncaa_slug": "methodist",
+        "score": 3,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/24/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "N.C. Wesleyan",
+        "ncaa_slug": "nc-wesleyan",
+        "score": 45,
+        "winner": true
+      },
+      "id": "6606358",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792879200",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6606359": {
+      "away": {
+        "name": "Belhaven",
+        "ncaa_slug": "belhaven",
+        "score": 20,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/31/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Methodist",
+        "ncaa_slug": "methodist",
+        "score": 15,
+        "winner": false
+      },
+      "id": "6606359",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1793466000",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6606360": {
+      "away": {
+        "name": "Methodist",
+        "ncaa_slug": "methodist",
+        "score": 3,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "11/07/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Brevard",
+        "ncaa_slug": "brevard",
+        "score": 48,
+        "winner": true
+      },
+      "id": "6606360",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794070800",
+      "start_time_et": "12:00 PM ET",
+      "status": "final"
+    },
+    "6606380": {
+      "away": {
+        "name": "Brevard",
+        "ncaa_slug": "brevard",
+        "score": 59,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "09/26/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Guilford",
+        "ncaa_slug": "guilford",
+        "score": 0,
+        "winner": false
+      },
+      "id": "6606380",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1790460000",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6606381": {
+      "away": {
+        "name": "Bridgewater (VA)",
+        "ncaa_slug": "bridgewater-va",
+        "score": 19,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/10/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Guilford",
+        "ncaa_slug": "guilford",
+        "score": 14,
+        "winner": false
+      },
+      "id": "6606381",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791651600",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6606382": {
+      "away": {
+        "name": "Guilford",
+        "ncaa_slug": "guilford",
+        "score": 3,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/17/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Hampden-Sydney",
+        "ncaa_slug": "hampden-sydney",
+        "score": 64,
+        "winner": true
+      },
+      "id": "6606382",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792256400",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6606383": {
+      "away": {
+        "name": "Guilford",
+        "ncaa_slug": "guilford",
+        "score": 3,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/24/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Randolph-Macon",
+        "ncaa_slug": "randolph-macon",
+        "score": 62,
+        "winner": true
+      },
+      "id": "6606383",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792861200",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6606384": {
+      "away": {
+        "name": "Guilford",
+        "ncaa_slug": "guilford",
+        "score": 14,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "11/07/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Averett",
+        "ncaa_slug": "averett",
+        "score": 21,
+        "winner": true
+      },
+      "id": "6606384",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794074400",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6606385": {
+      "away": {
+        "name": "Guilford",
+        "ncaa_slug": "guilford",
+        "score": 7,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "11/14/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Shenandoah",
+        "ncaa_slug": "shenandoah",
+        "score": 42,
+        "winner": true
+      },
+      "id": "6606385",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794679200",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6606421": {
+      "away": {
+        "name": "Sewanee",
+        "ncaa_slug": "sewanee",
+        "score": 14,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/12/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Brevard",
+        "ncaa_slug": "brevard",
+        "score": 39,
+        "winner": true
+      },
+      "id": "6606421",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789232400",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6606422": {
+      "away": {
+        "name": "N.C. Wesleyan",
+        "ncaa_slug": "nc-wesleyan",
+        "score": 17,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/19/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Sewanee",
+        "ncaa_slug": "sewanee",
+        "score": 24,
+        "winner": true
+      },
+      "id": "6606422",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789840800",
+      "start_time_et": "2:00 PM ET",
+      "status": "final"
+    },
+    "6606819": {
+      "away": {
+        "name": "LaGrange",
+        "ncaa_slug": "lagrange",
+        "score": 41,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/03/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "N.C. Wesleyan",
+        "ncaa_slug": "nc-wesleyan",
+        "score": 31,
+        "winner": false
+      },
+      "id": "6606819",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791043200",
+      "start_time_et": "12:00 PM ET",
+      "status": "final"
+    },
+    "6606820": {
+      "away": {
+        "name": "LaGrange",
+        "ncaa_slug": "lagrange",
+        "score": 21,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/17/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Brevard",
+        "ncaa_slug": "brevard",
+        "score": 10,
+        "winner": false
+      },
+      "id": "6606820",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792260000",
+      "start_time_et": "2:00 PM ET",
+      "status": "final"
+    },
+    "6606907": {
+      "away": {
+        "name": "Belhaven",
+        "ncaa_slug": "belhaven",
+        "score": 8,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/03/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Brevard",
+        "ncaa_slug": "brevard",
+        "score": 51,
+        "winner": true
+      },
+      "id": "6606907",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791046800",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6606908": {
+      "away": {
+        "name": "Brevard",
+        "ncaa_slug": "brevard",
+        "score": 27,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/10/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Southern Va.",
+        "ncaa_slug": "southern-va",
+        "score": 26,
+        "winner": false
+      },
+      "id": "6606908",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791651600",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6606909": {
+      "away": {
+        "name": "Brevard",
+        "ncaa_slug": "brevard",
+        "score": 19,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/24/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Huntingdon",
+        "ncaa_slug": "huntingdon",
+        "score": 37,
+        "winner": true
+      },
+      "id": "6606909",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792864800",
+      "start_time_et": "2:00 PM ET",
+      "status": "final"
+    },
+    "6606910": {
+      "away": {
+        "name": "Brevard",
+        "ncaa_slug": "brevard",
+        "score": 24,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "11/14/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "N.C. Wesleyan",
+        "ncaa_slug": "nc-wesleyan",
+        "score": 20,
+        "winner": false
+      },
+      "id": "6606910",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794697200",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6606952": {
+      "away": {
+        "name": "N.C. Wesleyan",
+        "ncaa_slug": "nc-wesleyan",
+        "score": 45,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/31/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Southern Va.",
+        "ncaa_slug": "southern-va",
+        "score": 27,
+        "winner": false
+      },
+      "id": "6606952",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1793466000",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6606982": {
+      "away": {
+        "name": "Apprentice",
+        "ncaa_slug": "apprentice",
+        "score": 0,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/12/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "N.C. Wesleyan",
+        "ncaa_slug": "nc-wesleyan",
+        "score": 42,
+        "winner": true
+      },
+      "id": "6606982",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789228800",
+      "start_time_et": "12:00 PM ET",
+      "status": "final"
+    },
+    "6606983": {
+      "away": {
+        "name": "N.C. Wesleyan",
+        "ncaa_slug": "nc-wesleyan",
+        "score": 27,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "09/05/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Averett",
+        "ncaa_slug": "averett",
+        "score": 13,
+        "winner": false
+      },
+      "id": "6606983",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1788645600",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6606984": {
+      "away": {
+        "name": "N.C. Wesleyan",
+        "ncaa_slug": "nc-wesleyan",
+        "score": 21,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/09/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Belhaven",
+        "ncaa_slug": "belhaven",
+        "score": 35,
+        "winner": true
+      },
+      "id": "6606984",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791586800",
+      "start_time_et": "7:00 PM ET",
+      "status": "final"
+    },
+    "6606985": {
+      "away": {
+        "name": "Huntingdon",
+        "ncaa_slug": "huntingdon",
+        "score": 17,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/17/2026",
+      "division": "d3",
+      "final_message": "FINAL",
+      "home": {
+        "name": "N.C. Wesleyan",
+        "ncaa_slug": "nc-wesleyan",
+        "score": 3,
+        "winner": false
+      },
+      "id": "6606985",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792252800",
+      "start_time_et": "12:00 PM ET",
+      "status": "final"
+    },
+    "6640224": {
+      "away": {
+        "name": "Barton",
+        "ncaa_slug": "barton",
+        "score": 17,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "08/27/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Virginia St.",
+        "ncaa_slug": "virginia-st",
+        "score": 44,
+        "winner": true
+      },
+      "id": "6640224",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1787868000",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6640225": {
+      "away": {
+        "name": "Gardner-Webb",
+        "ncaa_slug": "gardner-webb",
+        "score": 17,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "08/27/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Austin Peay",
+        "ncaa_slug": "austin-peay",
+        "score": 35,
+        "winner": true
+      },
+      "id": "6640225",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1787871600",
+      "start_time_et": "7:00 PM ET",
+      "status": "final"
+    },
+    "6640269": {
+      "away": {
+        "name": "Gardner-Webb",
+        "ncaa_slug": "gardner-webb",
+        "score": 23,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/12/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Liberty",
+        "ncaa_slug": "liberty",
+        "score": 24,
+        "winner": true
+      },
+      "id": "6640269",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789228800",
+      "start_time_et": "12:00 PM ET",
+      "status": "final"
+    },
+    "6640270": {
+      "away": {
+        "name": "Gardner-Webb",
+        "ncaa_slug": "gardner-webb",
+        "score": 35,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/26/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Marshall",
+        "ncaa_slug": "marshall",
+        "score": 36,
+        "winner": true
+      },
+      "id": "6640270",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1790451000",
+      "start_time_et": "3:30 PM ET",
+      "status": "final"
+    },
+    "6640272": {
+      "away": {
+        "name": "Tennessee St.",
+        "ncaa_slug": "tennessee-st",
+        "score": 16,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "11/21/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Gardner-Webb",
+        "ncaa_slug": "gardner-webb",
+        "score": 12,
+        "winner": false
+      },
+      "id": "6640272",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1795285800",
+      "start_time_et": "1:30 PM ET",
+      "status": "final"
+    },
+    "6640292": {
+      "away": {
+        "name": "VMI",
+        "ncaa_slug": "vmi",
+        "score": 24,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/19/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Davidson",
+        "ncaa_slug": "davidson",
+        "score": 27,
+        "winner": true
+      },
+      "id": "6640292",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789837200",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6640298": {
+      "away": {
+        "name": "Stetson",
+        "ncaa_slug": "stetson",
+        "score": 14,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "11/07/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Davidson",
+        "ncaa_slug": "davidson",
+        "score": 33,
+        "winner": true
+      },
+      "id": "6640298",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794074400",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6640299": {
+      "away": {
+        "name": "Marist",
+        "ncaa_slug": "marist",
+        "score": 35,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "11/21/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Davidson",
+        "ncaa_slug": "davidson",
+        "score": 7,
+        "winner": false
+      },
+      "id": "6640299",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1795284000",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6640301": {
+      "away": {
+        "name": "Gardner-Webb",
+        "ncaa_slug": "gardner-webb",
+        "score": 6,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/17/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "UT Martin",
+        "ncaa_slug": "ut-martin",
+        "score": 17,
+        "winner": true
+      },
+      "id": "6640301",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792263600",
+      "start_time_et": "3:00 PM ET",
+      "status": "final"
+    },
+    "6640401": {
+      "away": {
+        "name": "North Carolina",
+        "ncaa_slug": "north-carolina",
+        "score": 38,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "11/07/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "UConn",
+        "ncaa_slug": "uconn",
+        "score": 21,
+        "winner": false
+      },
+      "id": "6640401",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794070800",
+      "start_time_et": "12:00 PM ET",
+      "status": "final"
+    },
+    "6640402": {
+      "away": {
+        "name": "North Carolina",
+        "ncaa_slug": "north-carolina",
+        "score": 21,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/10/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Pittsburgh",
+        "ncaa_slug": "pittsburgh",
+        "score": 17,
+        "winner": false
+      },
+      "id": "6640402",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791648000",
+      "start_time_et": "12:00 PM ET",
+      "status": "final"
+    },
+    "6640403": {
+      "away": {
+        "name": "Syracuse",
+        "ncaa_slug": "syracuse",
+        "score": 31,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "10/24/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "North Carolina",
+        "ncaa_slug": "north-carolina",
+        "score": 30,
+        "winner": false
+      },
+      "id": "6640403",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1792884600",
+      "start_time_et": "7:30 PM ET",
+      "status": "final"
+    },
+    "6640404": {
+      "away": {
+        "name": "Louisville",
+        "ncaa_slug": "louisville",
+        "score": 16,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "11/14/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "North Carolina",
+        "ncaa_slug": "north-carolina",
+        "score": 14,
+        "winner": false
+      },
+      "id": "6640404",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794700800",
+      "start_time_et": "7:00 PM ET",
+      "status": "final"
+    },
+    "6640405": {
+      "away": {
+        "name": "NC State",
+        "ncaa_slug": "north-carolina-st",
+        "score": null,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "11/28/2026",
+      "division": "fbs",
+      "final_message": "",
+      "home": {
+        "name": "North Carolina",
+        "ncaa_slug": "north-carolina",
+        "score": null,
+        "winner": false
+      },
+      "id": "6640405",
+      "network": "",
+      "period": "",
+      "start_time_epoch": "1795885200",
+      "start_time_et": "12:00 PM ET",
+      "status": "pre"
+    },
+    "6640446": {
+      "away": {
+        "name": "App State",
+        "ncaa_slug": "appalachian-st",
+        "score": 31,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/26/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "NC State",
+        "ncaa_slug": "north-carolina-st",
+        "score": 41,
+        "winner": true
+      },
+      "id": "6640446",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1790465400",
+      "start_time_et": "7:30 PM ET",
+      "status": "final"
+    },
+    "6640447": {
+      "away": {
+        "name": "California",
+        "ncaa_slug": "california",
+        "score": 10,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/31/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "NC State",
+        "ncaa_slug": "north-carolina-st",
+        "score": 31,
+        "winner": true
+      },
+      "id": "6640447",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1793462400",
+      "start_time_et": "12:00 PM ET",
+      "status": "final"
+    },
+    "6640448": {
+      "away": {
+        "name": "Louisville",
+        "ncaa_slug": "louisville",
+        "score": 28,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "10/03/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "NC State",
+        "ncaa_slug": "north-carolina-st",
+        "score": 31,
+        "winner": true
+      },
+      "id": "6640448",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1791055800",
+      "start_time_et": "3:30 PM ET",
+      "status": "final"
+    },
+    "6640449": {
+      "away": {
+        "name": "NC State",
+        "ncaa_slug": "north-carolina-st",
+        "score": 31,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/19/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Vanderbilt",
+        "ncaa_slug": "vanderbilt",
+        "score": 35,
+        "winner": true
+      },
+      "id": "6640449",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789836300",
+      "start_time_et": "12:45 PM ET",
+      "status": "final"
+    },
+    "6640450": {
+      "away": {
+        "name": "Syracuse",
+        "ncaa_slug": "syracuse",
+        "score": 34,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "11/14/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "NC State",
+        "ncaa_slug": "north-carolina-st",
+        "score": 31,
+        "winner": false
+      },
+      "id": "6640450",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794675600",
+      "start_time_et": "12:00 PM ET",
+      "status": "final"
+    },
+    "6640464": {
+      "away": {
+        "name": "Campbell",
+        "ncaa_slug": "campbell",
+        "score": 44,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "09/26/2026",
+      "division": "fcs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Hampton",
+        "ncaa_slug": "hampton",
+        "score": 20,
+        "winner": false
+      },
+      "id": "6640464",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1790460000",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6640720": {
+      "away": {
+        "name": "Charlotte",
+        "ncaa_slug": "charlotte",
+        "score": 21,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/19/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "App State",
+        "ncaa_slug": "appalachian-st",
+        "score": 26,
+        "winner": true
+      },
+      "id": "6640720",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789855200",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6640725": {
+      "away": {
+        "name": "App State",
+        "ncaa_slug": "appalachian-st",
+        "score": 20,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "11/14/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Marshall",
+        "ncaa_slug": "marshall",
+        "score": 16,
+        "winner": false
+      },
+      "id": "6640725",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794697200",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6640766": {
+      "away": {
+        "name": "Charlotte",
+        "ncaa_slug": "charlotte",
+        "score": 9,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "09/12/2026",
+      "division": "fbs",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Ole Miss",
+        "ncaa_slug": "ole-miss",
+        "score": 41,
+        "winner": true
+      },
+      "id": "6640766",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1789256700",
+      "start_time_et": "7:45 PM ET",
+      "status": "final"
+    },
+    "6661108": {
+      "away": {
+        "name": "Fayetteville St.",
+        "ncaa_slug": "fayetteville-st",
+        "score": 13,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "11/21/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Kutztown",
+        "ncaa_slug": "kutztown",
+        "score": 34,
+        "winner": true
+      },
+      "id": "6661108",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1795280400",
+      "start_time_et": "12:00 PM ET",
+      "status": "final"
+    },
+    "6661111": {
+      "away": {
+        "name": "UNC Pembroke",
+        "ncaa_slug": "unc-pembroke",
+        "score": 42,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "11/21/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Central St. (OH)",
+        "ncaa_slug": "central-st-oh",
+        "score": 23,
+        "winner": false
+      },
+      "id": "6661111",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1795284000",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6661124": {
+      "away": {
+        "name": "Newberry",
+        "ncaa_slug": "newberry",
+        "score": null,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "11/28/2026",
+      "division": "d2",
+      "final_message": "",
+      "home": {
+        "name": "UNC Pembroke",
+        "ncaa_slug": "unc-pembroke",
+        "score": null,
+        "winner": false
+      },
+      "id": "6661124",
+      "network": "",
+      "period": "",
+      "start_time_epoch": "1795888800",
+      "start_time_et": "1:00 PM ET",
+      "status": "pre"
+    },
+    "6673907": {
+      "away": {
+        "name": "Johnson C. Smith",
+        "ncaa_slug": "johnson-c-smith",
+        "score": 14,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "11/14/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Virginia Union",
+        "ncaa_slug": "virginia-union",
+        "score": 15,
+        "winner": true
+      },
+      "id": "6673907",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794686400",
+      "start_time_et": "3:00 PM ET",
+      "status": "final"
+    },
+    "6673908": {
+      "away": {
+        "name": "Fayetteville St.",
+        "ncaa_slug": "fayetteville-st",
+        "score": 31,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "11/13/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Virginia St.",
+        "ncaa_slug": "virginia-st",
+        "score": 29,
+        "winner": false
+      },
+      "id": "6673908",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794610800",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6675066": {
+      "away": {
+        "name": "UNC Pembroke",
+        "ncaa_slug": "unc-pembroke",
+        "score": 21,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "11/14/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "North Greenville",
+        "ncaa_slug": "north-greenville",
+        "score": 14,
+        "winner": false
+      },
+      "id": "6675066",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794679200",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6675068": {
+      "away": {
+        "name": "Edward Waters",
+        "ncaa_slug": "edward-waters",
+        "score": 35,
+        "winner": true
+      },
+      "clock": "0:00",
+      "date": "11/14/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Chowan",
+        "ncaa_slug": "chowan",
+        "score": 29,
+        "winner": false
+      },
+      "id": "6675068",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794679200",
+      "start_time_et": "1:00 PM ET",
+      "status": "final"
+    },
+    "6675069": {
+      "away": {
+        "name": "Barton",
+        "ncaa_slug": "barton",
+        "score": 26,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "11/12/2026",
+      "division": "d2",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Erskine",
+        "ncaa_slug": "erskine",
+        "score": 28,
+        "winner": true
+      },
+      "id": "6675069",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1794524400",
+      "start_time_et": "6:00 PM ET",
+      "status": "final"
+    },
+    "6679555": {
+      "away": {
+        "name": "Wake Forest",
+        "ncaa_slug": "wake-forest",
+        "score": null,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "12/05/2026",
+      "division": "fbs",
+      "final_message": "",
+      "home": {
+        "name": "Miami (FL)",
+        "ncaa_slug": "miami-fl",
+        "score": null,
+        "winner": false
+      },
+      "id": "6679555",
+      "network": "",
+      "period": "",
+      "start_time_epoch": "1796490000",
+      "start_time_et": "12:00 PM ET",
+      "status": "pre"
+    }
+  },
+  "schema_version": 1,
+  "season": 2026
+}
