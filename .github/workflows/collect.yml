@@ -3,9 +3,27 @@ name: Update NCAA scores
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '17 */2 * * 4,5,6,0,1'
 
+  schedule:
+    # All times in Eastern Time
+    - cron: '*/30 18-23 * * 1,2,3,0'
+      timezone: 'America/New_York'
+
+    # Thursday and Friday evening games
+    - cron: '*/15 18-23 * * 4,5'
+      timezone: 'America/New_York'
+
+    # Saturday games
+    - cron: '*/15 10-23 * * 6'
+      timezone: 'America/New_York'
+
+    # Overnight coverage (midnight-2 AM)
+    - cron: '*/30 0-1 * * 0,1,2,3,4'
+      timezone: 'America/New_York'
+
+    # Overnight after Thursday, Friday, Saturday
+    - cron: '*/15 0-1 * * 5,6,0'
+      timezone: 'America/New_York'
 permissions:
   contents: write
 
