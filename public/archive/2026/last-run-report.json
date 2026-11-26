@@ -2,8 +2,16 @@
   "conflicts": [],
   "detail_errors": [],
   "detail_requests": 15,
+  "detail_status_counts": {
+    "COMPLETE": 5,
+    "NO_DATA": 7,
+    "PARTIAL": 15,
+    "PENDING": 280,
+    "RETRY": 0
+  },
+  "details_attempted_unique": 27,
   "details_pending": 287,
-  "details_total": 20,
+  "details_total": 27,
   "failed_weeks": [],
   "games_total": 307,
   "new_games": 0,
