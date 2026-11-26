@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-23T23:08:05.901852+00:00",
+  "generated_at_utc": "2026-11-26T00:22:40.767501+00:00",
   "season": 2026,
   "requested_weeks": [
     11,
@@ -41,7 +41,7 @@
     "elizabeth-city-st",
     "livingstone",
     "shaw",
-    "winston-salem-st"
+    "winston-salem"
   ],
   "note": "Not seen does not imply missing coverage: a school may have no game in the requested weeks.",
   "games_collected": 44,

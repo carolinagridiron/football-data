@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "Unofficial NCAA API (henrygd/ncaa-api)",
-  "generated_at_utc": "2026-11-23T23:08:05.901852+00:00",
+  "generated_at_utc": "2026-11-26T00:22:40.767501+00:00",
   "season": 2026,
   "requested_weeks": [
     11,
@@ -1015,14 +1015,14 @@
       "start_time_et": "1:00 PM ET",
       "start_time_epoch": "1795888800",
       "away": {
-        "name": "UNC Pembroke",
-        "ncaa_slug": "unc-pembroke",
+        "name": "Newberry",
+        "ncaa_slug": "newberry",
         "score": null,
         "winner": false
       },
       "home": {
-        "name": "Newberry",
-        "ncaa_slug": "newberry",
+        "name": "UNC Pembroke",
+        "ncaa_slug": "unc-pembroke",
         "score": null,
         "winner": false
       },
