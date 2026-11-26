@@ -1,17 +1,27 @@
 {
   "conflicts": [],
   "detail_errors": [],
-  "detail_requests": 50,
-  "detail_status_counts": {
-    "COMPLETE": 13,
-    "NO_DATA": 7,
-    "PARTIAL": 50,
+  "detail_requests": 237,
+  "detail_requests_by_prior_status": {
+    "PARTIAL": 0,
     "PENDING": 237,
     "RETRY": 0
   },
-  "details_attempted_unique": 70,
-  "details_pending": 272,
-  "details_total": 70,
+  "detail_status_counts": {
+    "COMPLETE": 69,
+    "NO_DATA": 7,
+    "PARTIAL": 231,
+    "PENDING": 0,
+    "RETRY": 0
+  },
+  "details_attempted_unique": 307,
+  "details_pending": 216,
+  "details_total": 307,
+  "eligible_before_batch": {
+    "PARTIAL": 35,
+    "PENDING": 237,
+    "RETRY": 0
+  },
   "failed_weeks": [],
   "games_total": 307,
   "new_games": 0,
