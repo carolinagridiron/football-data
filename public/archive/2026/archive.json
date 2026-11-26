@@ -1,10 +1,34 @@
 {
   "detail_tracking": {
+    "6603644": {
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-26T21:37:09.603719+00:00",
+      "last_error": null,
+      "status": "PARTIAL"
+    },
+    "6603666": {
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-26T21:36:50.648649+00:00",
+      "last_error": null,
+      "status": "PARTIAL"
+    },
+    "6603667": {
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-26T21:37:10.688014+00:00",
+      "last_error": null,
+      "status": "PARTIAL"
+    },
     "6603677": {
       "attempts": 1,
       "last_attempt_utc": null,
       "last_error": null,
       "status": "NO_DATA"
+    },
+    "6603693": {
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-26T21:37:11.682846+00:00",
+      "last_error": null,
+      "status": "PARTIAL"
     },
     "6603992": {
       "attempts": 1,
@@ -12,11 +36,53 @@
       "last_error": null,
       "status": "COMPLETE"
     },
+    "6604001": {
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-26T21:36:48.806097+00:00",
+      "last_error": null,
+      "status": "PARTIAL"
+    },
+    "6604016": {
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-26T21:37:12.811221+00:00",
+      "last_error": null,
+      "status": "PARTIAL"
+    },
+    "6604160": {
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-26T21:36:51.564667+00:00",
+      "last_error": null,
+      "status": "COMPLETE"
+    },
+    "6604181": {
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-26T21:36:52.576892+00:00",
+      "last_error": null,
+      "status": "PARTIAL"
+    },
+    "6604227": {
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-26T21:37:08.751099+00:00",
+      "last_error": null,
+      "status": "PARTIAL"
+    },
     "6604240": {
       "attempts": 1,
       "last_attempt_utc": null,
       "last_error": null,
       "status": "NO_DATA"
+    },
+    "6604294": {
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-26T21:36:53.475882+00:00",
+      "last_error": null,
+      "status": "PARTIAL"
+    },
+    "6604296": {
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-26T21:37:13.795790+00:00",
+      "last_error": null,
+      "status": "PARTIAL"
     },
     "6604299": {
       "attempts": 1,
@@ -37,8 +103,14 @@
       "status": "NO_DATA"
     },
     "6604351": {
+      "attempts": 2,
+      "last_attempt_utc": "2026-11-26T21:36:47.653673+00:00",
+      "last_error": null,
+      "status": "PARTIAL"
+    },
+    "6604352": {
       "attempts": 1,
-      "last_attempt_utc": "2026-11-26T21:33:33.273895+00:00",
+      "last_attempt_utc": "2026-11-26T21:37:14.743224+00:00",
       "last_error": null,
       "status": "PARTIAL"
     },
@@ -48,9 +120,21 @@
       "last_error": null,
       "status": "PARTIAL"
     },
+    "6604421": {
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-26T21:37:06.716526+00:00",
+      "last_error": null,
+      "status": "PARTIAL"
+    },
     "6604464": {
       "attempts": 2,
       "last_attempt_utc": "2026-11-26T21:33:26.841705+00:00",
+      "last_error": null,
+      "status": "PARTIAL"
+    },
+    "6604539": {
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-26T21:37:15.651206+00:00",
       "last_error": null,
       "status": "PARTIAL"
     },
@@ -59,6 +143,24 @@
       "last_attempt_utc": null,
       "last_error": null,
       "status": "COMPLETE"
+    },
+    "6604579": {
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-26T21:36:54.495776+00:00",
+      "last_error": null,
+      "status": "PARTIAL"
+    },
+    "6604580": {
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-26T21:37:16.583288+00:00",
+      "last_error": null,
+      "status": "COMPLETE"
+    },
+    "6604673": {
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-26T21:36:55.441031+00:00",
+      "last_error": null,
+      "status": "PARTIAL"
     },
     "6604701": {
       "attempts": 2,
@@ -72,9 +174,21 @@
       "last_error": null,
       "status": "PARTIAL"
     },
+    "6604806": {
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-26T21:37:17.497243+00:00",
+      "last_error": null,
+      "status": "PARTIAL"
+    },
     "6604894": {
       "attempts": 2,
       "last_attempt_utc": "2026-11-26T21:33:24.026118+00:00",
+      "last_error": null,
+      "status": "PARTIAL"
+    },
+    "6604902": {
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-26T21:36:56.430125+00:00",
       "last_error": null,
       "status": "PARTIAL"
     },
@@ -84,21 +198,75 @@
       "last_error": null,
       "status": "PARTIAL"
     },
-    "6605085": {
+    "6605007": {
       "attempts": 1,
-      "last_attempt_utc": "2026-11-26T21:33:29.395620+00:00",
+      "last_attempt_utc": "2026-11-26T21:36:57.357585+00:00",
       "last_error": null,
       "status": "PARTIAL"
+    },
+    "6605008": {
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-26T21:37:18.449481+00:00",
+      "last_error": null,
+      "status": "PARTIAL"
+    },
+    "6605085": {
+      "attempts": 2,
+      "last_attempt_utc": "2026-11-26T21:36:41.874492+00:00",
+      "last_error": null,
+      "status": "PARTIAL"
+    },
+    "6605088": {
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-26T21:37:19.350522+00:00",
+      "last_error": null,
+      "status": "COMPLETE"
     },
     "6605103": {
-      "attempts": 1,
-      "last_attempt_utc": "2026-11-26T21:33:30.059875+00:00",
+      "attempts": 2,
+      "last_attempt_utc": "2026-11-26T21:36:42.803024+00:00",
       "last_error": null,
       "status": "PARTIAL"
     },
-    "6605243": {
+    "6605104": {
       "attempts": 1,
-      "last_attempt_utc": "2026-11-26T21:33:30.663112+00:00",
+      "last_attempt_utc": "2026-11-26T21:36:58.252899+00:00",
+      "last_error": null,
+      "status": "PARTIAL"
+    },
+    "6605105": {
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-26T21:37:20.332999+00:00",
+      "last_error": null,
+      "status": "PARTIAL"
+    },
+    "6605187": {
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-26T21:37:07.828484+00:00",
+      "last_error": null,
+      "status": "COMPLETE"
+    },
+    "6605243": {
+      "attempts": 2,
+      "last_attempt_utc": "2026-11-26T21:36:43.642459+00:00",
+      "last_error": null,
+      "status": "PARTIAL"
+    },
+    "6605323": {
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-26T21:36:59.214606+00:00",
+      "last_error": null,
+      "status": "PARTIAL"
+    },
+    "6605324": {
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-26T21:37:21.372358+00:00",
+      "last_error": null,
+      "status": "PARTIAL"
+    },
+    "6605374": {
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-26T21:37:00.080355+00:00",
       "last_error": null,
       "status": "PARTIAL"
     },
@@ -108,15 +276,63 @@
       "last_error": null,
       "status": "COMPLETE"
     },
-    "6605536": {
+    "6605437": {
       "attempts": 1,
-      "last_attempt_utc": "2026-11-26T21:33:31.353819+00:00",
+      "last_attempt_utc": "2026-11-26T21:37:01.026149+00:00",
+      "last_error": null,
+      "status": "COMPLETE"
+    },
+    "6605438": {
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-26T21:37:22.278042+00:00",
+      "last_error": null,
+      "status": "COMPLETE"
+    },
+    "6605456": {
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-26T21:37:23.244231+00:00",
+      "last_error": null,
+      "status": "PARTIAL"
+    },
+    "6605462": {
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-26T21:37:01.979527+00:00",
+      "last_error": null,
+      "status": "COMPLETE"
+    },
+    "6605536": {
+      "attempts": 2,
+      "last_attempt_utc": "2026-11-26T21:36:44.645743+00:00",
+      "last_error": null,
+      "status": "PARTIAL"
+    },
+    "6605537": {
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-26T21:37:02.975588+00:00",
+      "last_error": null,
+      "status": "PARTIAL"
+    },
+    "6605544": {
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-26T21:37:24.161636+00:00",
       "last_error": null,
       "status": "PARTIAL"
     },
     "6605571": {
+      "attempts": 2,
+      "last_attempt_utc": "2026-11-26T21:36:45.655554+00:00",
+      "last_error": null,
+      "status": "PARTIAL"
+    },
+    "6605572": {
       "attempts": 1,
-      "last_attempt_utc": "2026-11-26T21:33:32.018401+00:00",
+      "last_attempt_utc": "2026-11-26T21:37:25.036746+00:00",
+      "last_error": null,
+      "status": "PARTIAL"
+    },
+    "6605588": {
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-26T21:37:25.942525+00:00",
       "last_error": null,
       "status": "PARTIAL"
     },
@@ -126,9 +342,51 @@
       "last_error": null,
       "status": "COMPLETE"
     },
-    "6605690": {
+    "6605674": {
       "attempts": 1,
-      "last_attempt_utc": "2026-11-26T21:33:32.633880+00:00",
+      "last_attempt_utc": "2026-11-26T21:37:26.850690+00:00",
+      "last_error": null,
+      "status": "PARTIAL"
+    },
+    "6605686": {
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-26T21:37:03.973324+00:00",
+      "last_error": null,
+      "status": "PARTIAL"
+    },
+    "6605690": {
+      "attempts": 2,
+      "last_attempt_utc": "2026-11-26T21:36:46.564978+00:00",
+      "last_error": null,
+      "status": "PARTIAL"
+    },
+    "6605928": {
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-26T21:37:04.924985+00:00",
+      "last_error": null,
+      "status": "PARTIAL"
+    },
+    "6605929": {
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-26T21:37:27.873525+00:00",
+      "last_error": null,
+      "status": "COMPLETE"
+    },
+    "6606352": {
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-26T21:36:49.781665+00:00",
+      "last_error": null,
+      "status": "PARTIAL"
+    },
+    "6606353": {
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-26T21:37:28.837773+00:00",
+      "last_error": null,
+      "status": "PARTIAL"
+    },
+    "6606983": {
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-26T21:37:05.801808+00:00",
       "last_error": null,
       "status": "PARTIAL"
     },
@@ -164,6 +422,126 @@
     }
   },
   "details": {
+    "6603644": {
+      "id": "6603644",
+      "ncaa_away": {
+        "id": "354",
+        "name": "Campbell",
+        "slug": "campbell"
+      },
+      "ncaa_home": {
+        "id": "1794",
+        "name": "Florida",
+        "slug": "florida"
+      },
+      "period_scores": [
+        {
+          "away": "3",
+          "home": "10",
+          "period": "1"
+        },
+        {
+          "away": "0",
+          "home": "35",
+          "period": "2"
+        },
+        {
+          "away": "0",
+          "home": "7",
+          "period": "3"
+        },
+        {
+          "away": "0",
+          "home": "0",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
+    "6603666": {
+      "id": "6603666",
+      "ncaa_away": {
+        "id": "293",
+        "name": "Tulane",
+        "slug": "tulane"
+      },
+      "ncaa_home": {
+        "id": "40",
+        "name": "Duke",
+        "slug": "duke"
+      },
+      "period_scores": [
+        {
+          "away": "0",
+          "home": "7",
+          "period": "1"
+        },
+        {
+          "away": "0",
+          "home": "3",
+          "period": "2"
+        },
+        {
+          "away": "0",
+          "home": "0",
+          "period": "3"
+        },
+        {
+          "away": "3",
+          "home": "7",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
+    "6603667": {
+      "id": "6603667",
+      "ncaa_away": {
+        "id": "40",
+        "name": "Duke",
+        "slug": "duke"
+      },
+      "ncaa_home": {
+        "id": "2163",
+        "name": "Illinois",
+        "slug": "illinois"
+      },
+      "period_scores": [
+        {
+          "away": "7",
+          "home": "10",
+          "period": "1"
+        },
+        {
+          "away": "14",
+          "home": "14",
+          "period": "2"
+        },
+        {
+          "away": "7",
+          "home": "3",
+          "period": "3"
+        },
+        {
+          "away": "3",
+          "home": "0",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
     "6603677": {
       "id": "6603677",
       "ncaa_away": {
@@ -176,6 +554,46 @@
         "name": "Wake Forest",
         "slug": "wake-forest"
       },
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
+    "6603693": {
+      "id": "6603693",
+      "ncaa_away": {
+        "id": "1374",
+        "name": "Western Caro.",
+        "slug": "western-caro"
+      },
+      "ncaa_home": {
+        "id": "1776",
+        "name": "Cincinnati",
+        "slug": "cincinnati"
+      },
+      "period_scores": [
+        {
+          "away": "3",
+          "home": "7",
+          "period": "1"
+        },
+        {
+          "away": "7",
+          "home": "21",
+          "period": "2"
+        },
+        {
+          "away": "0",
+          "home": "21",
+          "period": "3"
+        },
+        {
+          "away": "0",
+          "home": "13",
+          "period": "4"
+        }
+      ],
       "venue": {
         "city": null,
         "stadium": null,
@@ -222,6 +640,221 @@
         "state": "VA"
       }
     },
+    "6604001": {
+      "id": "6604001",
+      "ncaa_away": {
+        "id": "559",
+        "name": "N.C. A&T",
+        "slug": "nc-at"
+      },
+      "ncaa_home": {
+        "id": "2143",
+        "name": "Georgia St.",
+        "slug": "georgia-st"
+      },
+      "period_scores": [
+        {
+          "away": "0",
+          "home": "14",
+          "period": "1"
+        },
+        {
+          "away": "7",
+          "home": "21",
+          "period": "2"
+        },
+        {
+          "away": "0",
+          "home": "24",
+          "period": "3"
+        },
+        {
+          "away": "3",
+          "home": "0",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
+    "6604016": {
+      "id": "6604016",
+      "ncaa_away": {
+        "id": "52081",
+        "name": "ETSU",
+        "slug": "east-tenn-st"
+      },
+      "ncaa_home": {
+        "id": "905",
+        "name": "North Carolina",
+        "slug": "north-carolina"
+      },
+      "period_scores": [
+        {
+          "away": "0",
+          "home": "7",
+          "period": "1"
+        },
+        {
+          "away": "0",
+          "home": "14",
+          "period": "2"
+        },
+        {
+          "away": "0",
+          "home": "14",
+          "period": "3"
+        },
+        {
+          "away": "3",
+          "home": "0",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
+    "6604160": {
+      "id": "6604160",
+      "ncaa_away": {
+        "id": "1835",
+        "name": "Maine",
+        "slug": "maine"
+      },
+      "ncaa_home": {
+        "id": "1550",
+        "name": "App State",
+        "slug": "appalachian-st"
+      },
+      "period_scores": [
+        {
+          "away": "0",
+          "home": "7",
+          "period": "1"
+        },
+        {
+          "away": "0",
+          "home": "24",
+          "period": "2"
+        },
+        {
+          "away": "3",
+          "home": "7",
+          "period": "3"
+        },
+        {
+          "away": "0",
+          "home": "17",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": "Boone",
+        "stadium": "Kidd Brewer Stadium",
+        "state": "NC"
+      }
+    },
+    "6604181": {
+      "id": "6604181",
+      "ncaa_away": {
+        "id": "1",
+        "name": "The Citadel",
+        "slug": "citadel"
+      },
+      "ncaa_home": {
+        "id": "56190",
+        "name": "Charlotte",
+        "slug": "charlotte"
+      },
+      "period_scores": [
+        {
+          "away": "7",
+          "home": "7",
+          "period": "1"
+        },
+        {
+          "away": "0",
+          "home": "7",
+          "period": "2"
+        },
+        {
+          "away": "14",
+          "home": "7",
+          "period": "3"
+        },
+        {
+          "away": "7",
+          "home": "7",
+          "period": "4"
+        },
+        {
+          "away": "7",
+          "home": "7",
+          "period": "OT"
+        },
+        {
+          "away": "6",
+          "home": "6",
+          "period": "2OT"
+        },
+        {
+          "away": "2",
+          "home": "0",
+          "period": "3OT"
+        }
+      ],
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
+    "6604227": {
+      "id": "6604227",
+      "ncaa_away": {
+        "id": "2308",
+        "name": "Richmond",
+        "slug": "richmond"
+      },
+      "ncaa_home": {
+        "id": "913",
+        "name": "NC State",
+        "slug": "north-carolina-st"
+      },
+      "period_scores": [
+        {
+          "away": "0",
+          "home": "21",
+          "period": "1"
+        },
+        {
+          "away": "0",
+          "home": "28",
+          "period": "2"
+        },
+        {
+          "away": "0",
+          "home": "14",
+          "period": "3"
+        },
+        {
+          "away": "0",
+          "home": "10",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
     "6604240": {
       "id": "6604240",
       "ncaa_away": {
@@ -234,6 +867,86 @@
         "name": "Charlotte",
         "slug": "charlotte"
       },
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
+    "6604294": {
+      "id": "6604294",
+      "ncaa_away": {
+        "id": "1467",
+        "name": "East Carolina",
+        "slug": "east-carolina"
+      },
+      "ncaa_home": {
+        "id": "1175",
+        "name": "Alabama",
+        "slug": "alabama"
+      },
+      "period_scores": [
+        {
+          "away": "0",
+          "home": "10",
+          "period": "1"
+        },
+        {
+          "away": "7",
+          "home": "28",
+          "period": "2"
+        },
+        {
+          "away": "3",
+          "home": "0",
+          "period": "3"
+        },
+        {
+          "away": "0",
+          "home": "10",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
+    "6604296": {
+      "id": "6604296",
+      "ncaa_away": {
+        "id": "1550",
+        "name": "App State",
+        "slug": "appalachian-st"
+      },
+      "ncaa_home": {
+        "id": "1467",
+        "name": "East Carolina",
+        "slug": "east-carolina"
+      },
+      "period_scores": [
+        {
+          "away": "3",
+          "home": "7",
+          "period": "1"
+        },
+        {
+          "away": "14",
+          "home": "3",
+          "period": "2"
+        },
+        {
+          "away": "10",
+          "home": "7",
+          "period": "3"
+        },
+        {
+          "away": "0",
+          "home": "7",
+          "period": "4"
+        }
+      ],
       "venue": {
         "city": null,
         "stadium": null,
@@ -356,6 +1069,56 @@
         "state": null
       }
     },
+    "6604352": {
+      "id": "6604352",
+      "ncaa_away": {
+        "id": "2358",
+        "name": "Wake Forest",
+        "slug": "wake-forest"
+      },
+      "ncaa_home": {
+        "id": "242",
+        "name": "Purdue",
+        "slug": "purdue"
+      },
+      "period_scores": [
+        {
+          "away": "7",
+          "home": "7",
+          "period": "1"
+        },
+        {
+          "away": "10",
+          "home": "3",
+          "period": "2"
+        },
+        {
+          "away": "3",
+          "home": "3",
+          "period": "3"
+        },
+        {
+          "away": "3",
+          "home": "10",
+          "period": "4"
+        },
+        {
+          "away": "7",
+          "home": "7",
+          "period": "OT"
+        },
+        {
+          "away": "8",
+          "home": "6",
+          "period": "2OT"
+        }
+      ],
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
     "6604420": {
       "id": "6604420",
       "ncaa_away": {
@@ -387,6 +1150,46 @@
         {
           "away": "0",
           "home": "14",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
+    "6604421": {
+      "id": "6604421",
+      "ncaa_away": {
+        "id": "1374",
+        "name": "Western Caro.",
+        "slug": "western-caro"
+      },
+      "ncaa_home": {
+        "id": "354",
+        "name": "Campbell",
+        "slug": "campbell"
+      },
+      "period_scores": [
+        {
+          "away": "0",
+          "home": "14",
+          "period": "1"
+        },
+        {
+          "away": "10",
+          "home": "14",
+          "period": "2"
+        },
+        {
+          "away": "3",
+          "home": "0",
+          "period": "3"
+        },
+        {
+          "away": "6",
+          "home": "0",
           "period": "4"
         }
       ],
@@ -436,6 +1239,46 @@
         "state": null
       }
     },
+    "6604539": {
+      "id": "6604539",
+      "ncaa_away": {
+        "id": "729",
+        "name": "Dickinson",
+        "slug": "dickinson"
+      },
+      "ncaa_home": {
+        "id": "1092",
+        "name": "Davidson",
+        "slug": "davidson"
+      },
+      "period_scores": [
+        {
+          "away": "0",
+          "home": "7",
+          "period": "1"
+        },
+        {
+          "away": "7",
+          "home": "7",
+          "period": "2"
+        },
+        {
+          "away": "7",
+          "home": "0",
+          "period": "3"
+        },
+        {
+          "away": "0",
+          "home": "14",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
     "6604578": {
       "id": "6604578",
       "ncaa_away": {
@@ -474,6 +1317,126 @@
         "city": "Elon",
         "stadium": "Rhodes Stadium",
         "state": "NC"
+      }
+    },
+    "6604579": {
+      "id": "6604579",
+      "ncaa_away": {
+        "id": "1904",
+        "name": "Elon",
+        "slug": "elon"
+      },
+      "ncaa_home": {
+        "id": "1092",
+        "name": "Davidson",
+        "slug": "davidson"
+      },
+      "period_scores": [
+        {
+          "away": "3",
+          "home": "0",
+          "period": "1"
+        },
+        {
+          "away": "21",
+          "home": "0",
+          "period": "2"
+        },
+        {
+          "away": "7",
+          "home": "0",
+          "period": "3"
+        },
+        {
+          "away": "7",
+          "home": "0",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
+    "6604580": {
+      "id": "6604580",
+      "ncaa_away": {
+        "id": "1904",
+        "name": "Elon",
+        "slug": "elon"
+      },
+      "ncaa_home": {
+        "id": "1981",
+        "name": "Rhode Island",
+        "slug": "rhode-island"
+      },
+      "period_scores": [
+        {
+          "away": "0",
+          "home": "0",
+          "period": "1"
+        },
+        {
+          "away": "3",
+          "home": "0",
+          "period": "2"
+        },
+        {
+          "away": "0",
+          "home": "3",
+          "period": "3"
+        },
+        {
+          "away": "7",
+          "home": "28",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": "Kingston",
+        "stadium": "Meade Stadium",
+        "state": "RI"
+      }
+    },
+    "6604673": {
+      "id": "6604673",
+      "ncaa_away": {
+        "id": "2569",
+        "name": "Gardner-Webb",
+        "slug": "gardner-webb"
+      },
+      "ncaa_home": {
+        "id": "1415",
+        "name": "Wofford",
+        "slug": "wofford"
+      },
+      "period_scores": [
+        {
+          "away": "3",
+          "home": "7",
+          "period": "1"
+        },
+        {
+          "away": "0",
+          "home": "7",
+          "period": "2"
+        },
+        {
+          "away": "7",
+          "home": "0",
+          "period": "3"
+        },
+        {
+          "away": "3",
+          "home": "3",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
       }
     },
     "6604701": {
@@ -556,6 +1519,46 @@
         "state": null
       }
     },
+    "6604806": {
+      "id": "6604806",
+      "ncaa_away": {
+        "id": "559",
+        "name": "N.C. A&T",
+        "slug": "nc-at"
+      },
+      "ncaa_home": {
+        "id": "912",
+        "name": "N.C. Central",
+        "slug": "nc-central"
+      },
+      "period_scores": [
+        {
+          "away": "0",
+          "home": "10",
+          "period": "1"
+        },
+        {
+          "away": "14",
+          "home": "13",
+          "period": "2"
+        },
+        {
+          "away": "0",
+          "home": "7",
+          "period": "3"
+        },
+        {
+          "away": "8",
+          "home": "0",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
     "6604894": {
       "id": "6604894",
       "ncaa_away": {
@@ -587,6 +1590,46 @@
         {
           "away": "3",
           "home": "7",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
+    "6604902": {
+      "id": "6604902",
+      "ncaa_away": {
+        "id": "1478",
+        "name": "Elizabeth City St.",
+        "slug": "elizabeth-city-st"
+      },
+      "ncaa_home": {
+        "id": "912",
+        "name": "N.C. Central",
+        "slug": "nc-central"
+      },
+      "period_scores": [
+        {
+          "away": "0",
+          "home": "14",
+          "period": "1"
+        },
+        {
+          "away": "0",
+          "home": "7",
+          "period": "2"
+        },
+        {
+          "away": "6",
+          "home": "3",
+          "period": "3"
+        },
+        {
+          "away": "0",
+          "home": "3",
           "period": "4"
         }
       ],
@@ -636,6 +1679,91 @@
         "state": null
       }
     },
+    "6605007": {
+      "id": "6605007",
+      "ncaa_away": {
+        "id": "1602",
+        "name": "Mars Hill",
+        "slug": "mars-hill"
+      },
+      "ncaa_home": {
+        "id": "1197",
+        "name": "Winston-Salem",
+        "slug": "winston-salem"
+      },
+      "period_scores": [
+        {
+          "away": "0",
+          "home": "0",
+          "period": "1"
+        },
+        {
+          "away": "0",
+          "home": "0",
+          "period": "2"
+        },
+        {
+          "away": "7",
+          "home": "0",
+          "period": "3"
+        },
+        {
+          "away": "10",
+          "home": "0",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
+    "6605008": {
+      "id": "6605008",
+      "ncaa_away": {
+        "id": "1895",
+        "name": "Catawba",
+        "slug": "catawba"
+      },
+      "ncaa_home": {
+        "id": "1602",
+        "name": "Mars Hill",
+        "slug": "mars-hill"
+      },
+      "period_scores": [
+        {
+          "away": "7",
+          "home": "0",
+          "period": "1"
+        },
+        {
+          "away": "0",
+          "home": "3",
+          "period": "2"
+        },
+        {
+          "away": "2",
+          "home": "0",
+          "period": "3"
+        },
+        {
+          "away": "7",
+          "home": "13",
+          "period": "4"
+        },
+        {
+          "away": "0",
+          "home": "6",
+          "period": "OT"
+        }
+      ],
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
     "6605085": {
       "id": "6605085",
       "ncaa_away": {
@@ -674,6 +1802,46 @@
         "city": null,
         "stadium": null,
         "state": null
+      }
+    },
+    "6605088": {
+      "id": "6605088",
+      "ncaa_away": {
+        "id": "897",
+        "name": "Wingate",
+        "slug": "wingate"
+      },
+      "ncaa_home": {
+        "id": "868",
+        "name": "Carson-Newman",
+        "slug": "carson-newman"
+      },
+      "period_scores": [
+        {
+          "away": "0",
+          "home": "7",
+          "period": "1"
+        },
+        {
+          "away": "16",
+          "home": "3",
+          "period": "2"
+        },
+        {
+          "away": "7",
+          "home": "7",
+          "period": "3"
+        },
+        {
+          "away": "0",
+          "home": "7",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": "Jefferson City",
+        "stadium": "Burke-Tarr Stadium",
+        "state": "TN"
       }
     },
     "6605103": {
@@ -716,6 +1884,126 @@
         "state": null
       }
     },
+    "6605104": {
+      "id": "6605104",
+      "ncaa_away": {
+        "id": "235",
+        "name": "UNC Pembroke",
+        "slug": "unc-pembroke"
+      },
+      "ncaa_home": {
+        "id": "2454",
+        "name": "Fayetteville St.",
+        "slug": "fayetteville-st"
+      },
+      "period_scores": [
+        {
+          "away": "0",
+          "home": "0",
+          "period": "1"
+        },
+        {
+          "away": "7",
+          "home": "0",
+          "period": "2"
+        },
+        {
+          "away": "0",
+          "home": "7",
+          "period": "3"
+        },
+        {
+          "away": "0",
+          "home": "3",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
+    "6605105": {
+      "id": "6605105",
+      "ncaa_away": {
+        "id": "298",
+        "name": "Valdosta St.",
+        "slug": "valdosta-st"
+      },
+      "ncaa_home": {
+        "id": "2454",
+        "name": "Fayetteville St.",
+        "slug": "fayetteville-st"
+      },
+      "period_scores": [
+        {
+          "away": "14",
+          "home": "3",
+          "period": "1"
+        },
+        {
+          "away": "7",
+          "home": "0",
+          "period": "2"
+        },
+        {
+          "away": "10",
+          "home": "6",
+          "period": "3"
+        },
+        {
+          "away": "7",
+          "home": "0",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
+    "6605187": {
+      "id": "6605187",
+      "ncaa_away": {
+        "id": "2204",
+        "name": "Albany St. (GA)",
+        "slug": "albany-st-ga"
+      },
+      "ncaa_home": {
+        "id": "770",
+        "name": "Johnson C. Smith",
+        "slug": "johnson-c-smith"
+      },
+      "period_scores": [
+        {
+          "away": "0",
+          "home": "3",
+          "period": "1"
+        },
+        {
+          "away": "0",
+          "home": "17",
+          "period": "2"
+        },
+        {
+          "away": "0",
+          "home": "7",
+          "period": "3"
+        },
+        {
+          "away": "7",
+          "home": "0",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": "Charlotte",
+        "stadium": "Irwin Belk Complex",
+        "state": "NC"
+      }
+    },
     "6605243": {
       "id": "6605243",
       "ncaa_away": {
@@ -747,6 +2035,126 @@
         {
           "away": "0",
           "home": "3",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
+    "6605323": {
+      "id": "6605323",
+      "ncaa_away": {
+        "id": "2000",
+        "name": "Shaw",
+        "slug": "shaw"
+      },
+      "ncaa_home": {
+        "id": "1387942",
+        "name": "Barton",
+        "slug": "barton"
+      },
+      "period_scores": [
+        {
+          "away": "10",
+          "home": "0",
+          "period": "1"
+        },
+        {
+          "away": "0",
+          "home": "5",
+          "period": "2"
+        },
+        {
+          "away": "0",
+          "home": "8",
+          "period": "3"
+        },
+        {
+          "away": "13",
+          "home": "0",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
+    "6605324": {
+      "id": "6605324",
+      "ncaa_away": {
+        "id": "51785",
+        "name": "Bluefield Univ.",
+        "slug": "bluefield-col"
+      },
+      "ncaa_home": {
+        "id": "1387942",
+        "name": "Barton",
+        "slug": "barton"
+      },
+      "period_scores": [
+        {
+          "away": "7",
+          "home": "14",
+          "period": "1"
+        },
+        {
+          "away": "6",
+          "home": "15",
+          "period": "2"
+        },
+        {
+          "away": "0",
+          "home": "0",
+          "period": "3"
+        },
+        {
+          "away": "8",
+          "home": "7",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
+    "6605374": {
+      "id": "6605374",
+      "ncaa_away": {
+        "id": "1034",
+        "name": "Chowan",
+        "slug": "chowan"
+      },
+      "ncaa_home": {
+        "id": "17885",
+        "name": "UVA Wise",
+        "slug": "uva-wise"
+      },
+      "period_scores": [
+        {
+          "away": "14",
+          "home": "0",
+          "period": "1"
+        },
+        {
+          "away": "7",
+          "home": "20",
+          "period": "2"
+        },
+        {
+          "away": "3",
+          "home": "0",
+          "period": "3"
+        },
+        {
+          "away": "0",
+          "home": "0",
           "period": "4"
         }
       ],
@@ -796,6 +2204,166 @@
         "state": "NC"
       }
     },
+    "6605437": {
+      "id": "6605437",
+      "ncaa_away": {
+        "id": "84",
+        "name": "West Ala.",
+        "slug": "west-ala"
+      },
+      "ncaa_home": {
+        "id": "1597",
+        "name": "Lenoir-Rhyne",
+        "slug": "lenoir-rhyne"
+      },
+      "period_scores": [
+        {
+          "away": "3",
+          "home": "0",
+          "period": "1"
+        },
+        {
+          "away": "14",
+          "home": "16",
+          "period": "2"
+        },
+        {
+          "away": "0",
+          "home": "0",
+          "period": "3"
+        },
+        {
+          "away": "17",
+          "home": "7",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": "Hickory",
+        "stadium": "Moretz Stadium",
+        "state": "NC"
+      }
+    },
+    "6605438": {
+      "id": "6605438",
+      "ncaa_away": {
+        "id": "1597",
+        "name": "Lenoir-Rhyne",
+        "slug": "lenoir-rhyne"
+      },
+      "ncaa_home": {
+        "id": "2582",
+        "name": "Newberry",
+        "slug": "newberry"
+      },
+      "period_scores": [
+        {
+          "away": "0",
+          "home": "0",
+          "period": "1"
+        },
+        {
+          "away": "0",
+          "home": "0",
+          "period": "2"
+        },
+        {
+          "away": "7",
+          "home": "7",
+          "period": "3"
+        },
+        {
+          "away": "14",
+          "home": "7",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": "Newberry",
+        "stadium": "Setzler Field",
+        "state": "SC"
+      }
+    },
+    "6605456": {
+      "id": "6605456",
+      "ncaa_away": {
+        "id": "641",
+        "name": "Virginia Union",
+        "slug": "virginia-union"
+      },
+      "ncaa_home": {
+        "id": "1034",
+        "name": "Chowan",
+        "slug": "chowan"
+      },
+      "period_scores": [
+        {
+          "away": "14",
+          "home": "6",
+          "period": "1"
+        },
+        {
+          "away": "7",
+          "home": "7",
+          "period": "2"
+        },
+        {
+          "away": "10",
+          "home": "0",
+          "period": "3"
+        },
+        {
+          "away": "3",
+          "home": "6",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
+    "6605462": {
+      "id": "6605462",
+      "ncaa_away": {
+        "id": "86",
+        "name": "Livingstone",
+        "slug": "livingstone"
+      },
+      "ncaa_home": {
+        "id": "641",
+        "name": "Virginia Union",
+        "slug": "virginia-union"
+      },
+      "period_scores": [
+        {
+          "away": "0",
+          "home": "7",
+          "period": "1"
+        },
+        {
+          "away": "7",
+          "home": "21",
+          "period": "2"
+        },
+        {
+          "away": "0",
+          "home": "7",
+          "period": "3"
+        },
+        {
+          "away": "13",
+          "home": "14",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": "Richmond",
+        "stadium": "Hovey Field ",
+        "state": "VA"
+      }
+    },
     "6605536": {
       "id": "6605536",
       "ncaa_away": {
@@ -836,6 +2404,91 @@
         "state": null
       }
     },
+    "6605537": {
+      "id": "6605537",
+      "ncaa_away": {
+        "id": "1751",
+        "name": "North Greenville",
+        "slug": "north-greenville"
+      },
+      "ncaa_home": {
+        "id": "1895",
+        "name": "Catawba",
+        "slug": "catawba"
+      },
+      "period_scores": [
+        {
+          "away": "7",
+          "home": "7",
+          "period": "1"
+        },
+        {
+          "away": "7",
+          "home": "14",
+          "period": "2"
+        },
+        {
+          "away": "13",
+          "home": "5",
+          "period": "3"
+        },
+        {
+          "away": "13",
+          "home": "12",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
+    "6605544": {
+      "id": "6605544",
+      "ncaa_away": {
+        "id": "1480",
+        "name": "Ferrum",
+        "slug": "ferrum"
+      },
+      "ncaa_home": {
+        "id": "2000",
+        "name": "Shaw",
+        "slug": "shaw"
+      },
+      "period_scores": [
+        {
+          "away": "0",
+          "home": "13",
+          "period": "1"
+        },
+        {
+          "away": "14",
+          "home": "6",
+          "period": "2"
+        },
+        {
+          "away": "7",
+          "home": "6",
+          "period": "3"
+        },
+        {
+          "away": "7",
+          "home": "3",
+          "period": "4"
+        },
+        {
+          "away": "0",
+          "home": "6",
+          "period": "OT"
+        }
+      ],
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
     "6605571": {
       "id": "6605571",
       "ncaa_away": {
@@ -866,6 +2519,86 @@
         },
         {
           "away": "7",
+          "home": "6",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
+    "6605572": {
+      "id": "6605572",
+      "ncaa_away": {
+        "id": "86",
+        "name": "Livingstone",
+        "slug": "livingstone"
+      },
+      "ncaa_home": {
+        "id": "1388061",
+        "name": "Bluefield St.",
+        "slug": "bluefield-st"
+      },
+      "period_scores": [
+        {
+          "away": "7",
+          "home": "7",
+          "period": "1"
+        },
+        {
+          "away": "17",
+          "home": "7",
+          "period": "2"
+        },
+        {
+          "away": "6",
+          "home": "9",
+          "period": "3"
+        },
+        {
+          "away": "14",
+          "home": "7",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
+    "6605588": {
+      "id": "6605588",
+      "ncaa_away": {
+        "id": "770",
+        "name": "Johnson C. Smith",
+        "slug": "johnson-c-smith"
+      },
+      "ncaa_home": {
+        "id": "1197",
+        "name": "Winston-Salem",
+        "slug": "winston-salem"
+      },
+      "period_scores": [
+        {
+          "away": "0",
+          "home": "0",
+          "period": "1"
+        },
+        {
+          "away": "10",
+          "home": "0",
+          "period": "2"
+        },
+        {
+          "away": "7",
+          "home": "0",
+          "period": "3"
+        },
+        {
+          "away": "14",
           "home": "6",
           "period": "4"
         }
@@ -916,6 +2649,86 @@
         "state": "NC"
       }
     },
+    "6605674": {
+      "id": "6605674",
+      "ncaa_away": {
+        "id": "235",
+        "name": "UNC Pembroke",
+        "slug": "unc-pembroke"
+      },
+      "ncaa_home": {
+        "id": "17890",
+        "name": "Shorter",
+        "slug": "shorter"
+      },
+      "period_scores": [
+        {
+          "away": "7",
+          "home": "0",
+          "period": "1"
+        },
+        {
+          "away": "3",
+          "home": "7",
+          "period": "2"
+        },
+        {
+          "away": "14",
+          "home": "14",
+          "period": "3"
+        },
+        {
+          "away": "7",
+          "home": "3",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
+    "6605686": {
+      "id": "6605686",
+      "ncaa_away": {
+        "id": "897",
+        "name": "Wingate",
+        "slug": "wingate"
+      },
+      "ncaa_home": {
+        "id": "728",
+        "name": "Delta St.",
+        "slug": "delta-st"
+      },
+      "period_scores": [
+        {
+          "away": "7",
+          "home": "0",
+          "period": "1"
+        },
+        {
+          "away": "3",
+          "home": "7",
+          "period": "2"
+        },
+        {
+          "away": "0",
+          "home": "0",
+          "period": "3"
+        },
+        {
+          "away": "26",
+          "home": "6",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
     "6605690": {
       "id": "6605690",
       "ncaa_away": {
@@ -947,6 +2760,206 @@
         {
           "away": "14",
           "home": "0",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
+    "6605928": {
+      "id": "6605928",
+      "ncaa_away": {
+        "id": "169",
+        "name": "Guilford",
+        "slug": "guilford"
+      },
+      "ncaa_home": {
+        "id": "399",
+        "name": "Greensboro",
+        "slug": "greensboro"
+      },
+      "period_scores": [
+        {
+          "away": "7",
+          "home": "13",
+          "period": "1"
+        },
+        {
+          "away": "0",
+          "home": "7",
+          "period": "2"
+        },
+        {
+          "away": "0",
+          "home": "21",
+          "period": "3"
+        },
+        {
+          "away": "0",
+          "home": "7",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
+    "6605929": {
+      "id": "6605929",
+      "ncaa_away": {
+        "id": "399",
+        "name": "Greensboro",
+        "slug": "greensboro"
+      },
+      "ncaa_home": {
+        "id": "1389242",
+        "name": "Roanoke",
+        "slug": "roanoke"
+      },
+      "period_scores": [
+        {
+          "away": "7",
+          "home": "7",
+          "period": "1"
+        },
+        {
+          "away": "0",
+          "home": "21",
+          "period": "2"
+        },
+        {
+          "away": "7",
+          "home": "0",
+          "period": "3"
+        },
+        {
+          "away": "0",
+          "home": "0",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": "Salem",
+        "stadium": "Salem Stadium",
+        "state": "VA"
+      }
+    },
+    "6606352": {
+      "id": "6606352",
+      "ncaa_away": {
+        "id": "2328",
+        "name": "Shenandoah",
+        "slug": "shenandoah"
+      },
+      "ncaa_home": {
+        "id": "103",
+        "name": "Methodist",
+        "slug": "methodist"
+      },
+      "period_scores": [
+        {
+          "away": "14",
+          "home": "0",
+          "period": "1"
+        },
+        {
+          "away": "6",
+          "home": "3",
+          "period": "2"
+        },
+        {
+          "away": "7",
+          "home": "0",
+          "period": "3"
+        },
+        {
+          "away": "3",
+          "home": "0",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
+    "6606353": {
+      "id": "6606353",
+      "ncaa_away": {
+        "id": "103",
+        "name": "Methodist",
+        "slug": "methodist"
+      },
+      "ncaa_home": {
+        "id": "169",
+        "name": "Guilford",
+        "slug": "guilford"
+      },
+      "period_scores": [
+        {
+          "away": "7",
+          "home": "7",
+          "period": "1"
+        },
+        {
+          "away": "2",
+          "home": "7",
+          "period": "2"
+        },
+        {
+          "away": "0",
+          "home": "0",
+          "period": "3"
+        },
+        {
+          "away": "8",
+          "home": "6",
+          "period": "4"
+        }
+      ],
+      "venue": {
+        "city": null,
+        "stadium": null,
+        "state": null
+      }
+    },
+    "6606983": {
+      "id": "6606983",
+      "ncaa_away": {
+        "id": "2281",
+        "name": "N.C. Wesleyan",
+        "slug": "nc-wesleyan"
+      },
+      "ncaa_home": {
+        "id": "118",
+        "name": "Averett",
+        "slug": "averett"
+      },
+      "period_scores": [
+        {
+          "away": "7",
+          "home": "0",
+          "period": "1"
+        },
+        {
+          "away": "7",
+          "home": "7",
+          "period": "2"
+        },
+        {
+          "away": "0",
+          "home": "0",
+          "period": "3"
+        },
+        {
+          "away": "13",
+          "home": "6",
           "period": "4"
         }
       ],
