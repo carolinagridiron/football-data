@@ -113,11 +113,23 @@ def sweep(year, config, max_week, fetch=get_json, detail_fetch=get_json, existin
             return False
         return True
 
+    # First-pass priority: never spend a limited batch retrying a partial game
+    # while another discovered game has never had a detail request.
+    priority = {'PENDING': 0, 'RETRY': 1, 'PARTIAL': 2}
     candidates = sorted((g for g in discovered.values() if eligible(g)),
-                        key=lambda g:(is_final(g),g.get('date',''),g['id']))
+                        key=lambda g: (priority.get(tracking.get(g['id'], {}).get('status', 'PENDING'), 99),
+                                       is_final(g), g.get('date', ''), g['id']))
+    report['eligible_before_batch'] = {
+        status: sum(1 for g in discovered.values()
+                    if eligible(g) and tracking.get(g['id'], {}).get('status', 'PENDING') == status)
+        for status in ('PENDING', 'RETRY', 'PARTIAL')
+    }
+    report['detail_requests_by_prior_status'] = {'PENDING': 0, 'RETRY': 0, 'PARTIAL': 0}
     for g in candidates[:max(0,detail_limit)]:
         gid = g['id']
         prior = tracking.get(gid, {})
+        prior_status = prior.get('status', 'PENDING')
+        report['detail_requests_by_prior_status'][prior_status] += 1
         attempts = int(prior.get('attempts') or 0)+1
         timestamp = dt.datetime.now(dt.timezone.utc).isoformat()
         report['detail_requests'] += 1
