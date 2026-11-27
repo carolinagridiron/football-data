@@ -1,0 +1,98 @@
+{
+  "schema_version": 2,
+  "operating_year": {
+    "start_month": 7,
+    "start_day": 1,
+    "timezone": "America/New_York"
+  },
+  "seasons": {
+    "2026": {
+      "week_anchor_date": "2026-11-21",
+      "week_anchor_number": 12,
+      "max_week": 22,
+      "verified": true,
+      "nc_school_slugs": [
+        "appalachian-st",
+        "barton",
+        "brevard",
+        "campbell",
+        "catawba",
+        "charlotte",
+        "chowan",
+        "davidson",
+        "duke",
+        "east-carolina",
+        "elizabeth-city-st",
+        "elon",
+        "fayetteville-st",
+        "gardner-webb",
+        "greensboro",
+        "guilford",
+        "johnson-c-smith",
+        "lenoir-rhyne",
+        "livingstone",
+        "mars-hill",
+        "methodist",
+        "nc-at",
+        "nc-central",
+        "north-carolina-st",
+        "nc-wesleyan",
+        "north-carolina",
+        "unc-pembroke",
+        "shaw",
+        "wake-forest",
+        "western-caro",
+        "wingate",
+        "winston-salem"
+      ]
+    },
+    "2027": {
+      "week_anchor_date": null,
+      "week_anchor_number": null,
+      "max_week": null,
+      "verified": false,
+      "nc_school_slugs": [
+        "appalachian-st",
+        "barton",
+        "brevard",
+        "campbell",
+        "catawba",
+        "charlotte",
+        "chowan",
+        "davidson",
+        "duke",
+        "east-carolina",
+        "elizabeth-city-st",
+        "elon",
+        "fayetteville-st",
+        "gardner-webb",
+        "greensboro",
+        "guilford",
+        "johnson-c-smith",
+        "lenoir-rhyne",
+        "livingstone",
+        "mars-hill",
+        "methodist",
+        "nc-at",
+        "nc-central",
+        "north-carolina-st",
+        "nc-wesleyan",
+        "north-carolina",
+        "unc-pembroke",
+        "shaw",
+        "wake-forest",
+        "western-caro",
+        "wingate",
+        "winston-salem"
+      ]
+    }
+  },
+  "manual_schools": [
+    "Louisburg College"
+  ],
+  "inactive_historical_schools": [
+    "St. Augustine’s University",
+    "St. Andrews University",
+    "Barber-Scotia College"
+  ]
+}
