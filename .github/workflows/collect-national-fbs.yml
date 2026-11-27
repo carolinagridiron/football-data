@@ -1,44 +1,10 @@
-name: National FBS postseason feed
+name: National FBS collector (retired — unified collector active)
 on:
   workflow_dispatch:
-  schedule:
-    # Regular season: February-November
-    # Every 30 minutes, 10 AM-2 AM Eastern
-    - cron: '7,37 10-23 * 2-11 *'
-      timezone: 'America/New_York'
-    - cron: '7,37 0-1 * 2-11 *'
-      timezone: 'America/New_York'
-
-    # Bowl season: December-January
-    # Every 10 minutes, 10 AM-2 AM Eastern
-    - cron: '7,17,27,37,47,57 10-23 * 12,1 *'
-      timezone: 'America/New_York'
-    - cron: '7,17,27,37,47,57 0-1 * 12,1 *'
-      timezone: 'America/New_York'
 permissions:
-  contents: write
-concurrency:
-  group: ncaa-score-update
-  cancel-in-progress: false
+  contents: read
 jobs:
-  national:
+  notice:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: main
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-      - name: Collect national FBS and postseason candidates
-        run: python national_postseason.py --write
-      - name: Commit new national data
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add public/national-fbs.json public/bowl-candidates.json
-          if ! git diff --cached --quiet; then
-            git commit -m 'Update national FBS postseason data'
-            git push
-          fi
+      - run: echo 'National FBS data is now produced by Update Carolina Gridiron NCAA Data.'
