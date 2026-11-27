@@ -3628,43 +3628,43 @@
         "score": 13,
         "winner": false
       },
-      "clock": "00:29",
+      "clock": "0:00",
       "date": "11/27/2026",
       "division": "fbs",
-      "final_message": "4TH",
+      "final_message": "FINAL",
       "home": {
         "name": "South Alabama",
         "ncaa_slug": "south-ala",
         "score": 20,
-        "winner": false
+        "winner": true
       },
       "id": "6604349",
       "network": "",
-      "period": "4TH",
+      "period": "FINAL",
       "start_time_epoch": "1795809600",
       "start_time_et": "3:00 PM ET",
-      "status": "live"
+      "status": "final"
     },
     {
       "away": {
         "name": "North Dakota St.",
         "ncaa_slug": "north-dakota-st",
-        "score": 24,
+        "score": 38,
         "winner": false
       },
-      "clock": "07:11",
+      "clock": "06:39",
       "date": "11/27/2026",
       "division": "fbs",
-      "final_message": "3RD",
+      "final_message": "4TH",
       "home": {
         "name": "San Jose St.",
         "ncaa_slug": "san-jose-st",
-        "score": 14,
+        "score": 31,
         "winner": false
       },
       "id": "6603642",
       "network": "",
-      "period": "3RD",
+      "period": "4TH",
       "start_time_epoch": "1795811400",
       "start_time_et": "3:30 PM ET",
       "status": "live"
@@ -3673,44 +3673,20 @@
       "away": {
         "name": "Florida",
         "ncaa_slug": "florida",
-        "score": 17,
+        "score": 23,
         "winner": false
       },
-      "clock": "03:01",
-      "date": "11/27/2026",
-      "division": "fbs",
-      "final_message": "3RD",
-      "home": {
-        "name": "Florida St.",
-        "ncaa_slug": "florida-st",
-        "score": 9,
-        "winner": false
-      },
-      "id": "6603654",
-      "network": "",
-      "period": "3RD",
-      "start_time_epoch": "1795811400",
-      "start_time_et": "3:30 PM ET",
-      "status": "live"
-    },
-    {
-      "away": {
-        "name": "Temple",
-        "ncaa_slug": "temple",
-        "score": 14,
-        "winner": false
-      },
-      "clock": "14:15",
+      "clock": "02:00",
       "date": "11/27/2026",
       "division": "fbs",
       "final_message": "4TH",
       "home": {
-        "name": "Memphis",
-        "ncaa_slug": "memphis",
-        "score": 31,
+        "name": "Florida St.",
+        "ncaa_slug": "florida-st",
+        "score": 10,
         "winner": false
       },
-      "id": "6603724",
+      "id": "6603654",
       "network": "",
       "period": "4TH",
       "start_time_epoch": "1795811400",
@@ -3719,15 +3695,39 @@
     },
     {
       "away": {
-        "name": "Air Force",
-        "ncaa_slug": "air-force",
-        "score": 10,
-        "winner": false
+        "name": "Temple",
+        "ncaa_slug": "temple",
+        "score": 35,
+        "winner": true
       },
-      "clock": "00:41",
+      "clock": "0:00",
       "date": "11/27/2026",
       "division": "fbs",
-      "final_message": "2ND",
+      "final_message": "FINAL",
+      "home": {
+        "name": "Memphis",
+        "ncaa_slug": "memphis",
+        "score": 31,
+        "winner": false
+      },
+      "id": "6603724",
+      "network": "",
+      "period": "FINAL",
+      "start_time_epoch": "1795811400",
+      "start_time_et": "3:30 PM ET",
+      "status": "final"
+    },
+    {
+      "away": {
+        "name": "Air Force",
+        "ncaa_slug": "air-force",
+        "score": 19,
+        "winner": false
+      },
+      "clock": "04:30",
+      "date": "11/27/2026",
+      "division": "fbs",
+      "final_message": "3RD",
       "home": {
         "name": "New Mexico",
         "ncaa_slug": "new-mexico",
@@ -3736,7 +3736,7 @@
       },
       "id": "6604055",
       "network": "",
-      "period": "2ND",
+      "period": "3RD",
       "start_time_epoch": "1795815000",
       "start_time_et": "4:30 PM ET",
       "status": "live"
@@ -5086,7 +5086,7 @@
       "status": "pre"
     }
   ],
-  "generated_at_utc": "2026-11-27T23:00:14.795219+00:00",
+  "generated_at_utc": "2026-11-27T23:55:28.760496+00:00",
   "schema_version": 1,
   "season": 2026,
   "source": "Unofficial NCAA API (henrygd/ncaa-api)"

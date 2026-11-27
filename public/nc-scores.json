@@ -922,22 +922,22 @@
         "score": 13,
         "winner": false
       },
-      "clock": "00:29",
+      "clock": "0:00",
       "date": "11/27/2026",
       "division": "fbs",
-      "final_message": "4TH",
+      "final_message": "FINAL",
       "home": {
         "name": "South Alabama",
         "ncaa_slug": "south-ala",
         "score": 20,
-        "winner": false
+        "winner": true
       },
       "id": "6604349",
       "network": "",
-      "period": "4TH",
+      "period": "FINAL",
       "start_time_epoch": "1795809600",
       "start_time_et": "3:00 PM ET",
-      "status": "live"
+      "status": "final"
     },
     {
       "away": {
@@ -1060,7 +1060,7 @@
       "status": "pre"
     }
   ],
-  "generated_at_utc": "2026-11-27T23:00:14.795219+00:00",
+  "generated_at_utc": "2026-11-27T23:55:28.760496+00:00",
   "requested_weeks": [
     11,
     12,
