@@ -1,0 +1,76 @@
+
+name: Version 3 Final Acceptance
+
+on:
+  push:
+    branches:
+      - test/version-3-season-rollover
+    paths:
+      - '.github/workflows/test-v3-acceptance.yml'
+      - 'v3_pipeline.py'
+      - 'season_runtime.py'
+      - 'season_policy.py'
+      - 'collector_v30a.py'
+      - 'incremental_v30b.py'
+      - 'incremental_details_v30b.py'
+      - 'tests/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  acceptance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out test branch
+        uses: actions/checkout@v4
+        with:
+          ref: test/version-3-season-rollover
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run complete regression suite
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+        run: |
+          python -m unittest discover \
+            -s tests -p 'test_v3_pipeline.py' -v
+
+          python -m unittest discover \
+            -s tests -p 'test_v3_integrated.py' -v
+
+          python -m unittest discover \
+            -s tests -p 'test_season.py' -v
+
+          python -m unittest discover \
+            -s tests -p 'test_incremental_v30b.py' -v
+
+      - name: Verify Python syntax
+        run: |
+          python -m py_compile \
+            v3_pipeline.py \
+            run_v3.py \
+            collector_v30a.py \
+            incremental_v30b.py \
+            incremental_details_v30b.py
+
+      - name: Test June offseason
+        run: python v3_pipeline.py --date 2027-06-15
+
+      - name: Verify no tracked files changed
+        run: |
+          if ! git diff --exit-code; then
+            echo "::error::Acceptance tests modified tracked files"
+            exit 1
+          fi
+
+          if [ -n "$(git ls-files --others --exclude-standard public/)" ]; then
+            echo "::error::Acceptance tests created public files"
+            exit 1
+          fi
