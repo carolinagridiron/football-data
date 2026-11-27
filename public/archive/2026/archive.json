@@ -79,8 +79,8 @@
       "status": "PARTIAL"
     },
     "6603677": {
-      "attempts": 13,
-      "last_attempt_utc": "2026-11-27T15:04:43.172006+00:00",
+      "attempts": 14,
+      "last_attempt_utc": "2026-11-27T21:39:08.418447+00:00",
       "last_error": null,
       "status": "NO_DATA"
     },
@@ -265,8 +265,8 @@
       "status": "PARTIAL"
     },
     "6604240": {
-      "attempts": 13,
-      "last_attempt_utc": "2026-11-27T15:04:40.791483+00:00",
+      "attempts": 14,
+      "last_attempt_utc": "2026-11-27T21:39:05.020188+00:00",
       "last_error": null,
       "status": "NO_DATA"
     },
@@ -325,8 +325,8 @@
       "status": "PARTIAL"
     },
     "6604299": {
-      "attempts": 13,
-      "last_attempt_utc": "2026-11-27T15:04:43.069894+00:00",
+      "attempts": 14,
+      "last_attempt_utc": "2026-11-27T21:39:07.654622+00:00",
       "last_error": null,
       "status": "NO_DATA"
     },
@@ -349,10 +349,10 @@
       "status": "PARTIAL"
     },
     "6604349": {
-      "attempts": 13,
-      "last_attempt_utc": "2026-11-27T15:04:39.979977+00:00",
+      "attempts": 14,
+      "last_attempt_utc": "2026-11-27T21:39:04.271096+00:00",
       "last_error": null,
-      "status": "NO_DATA"
+      "status": "PARTIAL"
     },
     "6604351": {
       "attempts": 2,
@@ -1729,8 +1729,8 @@
       "status": "PARTIAL"
     },
     "6640405": {
-      "attempts": 13,
-      "last_attempt_utc": "2026-11-27T15:04:41.347102+00:00",
+      "attempts": 14,
+      "last_attempt_utc": "2026-11-27T21:39:05.986915+00:00",
       "last_error": null,
       "status": "NO_DATA"
     },
@@ -1801,8 +1801,8 @@
       "status": "COMPLETE"
     },
     "6661124": {
-      "attempts": 13,
-      "last_attempt_utc": "2026-11-27T15:04:41.943856+00:00",
+      "attempts": 14,
+      "last_attempt_utc": "2026-11-27T21:39:06.751577+00:00",
       "last_error": null,
       "status": "NO_DATA"
     },
@@ -4150,6 +4150,28 @@
         "name": "South Alabama",
         "slug": "south-ala"
       },
+      "period_scores": [
+        {
+          "away": "0",
+          "home": "10",
+          "period": "1"
+        },
+        {
+          "away": "10",
+          "home": "0",
+          "period": "2"
+        },
+        {
+          "away": "0",
+          "home": "0",
+          "period": "3"
+        },
+        {
+          "away": "0",
+          "home": "0",
+          "period": "4"
+        }
+      ],
       "venue": {
         "city": null,
         "stadium": null,
@@ -15488,25 +15510,25 @@
       "away": {
         "name": "App State",
         "ncaa_slug": "appalachian-st",
-        "score": null,
+        "score": 10,
         "winner": false
       },
-      "clock": "0:00",
+      "clock": "20:00",
       "date": "11/27/2026",
       "division": "fbs",
-      "final_message": "",
+      "final_message": "2ND",
       "home": {
         "name": "South Alabama",
         "ncaa_slug": "south-ala",
-        "score": null,
+        "score": 10,
         "winner": false
       },
       "id": "6604349",
       "network": "",
-      "period": "",
+      "period": "2ND",
       "start_time_epoch": "1795809600",
       "start_time_et": "3:00 PM ET",
-      "status": "pre"
+      "status": "live"
     },
     "6604351": {
       "away": {
