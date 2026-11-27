@@ -1,12 +1,20 @@
 {
-  "generated_at_utc": "2026-11-27T07:25:25.843265+00:00",
-  "season": 2026,
+  "configured_school_count": 32,
+  "errors": [],
+  "games_collected": 44,
+  "generated_at_utc": "2026-11-27T15:04:37.942038+00:00",
+  "note": "Not seen does not imply missing coverage: a school may have no game in the requested weeks.",
   "requested_weeks": [
     11,
     12,
     13
   ],
-  "configured_school_count": 32,
+  "schools_not_seen_in_requested_weeks": [
+    "elizabeth-city-st",
+    "livingstone",
+    "shaw",
+    "winston-salem"
+  ],
   "schools_seen_in_requested_weeks": [
     "appalachian-st",
     "barton",
@@ -37,14 +45,7 @@
     "western-caro",
     "wingate"
   ],
-  "schools_not_seen_in_requested_weeks": [
-    "elizabeth-city-st",
-    "livingstone",
-    "shaw",
-    "winston-salem"
-  ],
-  "note": "Not seen does not imply missing coverage: a school may have no game in the requested weeks.",
-  "games_collected": 44,
+  "season": 2026,
   "successful_endpoints": [
     "fbs/11",
     "fbs/12",
@@ -58,6 +59,5 @@
     "d3/11",
     "d3/12",
     "d3/13"
-  ],
-  "errors": []
+  ]
 }
