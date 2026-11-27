@@ -1,0 +1,9 @@
+{
+  "classification": "DATE_WINDOW_CANDIDATES_NOT_VERIFIED_BOWLS",
+  "game_count": 0,
+  "games": [],
+  "generated_at_utc": "2026-11-27T15:52:57.735760+00:00",
+  "schema_version": 1,
+  "season": 2026,
+  "source": "Unofficial NCAA API (henrygd/ncaa-api)"
+}
