@@ -3628,14 +3628,14 @@
         "score": 13,
         "winner": false
       },
-      "clock": "05:43",
+      "clock": "00:29",
       "date": "11/27/2026",
       "division": "fbs",
       "final_message": "4TH",
       "home": {
         "name": "South Alabama",
         "ncaa_slug": "south-ala",
-        "score": 13,
+        "score": 20,
         "winner": false
       },
       "id": "6604349",
@@ -3652,7 +3652,7 @@
         "score": 24,
         "winner": false
       },
-      "clock": "14:15",
+      "clock": "07:11",
       "date": "11/27/2026",
       "division": "fbs",
       "final_message": "3RD",
@@ -3673,17 +3673,17 @@
       "away": {
         "name": "Florida",
         "ncaa_slug": "florida",
-        "score": 10,
+        "score": 17,
         "winner": false
       },
-      "clock": "11:34",
+      "clock": "03:01",
       "date": "11/27/2026",
       "division": "fbs",
       "final_message": "3RD",
       "home": {
         "name": "Florida St.",
         "ncaa_slug": "florida-st",
-        "score": 3,
+        "score": 9,
         "winner": false
       },
       "id": "6603654",
@@ -3700,19 +3700,19 @@
         "score": 14,
         "winner": false
       },
-      "clock": "07:48",
+      "clock": "14:15",
       "date": "11/27/2026",
       "division": "fbs",
-      "final_message": "3RD",
+      "final_message": "4TH",
       "home": {
         "name": "Memphis",
         "ncaa_slug": "memphis",
-        "score": 24,
+        "score": 31,
         "winner": false
       },
       "id": "6603724",
       "network": "",
-      "period": "3RD",
+      "period": "4TH",
       "start_time_epoch": "1795811400",
       "start_time_et": "3:30 PM ET",
       "status": "live"
@@ -3724,14 +3724,14 @@
         "score": 10,
         "winner": false
       },
-      "clock": "09:00",
+      "clock": "00:41",
       "date": "11/27/2026",
       "division": "fbs",
       "final_message": "2ND",
       "home": {
         "name": "New Mexico",
         "ncaa_slug": "new-mexico",
-        "score": 14,
+        "score": 21,
         "winner": false
       },
       "id": "6604055",
@@ -5086,7 +5086,7 @@
       "status": "pre"
     }
   ],
-  "generated_at_utc": "2026-11-27T22:38:17.020962+00:00",
+  "generated_at_utc": "2026-11-27T23:00:14.795219+00:00",
   "schema_version": 1,
   "season": 2026,
   "source": "Unofficial NCAA API (henrygd/ncaa-api)"
