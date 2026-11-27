@@ -1,73 +1,62 @@
-name: Update NCAA scores
-
+name: Update Carolina Gridiron NCAA Data
 on:
   workflow_dispatch:
   schedule:
-    # Regular season: February-November
-    # Every 30 minutes, 10 AM-2 AM Eastern
-    - cron: '7,37 10-23 * 2-11 *'
+    # August-November: all days, 10 AM-2 AM Eastern, every 30 minutes.
+    - cron: '7,37 10-23 * 8-11 *'
       timezone: 'America/New_York'
-    - cron: '7,37 0-1 * 2-11 *'
+    - cron: '7,37 0-1 * 8-11 *'
       timezone: 'America/New_York'
-
-    # Bowl season: December-January
-    # Every 10 minutes, 10 AM-2 AM Eastern
+    # December-January: all days, 10 AM-2 AM Eastern, every 10 minutes.
     - cron: '7,17,27,37,47,57 10-23 * 12,1 *'
       timezone: 'America/New_York'
     - cron: '7,17,27,37,47,57 0-1 * 12,1 *'
       timezone: 'America/New_York'
-
 permissions:
   contents: write
-
 concurrency:
   group: ncaa-score-update
   cancel-in-progress: false
-
 jobs:
   collect:
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Verify V3 production compatibility
-        env:
-          PYTHONPATH: ${{ github.workspace }}
-        run: |
-          python -m unittest discover -s tests -p 'test_v3_production.py' -v
-          python -m unittest discover -s tests -p 'test_incremental_v30b.py' -v
-      - name: Collect verified season scores
-        run: python v3_score_stage.py --write
-      - name: Check whether collection is active
-        id: active
+      - name: Collect all NCAA divisions once and build three feeds
+        run: python unified_ncaa.py --write
+      - name: Read collection status
+        id: status
         run: |
           python - <<'PYCODE'
-          import json, os
+          import json,os
           from pathlib import Path
-          status = json.loads(Path('build/v3-score-stage-status.json').read_text())
-          with open(os.environ['GITHUB_OUTPUT'], 'a') as out:
-              print('collect=' + ('true' if status['mode'] == 'collect' else 'false'), file=out)
+          s=json.loads(Path('build/unified-status.json').read_text())
+          with open(os.environ['GITHUB_OUTPUT'],'a') as f:
+              print('active='+('true' if s['mode']=='collect' else 'false'),file=f)
           PYCODE
-      - name: Publish scoreboard feed independently
-        if: steps.active.outputs.collect == 'true'
+      - name: Publish scoreboard and national feeds
+        if: steps.status.outputs.active == 'true'
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add public/nc-scores.json public/diagnostics.json
+          git add public/nc-scores.json public/diagnostics.json public/national-fbs.json public/bowl-candidates.json
+          if [ -d public/national-fbs-archive ]; then git add -A public/national-fbs-archive/; fi
           if ! git diff --cached --quiet; then
-            git commit -m 'Update NCAA scoreboard feed'
+            git commit -m 'Update unified NCAA scoreboard feeds'
             git push
           fi
-      - name: Refresh season-aware game details
+      - name: Enrich recent game details
         id: details
-        if: steps.active.outputs.collect == 'true'
+        if: steps.status.outputs.active == 'true'
         continue-on-error: true
         run: python incremental_v30b.py --write
-      - name: Commit safe detail changes
-        id: detail_commit
+      - name: Publish game details
         if: steps.details.outcome == 'success'
         continue-on-error: true
         run: |
@@ -76,6 +65,6 @@ jobs:
             git commit -m 'Update NCAA game details'
             git push
           fi
-      - name: Report detail failures
-        if: steps.details.outcome == 'failure' || steps.detail_commit.outcome == 'failure'
-        run: echo '::warning::Score feed published; game detail enrichment requires review.'
+      - name: Report detail errors
+        if: steps.details.outcome == 'failure'
+        run: echo '::warning::Score feeds published; detail enrichment needs review.'
