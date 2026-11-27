@@ -1,0 +1,51 @@
+
+name: Test Version 3.0 Season Rollover
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - test/version-3-season-rollover
+    paths:
+      - 'season_policy.py'
+      - 'collector_v30a.py'
+      - 'config_v3.json'
+      - 'tests/test_season.py'
+      - '.github/workflows/test-season-rollover.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  test-rollover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out test branch
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run season rollover tests
+        run: |
+          python -m unittest discover \
+            -s tests \
+            -p 'test_season.py' \
+            -v
+
+      - name: Verify Python syntax
+        run: |
+          python -m py_compile \
+            season_policy.py \
+            collector_v30a.py
+
+      - name: Confirm production collector unchanged
+        run: |
+          git diff --exit-code origin/main -- \
+            collector.py \
+            config.json \
+            .github/workflows/collect.yml
