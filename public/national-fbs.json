@@ -3625,22 +3625,22 @@
       "away": {
         "name": "App State",
         "ncaa_slug": "appalachian-st",
-        "score": 10,
+        "score": 13,
         "winner": false
       },
-      "clock": "20:00",
+      "clock": "05:43",
       "date": "11/27/2026",
       "division": "fbs",
-      "final_message": "2ND",
+      "final_message": "4TH",
       "home": {
         "name": "South Alabama",
         "ncaa_slug": "south-ala",
-        "score": 10,
+        "score": 13,
         "winner": false
       },
       "id": "6604349",
       "network": "",
-      "period": "2ND",
+      "period": "4TH",
       "start_time_epoch": "1795809600",
       "start_time_et": "3:00 PM ET",
       "status": "live"
@@ -3649,22 +3649,22 @@
       "away": {
         "name": "North Dakota St.",
         "ncaa_slug": "north-dakota-st",
-        "score": 21,
+        "score": 24,
         "winner": false
       },
-      "clock": "11:39",
+      "clock": "14:15",
       "date": "11/27/2026",
       "division": "fbs",
-      "final_message": "2ND",
+      "final_message": "3RD",
       "home": {
         "name": "San Jose St.",
         "ncaa_slug": "san-jose-st",
-        "score": 7,
+        "score": 14,
         "winner": false
       },
       "id": "6603642",
       "network": "",
-      "period": "2ND",
+      "period": "3RD",
       "start_time_epoch": "1795811400",
       "start_time_et": "3:30 PM ET",
       "status": "live"
@@ -3673,22 +3673,22 @@
       "away": {
         "name": "Florida",
         "ncaa_slug": "florida",
-        "score": 7,
+        "score": 10,
         "winner": false
       },
-      "clock": "10:08",
+      "clock": "11:34",
       "date": "11/27/2026",
       "division": "fbs",
-      "final_message": "2ND",
+      "final_message": "3RD",
       "home": {
         "name": "Florida St.",
         "ncaa_slug": "florida-st",
-        "score": 0,
+        "score": 3,
         "winner": false
       },
       "id": "6603654",
       "network": "",
-      "period": "2ND",
+      "period": "3RD",
       "start_time_epoch": "1795811400",
       "start_time_et": "3:30 PM ET",
       "status": "live"
@@ -3697,22 +3697,22 @@
       "away": {
         "name": "Temple",
         "ncaa_slug": "temple",
-        "score": 7,
+        "score": 14,
         "winner": false
       },
-      "clock": "05:51",
+      "clock": "07:48",
       "date": "11/27/2026",
       "division": "fbs",
-      "final_message": "2ND",
+      "final_message": "3RD",
       "home": {
         "name": "Memphis",
         "ncaa_slug": "memphis",
-        "score": 17,
+        "score": 24,
         "winner": false
       },
       "id": "6603724",
       "network": "",
-      "period": "2ND",
+      "period": "3RD",
       "start_time_epoch": "1795811400",
       "start_time_et": "3:30 PM ET",
       "status": "live"
@@ -3721,25 +3721,25 @@
       "away": {
         "name": "Air Force",
         "ncaa_slug": "air-force",
-        "score": null,
+        "score": 10,
         "winner": false
       },
-      "clock": "0:00",
+      "clock": "09:00",
       "date": "11/27/2026",
       "division": "fbs",
-      "final_message": "",
+      "final_message": "2ND",
       "home": {
         "name": "New Mexico",
         "ncaa_slug": "new-mexico",
-        "score": null,
+        "score": 14,
         "winner": false
       },
       "id": "6604055",
       "network": "",
-      "period": "",
+      "period": "2ND",
       "start_time_epoch": "1795815000",
       "start_time_et": "4:30 PM ET",
-      "status": "pre"
+      "status": "live"
     },
     {
       "away": {
@@ -5086,7 +5086,7 @@
       "status": "pre"
     }
   ],
-  "generated_at_utc": "2026-11-27T21:39:01.907045+00:00",
+  "generated_at_utc": "2026-11-27T22:38:17.020962+00:00",
   "schema_version": 1,
   "season": 2026,
   "source": "Unofficial NCAA API (henrygd/ncaa-api)"
