@@ -2,10 +2,18 @@ name: National FBS postseason feed
 on:
   workflow_dispatch:
   schedule:
-    # Collect once hourly during game windows, independent of NC collector.
-    - cron: '23 18-23 * * 1-5'
+    # Regular season: February-November
+    # Every 30 minutes, 10 AM-2 AM Eastern
+    - cron: '7,37 10-23 * 2-11 *'
       timezone: 'America/New_York'
-    - cron: '23 10-23 * * 6,0'
+    - cron: '7,37 0-1 * 2-11 *'
+      timezone: 'America/New_York'
+
+    # Bowl season: December-January
+    # Every 10 minutes, 10 AM-2 AM Eastern
+    - cron: '7,17,27,37,47,57 10-23 * 12,1 *'
+      timezone: 'America/New_York'
+    - cron: '7,17,27,37,47,57 0-1 * 12,1 *'
       timezone: 'America/New_York'
 permissions:
   contents: write
