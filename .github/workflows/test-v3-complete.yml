@@ -1,0 +1,34 @@
+name: Test Version 3 Complete Candidate
+on:
+  push:
+    branches: [test/version-3-season-rollover]
+    paths:
+      - 'season_policy.py'
+      - 'season_runtime.py'
+      - 'run_v3.py'
+      - 'collector_v30a.py'
+      - 'incremental_v30b.py'
+      - 'incremental_details_v30b.py'
+      - 'config_v3.json'
+      - 'tests/test_v3_integrated.py'
+      - '.github/workflows/test-v3-complete.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run full candidate tests
+        run: |
+          python -m unittest discover -s tests -p 'test_v3_integrated.py' -v
+          python -m unittest discover -s tests -p 'test_season.py' -v
+          python -m unittest discover -s tests -p 'test_incremental_v30b.py' -v
+      - name: Verify no production output is written
+        run: |
+          python run_v3.py --date 2027-06-15
+          test ! -e build/v3-preview/nc-scores.json
