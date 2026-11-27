@@ -1,17 +1,32 @@
 name: Update Carolina Gridiron NCAA Data
 on:
   workflow_dispatch:
+ 
   schedule:
-    # August-November: all days, 10 AM-2 AM Eastern, every 30 minutes.
-    - cron: '7,37 10-23 * 8-11 *'
+    # August-November: Monday-Friday and Sunday
+    # Every 30 minutes, 10 AM-2 AM Eastern
+    - cron: '7,37 10-23 * 8-11 0-5'
       timezone: 'America/New_York'
-    - cron: '7,37 0-1 * 8-11 *'
+    - cron: '7,37 0-1 * 8-11 0-5'
       timezone: 'America/New_York'
-    # December-January: all days, 10 AM-2 AM Eastern, every 10 minutes.
+
+    # August-November: Saturday
+    # Every 10 minutes, 10 AM-midnight Eastern
+    - cron: '7,17,27,37,47,57 10-23 * 8-11 6'
+      timezone: 'America/New_York'
+
+    # Sunday 12-2 AM after Saturday games
+    # Every 10 minutes
+    - cron: '7,17,27,37,47,57 0-1 * 8-11 0'
+      timezone: 'America/New_York'
+
+    # December-January: Every day
+    # Every 10 minutes, 10 AM-2 AM Eastern
     - cron: '7,17,27,37,47,57 10-23 * 12,1 *'
       timezone: 'America/New_York'
     - cron: '7,17,27,37,47,57 0-1 * 12,1 *'
       timezone: 'America/New_York'
+
 permissions:
   contents: write
 concurrency:
