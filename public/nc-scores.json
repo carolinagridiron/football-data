@@ -919,25 +919,25 @@
       "away": {
         "name": "App State",
         "ncaa_slug": "appalachian-st",
-        "score": null,
+        "score": 10,
         "winner": false
       },
-      "clock": "0:00",
+      "clock": "20:00",
       "date": "11/27/2026",
       "division": "fbs",
-      "final_message": "",
+      "final_message": "2ND",
       "home": {
         "name": "South Alabama",
         "ncaa_slug": "south-ala",
-        "score": null,
+        "score": 10,
         "winner": false
       },
       "id": "6604349",
       "network": "",
-      "period": "",
+      "period": "2ND",
       "start_time_epoch": "1795809600",
       "start_time_et": "3:00 PM ET",
-      "status": "pre"
+      "status": "live"
     },
     {
       "away": {
@@ -1060,7 +1060,7 @@
       "status": "pre"
     }
   ],
-  "generated_at_utc": "2026-11-27T15:04:37.942038+00:00",
+  "generated_at_utc": "2026-11-27T21:39:01.907045+00:00",
   "requested_weeks": [
     11,
     12,
