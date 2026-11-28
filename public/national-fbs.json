@@ -3745,22 +3745,22 @@
       "away": {
         "name": "Minnesota",
         "ncaa_slug": "minnesota",
-        "score": 3,
+        "score": 5,
         "winner": false
       },
-      "clock": "10:57",
+      "clock": "07:49",
       "date": "11/27/2026",
       "division": "fbs",
-      "final_message": "3RD",
+      "final_message": "4TH",
       "home": {
         "name": "Wisconsin",
         "ncaa_slug": "wisconsin",
-        "score": 21,
+        "score": 28,
         "winner": false
       },
       "id": "6603692",
       "network": "",
-      "period": "3RD",
+      "period": "4TH",
       "start_time_epoch": "1795825800",
       "start_time_et": "7:30 PM ET",
       "status": "live"
@@ -3769,22 +3769,22 @@
       "away": {
         "name": "Texas",
         "ncaa_slug": "texas",
-        "score": 10,
+        "score": 13,
         "winner": false
       },
-      "clock": "15:00",
+      "clock": "10:25",
       "date": "11/27/2026",
       "division": "fbs",
-      "final_message": "3RD",
+      "final_message": "4TH",
       "home": {
         "name": "Texas A&M",
         "ncaa_slug": "texas-am",
-        "score": 3,
+        "score": 6,
         "winner": false
       },
       "id": "6604262",
       "network": "",
-      "period": "3RD",
+      "period": "4TH",
       "start_time_epoch": "1795825800",
       "start_time_et": "7:30 PM ET",
       "status": "live"
@@ -3796,19 +3796,19 @@
         "score": 0,
         "winner": false
       },
-      "clock": "08:55",
+      "clock": "02:34",
       "date": "11/27/2026",
       "division": "fbs",
-      "final_message": "1ST",
+      "final_message": "2ND",
       "home": {
         "name": "Utah",
         "ncaa_slug": "utah",
-        "score": 7,
+        "score": 37,
         "winner": false
       },
       "id": "6604105",
       "network": "",
-      "period": "1ST",
+      "period": "2ND",
       "start_time_epoch": "1795831200",
       "start_time_et": "9:00 PM ET",
       "status": "live"
@@ -5086,7 +5086,7 @@
       "status": "pre"
     }
   ],
-  "generated_at_utc": "2026-11-28T02:35:20.369792+00:00",
+  "generated_at_utc": "2026-11-28T03:34:27.678485+00:00",
   "schema_version": 1,
   "season": 2026,
   "source": "Unofficial NCAA API (henrygd/ncaa-api)"
