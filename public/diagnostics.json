@@ -2,7 +2,7 @@
   "configured_school_count": 32,
   "errors": [],
   "games_collected": 44,
-  "generated_at_utc": "2026-11-28T01:17:17.727051+00:00",
+  "generated_at_utc": "2026-11-28T02:35:20.369792+00:00",
   "note": "Not seen does not imply missing coverage: a school may have no game in the requested weeks.",
   "requested_weeks": [
     11,
