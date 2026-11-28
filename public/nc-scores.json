@@ -415,22 +415,22 @@
       "away": {
         "name": "Navy",
         "ncaa_slug": "navy",
-        "score": 0,
+        "score": 7,
         "winner": false
       },
-      "clock": "06:58",
+      "clock": "03:58",
       "date": "11/28/2026",
       "division": "fbs",
-      "final_message": "1ST",
+      "final_message": "2ND",
       "home": {
         "name": "Charlotte",
         "ncaa_slug": "charlotte",
-        "score": 0,
+        "score": 10,
         "winner": false
       },
       "id": "6604240",
       "network": "",
-      "period": "1ST",
+      "period": "2ND",
       "start_time_epoch": "1795885200",
       "start_time_et": "12:00 PM ET",
       "status": "live"
@@ -439,22 +439,22 @@
       "away": {
         "name": "NC State",
         "ncaa_slug": "north-carolina-st",
-        "score": 0,
+        "score": 3,
         "winner": false
       },
       "clock": "06:41",
       "date": "11/28/2026",
       "division": "fbs",
-      "final_message": "1ST",
+      "final_message": "2ND",
       "home": {
         "name": "North Carolina",
         "ncaa_slug": "north-carolina",
-        "score": 7,
+        "score": 14,
         "winner": false
       },
       "id": "6640405",
       "network": "",
-      "period": "1ST",
+      "period": "2ND",
       "start_time_epoch": "1795885200",
       "start_time_et": "12:00 PM ET",
       "status": "live"
@@ -463,25 +463,25 @@
       "away": {
         "name": "Newberry",
         "ncaa_slug": "newberry",
-        "score": null,
+        "score": 0,
         "winner": false
       },
-      "clock": "0:00",
+      "clock": "15:00",
       "date": "11/28/2026",
       "division": "d2",
-      "final_message": "",
+      "final_message": "1ST",
       "home": {
         "name": "UNC Pembroke",
         "ncaa_slug": "unc-pembroke",
-        "score": null,
+        "score": 0,
         "winner": false
       },
       "id": "6661124",
       "network": "",
-      "period": "",
+      "period": "1ST",
       "start_time_epoch": "1795888800",
       "start_time_et": "1:00 PM ET",
-      "status": "pre"
+      "status": "live"
     },
     {
       "away": {
@@ -556,7 +556,7 @@
       "status": "pre"
     }
   ],
-  "generated_at_utc": "2026-11-28T17:22:00.206719+00:00",
+  "generated_at_utc": "2026-11-28T18:04:11.836960+00:00",
   "requested_weeks": [
     12,
     13,
