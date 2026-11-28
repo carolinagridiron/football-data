@@ -79,8 +79,8 @@
       "status": "PARTIAL"
     },
     "6603677": {
-      "attempts": 25,
-      "last_attempt_utc": "2026-11-28T18:04:14.850329+00:00",
+      "attempts": 26,
+      "last_attempt_utc": "2026-11-28T18:50:47.752670+00:00",
       "last_error": null,
       "status": "NO_DATA"
     },
@@ -265,8 +265,8 @@
       "status": "PARTIAL"
     },
     "6604240": {
-      "attempts": 25,
-      "last_attempt_utc": "2026-11-28T18:04:13.462361+00:00",
+      "attempts": 26,
+      "last_attempt_utc": "2026-11-28T18:50:45.967652+00:00",
       "last_error": null,
       "status": "PARTIAL"
     },
@@ -325,8 +325,8 @@
       "status": "PARTIAL"
     },
     "6604299": {
-      "attempts": 25,
-      "last_attempt_utc": "2026-11-28T18:04:14.820427+00:00",
+      "attempts": 26,
+      "last_attempt_utc": "2026-11-28T18:50:47.306054+00:00",
       "last_error": null,
       "status": "PARTIAL"
     },
@@ -1729,8 +1729,8 @@
       "status": "PARTIAL"
     },
     "6640405": {
-      "attempts": 25,
-      "last_attempt_utc": "2026-11-28T18:04:13.781829+00:00",
+      "attempts": 26,
+      "last_attempt_utc": "2026-11-28T18:50:46.411168+00:00",
       "last_error": null,
       "status": "PARTIAL"
     },
@@ -1801,8 +1801,8 @@
       "status": "COMPLETE"
     },
     "6661124": {
-      "attempts": 25,
-      "last_attempt_utc": "2026-11-28T18:04:14.115833+00:00",
+      "attempts": 26,
+      "last_attempt_utc": "2026-11-28T18:50:46.861943+00:00",
       "last_error": null,
       "status": "PARTIAL"
     },
@@ -3641,8 +3641,8 @@
           "period": "1"
         },
         {
-          "away": "7",
-          "home": "7",
+          "away": "14",
+          "home": "14",
           "period": "2"
         },
         {
@@ -4036,8 +4036,8 @@
       },
       "period_scores": [
         {
-          "away": "0",
-          "home": "0",
+          "away": "14",
+          "home": "7",
           "period": "1"
         },
         {
@@ -13481,13 +13481,13 @@
           "period": "1"
         },
         {
-          "away": "3",
+          "away": "6",
           "home": "0",
           "period": "2"
         },
         {
           "away": "0",
-          "home": "0",
+          "home": "6",
           "period": "3"
         },
         {
@@ -13956,8 +13956,8 @@
       },
       "period_scores": [
         {
-          "away": "0",
-          "home": "0",
+          "away": "10",
+          "home": "7",
           "period": "1"
         },
         {
@@ -15262,22 +15262,22 @@
       "away": {
         "name": "Navy",
         "ncaa_slug": "navy",
-        "score": 7,
+        "score": 14,
         "winner": false
       },
-      "clock": "03:58",
+      "clock": "10:32",
       "date": "11/28/2026",
       "division": "fbs",
-      "final_message": "2ND",
+      "final_message": "3RD",
       "home": {
         "name": "Charlotte",
         "ncaa_slug": "charlotte",
-        "score": 10,
+        "score": 17,
         "winner": false
       },
       "id": "6604240",
       "network": "",
-      "period": "2ND",
+      "period": "3RD",
       "start_time_epoch": "1795885200",
       "start_time_et": "12:00 PM ET",
       "status": "live"
@@ -15502,25 +15502,25 @@
       "away": {
         "name": "Fla. Atlantic",
         "ncaa_slug": "fla-atlantic",
-        "score": null,
+        "score": 14,
         "winner": false
       },
-      "clock": "0:00",
+      "clock": "00:46",
       "date": "11/28/2026",
       "division": "fbs",
-      "final_message": "",
+      "final_message": "1ST",
       "home": {
         "name": "East Carolina",
         "ncaa_slug": "east-carolina",
-        "score": null,
+        "score": 7,
         "winner": false
       },
       "id": "6604299",
       "network": "",
-      "period": "",
+      "period": "1ST",
       "start_time_epoch": "1795888800",
       "start_time_et": "1:00 PM ET",
-      "status": "pre"
+      "status": "live"
     },
     "6604314": {
       "away": {
@@ -21118,22 +21118,22 @@
       "away": {
         "name": "NC State",
         "ncaa_slug": "north-carolina-st",
-        "score": 3,
+        "score": 6,
         "winner": false
       },
-      "clock": "06:41",
+      "clock": "14:46",
       "date": "11/28/2026",
       "division": "fbs",
-      "final_message": "2ND",
+      "final_message": "3RD",
       "home": {
         "name": "North Carolina",
         "ncaa_slug": "north-carolina",
-        "score": 14,
+        "score": 20,
         "winner": false
       },
       "id": "6640405",
       "network": "",
-      "period": "2ND",
+      "period": "3RD",
       "start_time_epoch": "1795885200",
       "start_time_et": "12:00 PM ET",
       "status": "live"
@@ -21406,22 +21406,22 @@
       "away": {
         "name": "Newberry",
         "ncaa_slug": "newberry",
-        "score": 0,
+        "score": 10,
         "winner": false
       },
-      "clock": "15:00",
+      "clock": "03:42",
       "date": "11/28/2026",
       "division": "d2",
-      "final_message": "1ST",
+      "final_message": "2ND",
       "home": {
         "name": "UNC Pembroke",
         "ncaa_slug": "unc-pembroke",
-        "score": 0,
+        "score": 7,
         "winner": false
       },
       "id": "6661124",
       "network": "",
-      "period": "1ST",
+      "period": "2ND",
       "start_time_epoch": "1795888800",
       "start_time_et": "1:00 PM ET",
       "status": "live"
