@@ -1,5 +1,5 @@
 {
-  "game_count": 206,
+  "game_count": 209,
   "games": [
     {
       "_season": 2026,
@@ -3793,25 +3793,25 @@
       "away": {
         "name": "West Virginia",
         "ncaa_slug": "west-virginia",
-        "score": 7,
+        "score": 28,
         "winner": false
       },
-      "clock": "06:56",
+      "clock": "0:00",
       "date": "11/27/2026",
       "division": "fbs",
-      "final_message": "3RD",
+      "final_message": "FINAL",
       "home": {
         "name": "Utah",
         "ncaa_slug": "utah",
         "score": 52,
-        "winner": false
+        "winner": true
       },
       "id": "6604105",
       "network": "",
-      "period": "3RD",
+      "period": "FINAL",
       "start_time_epoch": "1795831200",
       "start_time_et": "9:00 PM ET",
-      "status": "live"
+      "status": "final"
     },
     {
       "away": {
@@ -5084,9 +5084,81 @@
       "start_time_epoch": "1795924800",
       "start_time_et": "11:00 PM ET",
       "status": "pre"
+    },
+    {
+      "away": {
+        "name": "Jacksonville St.",
+        "ncaa_slug": "jacksonville-st",
+        "score": null,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "12/04/2026",
+      "division": "fbs",
+      "final_message": "",
+      "home": {
+        "name": "Liberty",
+        "ncaa_slug": "liberty",
+        "score": null,
+        "winner": false
+      },
+      "id": "6679554",
+      "network": "",
+      "period": "",
+      "start_time_epoch": "1796425200",
+      "start_time_et": "6:00 PM ET",
+      "status": "pre"
+    },
+    {
+      "away": {
+        "name": "San Diego St.",
+        "ncaa_slug": "san-diego-st",
+        "score": null,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "12/04/2026",
+      "division": "fbs",
+      "final_message": "",
+      "home": {
+        "name": "Boise St.",
+        "ncaa_slug": "boise-st",
+        "score": null,
+        "winner": false
+      },
+      "id": "6679553",
+      "network": "",
+      "period": "",
+      "start_time_epoch": "1796432400",
+      "start_time_et": "8:00 PM ET",
+      "status": "pre"
+    },
+    {
+      "away": {
+        "name": "Wake Forest",
+        "ncaa_slug": "wake-forest",
+        "score": null,
+        "winner": false
+      },
+      "clock": "0:00",
+      "date": "12/05/2026",
+      "division": "fbs",
+      "final_message": "",
+      "home": {
+        "name": "Miami (FL)",
+        "ncaa_slug": "miami-fl",
+        "score": null,
+        "winner": false
+      },
+      "id": "6679555",
+      "network": "",
+      "period": "",
+      "start_time_epoch": "1796490000",
+      "start_time_et": "12:00 PM ET",
+      "status": "pre"
     }
   ],
-  "generated_at_utc": "2026-11-28T04:40:01.725302+00:00",
+  "generated_at_utc": "2026-11-28T15:45:59.091113+00:00",
   "schema_version": 1,
   "season": 2026,
   "source": "Unofficial NCAA API (henrygd/ncaa-api)"
