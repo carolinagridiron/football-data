@@ -79,8 +79,8 @@
       "status": "PARTIAL"
     },
     "6603677": {
-      "attempts": 17,
-      "last_attempt_utc": "2026-11-27T23:55:32.404239+00:00",
+      "attempts": 18,
+      "last_attempt_utc": "2026-11-28T01:17:22.070627+00:00",
       "last_error": null,
       "status": "NO_DATA"
     },
@@ -265,8 +265,8 @@
       "status": "PARTIAL"
     },
     "6604240": {
-      "attempts": 17,
-      "last_attempt_utc": "2026-11-27T23:55:30.473083+00:00",
+      "attempts": 18,
+      "last_attempt_utc": "2026-11-28T01:17:19.916018+00:00",
       "last_error": null,
       "status": "NO_DATA"
     },
@@ -325,8 +325,8 @@
       "status": "PARTIAL"
     },
     "6604299": {
-      "attempts": 17,
-      "last_attempt_utc": "2026-11-27T23:55:32.335195+00:00",
+      "attempts": 18,
+      "last_attempt_utc": "2026-11-28T01:17:21.989580+00:00",
       "last_error": null,
       "status": "NO_DATA"
     },
@@ -1729,8 +1729,8 @@
       "status": "PARTIAL"
     },
     "6640405": {
-      "attempts": 17,
-      "last_attempt_utc": "2026-11-27T23:55:31.462588+00:00",
+      "attempts": 18,
+      "last_attempt_utc": "2026-11-28T01:17:20.604555+00:00",
       "last_error": null,
       "status": "NO_DATA"
     },
@@ -1801,8 +1801,8 @@
       "status": "COMPLETE"
     },
     "6661124": {
-      "attempts": 17,
-      "last_attempt_utc": "2026-11-27T23:55:31.907253+00:00",
+      "attempts": 18,
+      "last_attempt_utc": "2026-11-28T01:17:21.140407+00:00",
       "last_error": null,
       "status": "NO_DATA"
     },
