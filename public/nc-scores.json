@@ -415,22 +415,22 @@
       "away": {
         "name": "Navy",
         "ncaa_slug": "navy",
-        "score": 7,
+        "score": 14,
         "winner": false
       },
-      "clock": "03:58",
+      "clock": "10:32",
       "date": "11/28/2026",
       "division": "fbs",
-      "final_message": "2ND",
+      "final_message": "3RD",
       "home": {
         "name": "Charlotte",
         "ncaa_slug": "charlotte",
-        "score": 10,
+        "score": 17,
         "winner": false
       },
       "id": "6604240",
       "network": "",
-      "period": "2ND",
+      "period": "3RD",
       "start_time_epoch": "1795885200",
       "start_time_et": "12:00 PM ET",
       "status": "live"
@@ -439,22 +439,22 @@
       "away": {
         "name": "NC State",
         "ncaa_slug": "north-carolina-st",
-        "score": 3,
+        "score": 6,
         "winner": false
       },
-      "clock": "06:41",
+      "clock": "14:46",
       "date": "11/28/2026",
       "division": "fbs",
-      "final_message": "2ND",
+      "final_message": "3RD",
       "home": {
         "name": "North Carolina",
         "ncaa_slug": "north-carolina",
-        "score": 14,
+        "score": 20,
         "winner": false
       },
       "id": "6640405",
       "network": "",
-      "period": "2ND",
+      "period": "3RD",
       "start_time_epoch": "1795885200",
       "start_time_et": "12:00 PM ET",
       "status": "live"
@@ -463,22 +463,22 @@
       "away": {
         "name": "Newberry",
         "ncaa_slug": "newberry",
-        "score": 0,
+        "score": 10,
         "winner": false
       },
-      "clock": "15:00",
+      "clock": "03:42",
       "date": "11/28/2026",
       "division": "d2",
-      "final_message": "1ST",
+      "final_message": "2ND",
       "home": {
         "name": "UNC Pembroke",
         "ncaa_slug": "unc-pembroke",
-        "score": 0,
+        "score": 7,
         "winner": false
       },
       "id": "6661124",
       "network": "",
-      "period": "1ST",
+      "period": "2ND",
       "start_time_epoch": "1795888800",
       "start_time_et": "1:00 PM ET",
       "status": "live"
@@ -487,25 +487,25 @@
       "away": {
         "name": "Fla. Atlantic",
         "ncaa_slug": "fla-atlantic",
-        "score": null,
+        "score": 14,
         "winner": false
       },
-      "clock": "0:00",
+      "clock": "00:46",
       "date": "11/28/2026",
       "division": "fbs",
-      "final_message": "",
+      "final_message": "1ST",
       "home": {
         "name": "East Carolina",
         "ncaa_slug": "east-carolina",
-        "score": null,
+        "score": 7,
         "winner": false
       },
       "id": "6604299",
       "network": "",
-      "period": "",
+      "period": "1ST",
       "start_time_epoch": "1795888800",
       "start_time_et": "1:00 PM ET",
-      "status": "pre"
+      "status": "live"
     },
     {
       "away": {
@@ -556,7 +556,7 @@
       "status": "pre"
     }
   ],
-  "generated_at_utc": "2026-11-28T18:04:11.836960+00:00",
+  "generated_at_utc": "2026-11-28T18:50:44.167652+00:00",
   "requested_weeks": [
     12,
     13,
