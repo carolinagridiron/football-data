@@ -79,8 +79,8 @@
       "status": "PARTIAL"
     },
     "6603677": {
-      "attempts": 23,
-      "last_attempt_utc": "2026-11-28T16:30:07.979444+00:00",
+      "attempts": 24,
+      "last_attempt_utc": "2026-11-28T17:22:02.869007+00:00",
       "last_error": null,
       "status": "NO_DATA"
     },
@@ -265,10 +265,10 @@
       "status": "PARTIAL"
     },
     "6604240": {
-      "attempts": 23,
-      "last_attempt_utc": "2026-11-28T16:30:05.369460+00:00",
+      "attempts": 24,
+      "last_attempt_utc": "2026-11-28T17:22:01.783728+00:00",
       "last_error": null,
-      "status": "NO_DATA"
+      "status": "PARTIAL"
     },
     "6604249": {
       "attempts": 1,
@@ -325,8 +325,8 @@
       "status": "PARTIAL"
     },
     "6604299": {
-      "attempts": 23,
-      "last_attempt_utc": "2026-11-28T16:30:07.586390+00:00",
+      "attempts": 24,
+      "last_attempt_utc": "2026-11-28T17:22:02.808337+00:00",
       "last_error": null,
       "status": "NO_DATA"
     },
@@ -1729,10 +1729,10 @@
       "status": "PARTIAL"
     },
     "6640405": {
-      "attempts": 23,
-      "last_attempt_utc": "2026-11-28T16:30:06.163812+00:00",
+      "attempts": 24,
+      "last_attempt_utc": "2026-11-28T17:22:01.869746+00:00",
       "last_error": null,
-      "status": "NO_DATA"
+      "status": "PARTIAL"
     },
     "6640446": {
       "attempts": 1,
@@ -1801,8 +1801,8 @@
       "status": "COMPLETE"
     },
     "6661124": {
-      "attempts": 23,
-      "last_attempt_utc": "2026-11-28T16:30:06.819434+00:00",
+      "attempts": 24,
+      "last_attempt_utc": "2026-11-28T17:22:02.424728+00:00",
       "last_error": null,
       "status": "NO_DATA"
     },
@@ -3634,6 +3634,28 @@
         "name": "Charlotte",
         "slug": "charlotte"
       },
+      "period_scores": [
+        {
+          "away": "0",
+          "home": "0",
+          "period": "1"
+        },
+        {
+          "away": "0",
+          "home": "0",
+          "period": "2"
+        },
+        {
+          "away": "0",
+          "home": "0",
+          "period": "3"
+        },
+        {
+          "away": "0",
+          "home": "0",
+          "period": "4"
+        }
+      ],
       "venue": {
         "city": null,
         "stadium": null,
@@ -13430,6 +13452,28 @@
         "name": "North Carolina",
         "slug": "north-carolina"
       },
+      "period_scores": [
+        {
+          "away": "0",
+          "home": "7",
+          "period": "1"
+        },
+        {
+          "away": "0",
+          "home": "0",
+          "period": "2"
+        },
+        {
+          "away": "0",
+          "home": "0",
+          "period": "3"
+        },
+        {
+          "away": "0",
+          "home": "0",
+          "period": "4"
+        }
+      ],
       "venue": {
         "city": null,
         "stadium": null,
@@ -15174,25 +15218,25 @@
       "away": {
         "name": "Navy",
         "ncaa_slug": "navy",
-        "score": null,
+        "score": 0,
         "winner": false
       },
-      "clock": "0:00",
+      "clock": "06:58",
       "date": "11/28/2026",
       "division": "fbs",
-      "final_message": "",
+      "final_message": "1ST",
       "home": {
         "name": "Charlotte",
         "ncaa_slug": "charlotte",
-        "score": null,
+        "score": 0,
         "winner": false
       },
       "id": "6604240",
       "network": "",
-      "period": "",
+      "period": "1ST",
       "start_time_epoch": "1795885200",
       "start_time_et": "12:00 PM ET",
-      "status": "pre"
+      "status": "live"
     },
     "6604249": {
       "away": {
@@ -21030,25 +21074,25 @@
       "away": {
         "name": "NC State",
         "ncaa_slug": "north-carolina-st",
-        "score": null,
+        "score": 0,
         "winner": false
       },
-      "clock": "0:00",
+      "clock": "06:41",
       "date": "11/28/2026",
       "division": "fbs",
-      "final_message": "",
+      "final_message": "1ST",
       "home": {
         "name": "North Carolina",
         "ncaa_slug": "north-carolina",
-        "score": null,
+        "score": 7,
         "winner": false
       },
       "id": "6640405",
       "network": "",
-      "period": "",
+      "period": "1ST",
       "start_time_epoch": "1795885200",
       "start_time_et": "12:00 PM ET",
-      "status": "pre"
+      "status": "live"
     },
     "6640446": {
       "away": {
